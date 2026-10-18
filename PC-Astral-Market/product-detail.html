@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PC-Astral Market - Laptop, PC, màn hình và phụ kiện. Website mô phỏng môn WEB1044.">
+    <title>Chi tiết sản phẩm | PC-Astral Market</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Giữ thứ tự: dữ liệu → hàm dùng chung → logic trang. -->
+    <script defer src="js/data.js"></script>
+    <script defer src="js/utils.js"></script>
+    <script defer src="js/storage.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/product-detail.js"></script>
+  </head>
+  <body data-page="product-detail">
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <header id="site-header"></header>
+    <p id="storage-warning" class="storage-warning" role="alert" hidden></p>
+    <main id="main">
+      <div id="product-detail" class="container page-content">
+        <div class="empty-state" id="detail-empty" hidden>
+          <h2>Không tìm thấy sản phẩm</h2>
+          <p>Sản phẩm không tồn tại hoặc đường dẫn chưa chính xác.</p>
+          <a class="button" href="products.html">Khám phá sản phẩm </a>
+        </div>
+        <div id="detail-view" hidden>
+          <div class="breadcrumb">
+            <a href="index.html">Trang chủ</a>
+            <span>/</span>
+            <a href="products.html?category=laptop" id="detail-category-link"></a>
+            <span>/</span>
+            <span id="detail-breadcrumb-name"></span>
+          </div>
+          <div class="detail-layout">
+            <div class="detail-image">
+              <span class="eyebrow" id="detail-code"></span>
+              <img alt="" width="520" height="370" id="detail-photo">
+              <small>Ảnh sản phẩm từ PC Market</small>
+            </div>
+            <div class="detail-copy">
+              <span class="eyebrow accent" id="detail-brand-category"></span>
+              <h1 id="detail-name"></h1>
+              <p class="detail-summary" id="detail-summary"></p>
+              <p class="stock" id="detail-stock"></p>
+              <div class="detail-price">
+                <strong id="detail-current-price"></strong>
+                <del id="detail-original-price"></del>
+                <span class="badge sale" id="detail-sale-badge">Ưu đãi tháng 10</span>
+              </div>
+              <p id="detail-description"></p>
+              <p class="source-note">Nguồn: <a href="https://pcmarket.vn/laptop-asus-tuf-gaming-16-fx610jh-tu008w" target="_blank" rel="noopener noreferrer" id="detail-source">PC Market — xem sản phẩm gốc</a>
+                <br>Thông tin và giá ghi nhận ngày 16/10/2026.</p>
+              <div class="detail-buy">
+                <label for="detail-quantity">Số lượng<input id="detail-quantity" type="number" min="1" max="5" value="1" step="1">
+                </label>
+                <button class="button" data-add="" data-quantity-input="detail-quantity" id="detail-add"> Thêm vào giỏ hàng</button>
+              </div>
+              <div class="detail-benefits">
+                <span> Tồn kho hiển thị là mô phỏng</span>
+                <span> Miễn phí vận chuyển demo</span>
+              </div>
+            </div>
+          </div>
+          <section class="spec-section">
+            <div>
+              <p class="eyebrow accent">CHI TIẾT TẠO NÊN KHÁC BIỆT</p>
+              <h2>Thông số sản phẩm</h2>
+              <p>Thông số tham khảo từ PC Market.<br>Đối chiếu phiên bản ở trang nguồn.</p>
+            </div>
+            <dl class="spec-list" id="detail-specs"></dl>
+          </section>
+          <section class="section">
+            <div class="section-heading">
+              <h2>Cùng một gu công nghệ</h2>
+              <a href="products.html?category=laptop" id="related-category-link">Xem danh mục </a>
+            </div>
+            <div id="related-grid" class="product-grid"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer id="site-footer"></footer>
+    <noscript>
+      <p class="storage-warning">Vui lòng bật JavaScript để xem sản phẩm và sử dụng giỏ hàng.</p>
+    </noscript>
+  </body>
+</html>

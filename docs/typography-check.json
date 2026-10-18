@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-17",
+  "status": "PASS",
+  "pages": 6,
+  "widths": [
+    390,
+    768,
+    1440
+  ],
+  "font": "Sarabun",
+  "weights": [
+    400,
+    500,
+    600,
+    700,
+    800
+  ],
+  "renderedFonts": [
+    {
+      "familyName": "Sarabun",
+      "postScriptName": "Sarabun-Regular",
+      "isCustomFont": true,
+      "glyphCount": 33
+    }
+  ],
+  "externalRequests": 0,
+  "errors": []
+}

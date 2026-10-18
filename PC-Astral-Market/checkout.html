@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PC-Astral Market - Laptop, PC, màn hình và phụ kiện. Website mô phỏng môn WEB1044.">
+    <title>Đặt hàng | PC-Astral Market</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Giữ thứ tự: dữ liệu → hàm dùng chung → logic trang. -->
+    <script defer src="js/data.js"></script>
+    <script defer src="js/utils.js"></script>
+    <script defer src="js/storage.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/checkout.js"></script>
+  </head>
+  <body data-page="checkout">
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <header id="site-header"></header>
+    <p id="storage-warning" class="storage-warning" role="alert" hidden></p>
+    <main id="main">
+      <div class="container page-content">
+        <div id="checkout-heading">
+          <div class="breadcrumb">
+            <a href="index.html">Trang chủ</a>
+            <span>/</span>
+            <a href="cart.html">Giỏ hàng</a>
+            <span>/</span>
+            <span>Đặt hàng</span>
+          </div>
+          <div class="page-heading">
+            <p class="eyebrow accent">ALMOST YOURS</p>
+            <h1>Hoàn tất lựa chọn của bạn</h1>
+            <p>Chỉ một bước nữa để hoàn thành đơn hàng mô phỏng.</p>
+          </div>
+        </div>
+        <div id="checkout-content">
+          <div class="empty-state" id="checkout-empty" hidden>
+            <h2>Chưa có sản phẩm để đặt hàng</h2>
+            <p>Thêm ít nhất một sản phẩm vào giỏ để tiếp tục.</p>
+            <a class="button" href="products.html">Khám phá sản phẩm </a>
+          </div>
+          <div class="checkout-layout" id="checkout-layout" hidden="">
+            <form id="checkout-form" class="checkout-form" novalidate="">
+              <div class="form-heading">
+                <span>01</span>
+                <h2>Thông tin nhận hàng</h2>
+              </div>
+              <p class="muted-text small">Các trường có dấu * là bắt buộc.</p>
+              <div class="form-grid">
+                <div class="field ">
+                  <label for="name">Họ và tên *</label>
+                  <input id="name" name="name" type="text" autocomplete="name" placeholder="Nguyễn Văn An" maxlength="100" aria-describedby="name-error" required="">
+                  <span id="name-error" class="field-error"></span>
+                </div>
+                <div class="field ">
+                  <label for="phone">Số điện thoại *</label>
+                  <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="0901234567" maxlength="100" aria-describedby="phone-error" required="">
+                  <span id="phone-error" class="field-error"></span>
+                </div>
+                <div class="field ">
+                  <label for="email">Email *</label>
+                  <input id="email" name="email" type="email" autocomplete="email" placeholder="ten@email.com" maxlength="100" aria-describedby="email-error" required="">
+                  <span id="email-error" class="field-error"></span>
+                </div>
+                <div class="field wide">
+                  <label for="address">Địa chỉ nhận hàng *</label>
+                  <input id="address" name="address" type="text" autocomplete="street-address" placeholder="Số nhà, đường, phường/xã, tỉnh/thành phố" maxlength="300" aria-describedby="address-error" required="">
+                  <span id="address-error" class="field-error"></span>
+                </div>
+                <div class="field wide">
+                  <label for="note">Ghi chú <span class="muted-text">(không bắt buộc)</span>
+                  </label>
+                  <textarea id="note" name="note" rows="3" maxlength="500" placeholder="Lời nhắn cho đơn hàng của bạn"></textarea>
+                </div>
+              </div>
+              <div class="form-heading">
+                <span>02</span>
+                <h2>Phương thức thanh toán</h2>
+              </div>
+              <div class="payment-option">
+                <span class="radio-dot"></span>
+                <div>
+                  <b>Thanh toán khi nhận hàng</b>
+                  <p>COD mô phỏng cho bài tập môn WEB1044.</p>
+                </div>
+              </div>
+              <button class="button full" type="submit" id="place-order">Xác nhận đơn mô phỏng </button>
+              <p class="small muted-text">Thông tin đơn được giữ trong phiên trình duyệt hiện tại.</p>
+            </form>
+            <aside id="checkout-summary" class="order-summary">
+              <h2>Tóm tắt đơn hàng</h2>
+              <div class="summary-row">
+                <span>Tạm tính</span>
+                <span id="checkout-subtotal">0 ₫</span>
+              </div>
+              <div class="summary-row">
+                <span>Phí vận chuyển</span>
+                <span class="success-text">Miễn phí</span>
+              </div>
+              <div class="summary-total">
+                <span>Tổng thanh toán</span>
+                <strong id="checkout-total">0 ₫</strong>
+              </div>
+              <p class="small muted-text">Phí vận chuyển 0đ trong bản demo. Giá tham khảo ngày 16/10/2026; tồn kho mô phỏng.</p>
+              <div class="checkout-lines" id="checkout-lines"></div>
+              <div class="demo-notice">Đơn hàng mô phỏng. Không yêu cầu thanh toán thực tế.</div>
+            </aside>
+          </div>
+          <section class="confirmation" id="order-confirmation" hidden="">
+            <p class="eyebrow accent">MỘT KHỞI ĐẦU MỚI</p>
+            <h1>Đặt hàng mô phỏng thành công!</h1>
+            <p>Cảm ơn <strong id="confirmation-customer"></strong> đã ghé PC-Astral Market.</p>
+            <div class="demo-notice">Đây là đơn mô phỏng cho bài tập. Không phát sinh giao dịch, giao hàng hay email xác nhận.</div>
+            <div class="confirmation-meta">
+              <div>
+                <span>Mã đơn hàng</span>
+                <b id="confirmation-id"></b>
+              </div>
+              <div>
+                <span>Thời gian</span>
+                <b id="confirmation-time"></b>
+              </div>
+              <div>
+                <span>Thanh toán</span>
+                <b id="confirmation-payment"></b>
+              </div>
+            </div>
+            <div class="confirmed-lines" id="confirmation-lines">
+              <div class="summary-total">
+                <span>Tổng thanh toán</span>
+                <strong id="confirmation-total"></strong>
+              </div>
+            </div>
+            <a class="button" href="products.html">Tiếp tục khám phá </a>
+          </section>
+          <template id="checkout-line-template">
+            <div>
+              <span>
+                <span data-line-name></span>
+                <small data-line-quantity></small>
+              </span>
+              <b data-line-total></b>
+            </div>
+          </template>
+          <template id="confirmation-line-template">
+            <div data-confirmed-line>
+              <span></span>
+              <b></b>
+            </div>
+          </template>
+        </div>
+      </div>
+    </main>
+    <footer id="site-footer"></footer>
+    <noscript>
+      <p class="storage-warning">Vui lòng bật JavaScript để xem sản phẩm và sử dụng giỏ hàng.</p>
+    </noscript>
+  </body>
+</html>

@@ -1,0 +1,305 @@
+{
+  "status": "PASS",
+  "pages": 27,
+  "figures": 19,
+  "tables": 6,
+  "toc_and_list_entries_checked": 56,
+  "index_counts": {
+    "TOC1": 7,
+    "TOC2": 24,
+    "TableofFigures": 25
+  },
+  "right_tab_cm": 16,
+  "leader": "dot",
+  "font": "Times New Roman 11",
+  "all_index_pages_match_pdf": true,
+  "drawio_pages": 3,
+  "include_relations": 3,
+  "website_files": 65,
+  "website_baseline_checked": true,
+  "github_hyperlink": "https://github.com/ngminhtamtech-cmd/Assignment-WEB1044",
+  "member_rows_blank": 3,
+  "report_sha256": "2eb2d33fe8990f6be52b5eb186a13575fd8ab45088849c909871ae3ce8bd7733",
+  "entries": [
+    {
+      "title": "Chương 1 Giới thiệu đề tài",
+      "page": 3,
+      "style": "TOC1"
+    },
+    {
+      "title": "1.1 Mục tiêu của website",
+      "page": 3,
+      "style": "TOC2"
+    },
+    {
+      "title": "1.2 Phạm vi thực hiện",
+      "page": 3,
+      "style": "TOC2"
+    },
+    {
+      "title": "Chương 2 Phân tích yêu cầu",
+      "page": 4,
+      "style": "TOC1"
+    },
+    {
+      "title": "2.1 Ba chức năng nhóm tự đề xuất",
+      "page": 5,
+      "style": "TOC2"
+    },
+    {
+      "title": "Chương 3 Tổ chức và thiết kế",
+      "page": 6,
+      "style": "TOC1"
+    },
+    {
+      "title": "3.1 Tổ chức mã theo yêu cầu Y2",
+      "page": 6,
+      "style": "TOC2"
+    },
+    {
+      "title": "3.2 Nhiệm vụ của các file",
+      "page": 7,
+      "style": "TOC2"
+    },
+    {
+      "title": "3.3 Dữ liệu của website",
+      "page": 8,
+      "style": "TOC2"
+    },
+    {
+      "title": "3.4 Use Case tổng quan",
+      "page": 9,
+      "style": "TOC2"
+    },
+    {
+      "title": "3.5 Use Case tìm và chọn sản phẩm",
+      "page": 10,
+      "style": "TOC2"
+    },
+    {
+      "title": "3.6 Use Case giỏ hàng và đặt hàng",
+      "page": 11,
+      "style": "TOC2"
+    },
+    {
+      "title": "3.7 Mô tả các tình huống sử dụng chính",
+      "page": 12,
+      "style": "TOC2"
+    },
+    {
+      "title": "3.8 Quản lý dự án qua GitHub và làm việc nhóm",
+      "page": 13,
+      "style": "TOC2"
+    },
+    {
+      "title": "Chương 4 Hoạt động của website",
+      "page": 14,
+      "style": "TOC1"
+    },
+    {
+      "title": "4.1 Trang chủ và hiển thị sản phẩm",
+      "page": 14,
+      "style": "TOC2"
+    },
+    {
+      "title": "4.2 Danh sách và chi tiết sản phẩm",
+      "page": 15,
+      "style": "TOC2"
+    },
+    {
+      "title": "4.3 Quản lý trạng thái và tính tổng",
+      "page": 16,
+      "style": "TOC2"
+    },
+    {
+      "title": "4.4 Lưu giỏ và xử lý dữ liệu không hợp lệ",
+      "page": 17,
+      "style": "TOC2"
+    },
+    {
+      "title": "4.5 Cách hoạt động của slider",
+      "page": 18,
+      "style": "TOC2"
+    },
+    {
+      "title": "4.6 Cách hoạt động của countdown",
+      "page": 19,
+      "style": "TOC2"
+    },
+    {
+      "title": "4.7 Luồng đặt hàng và kiểm tra thông tin",
+      "page": 20,
+      "style": "TOC2"
+    },
+    {
+      "title": "4.8 Minh chứng kiểm tra form và xác nhận đơn",
+      "page": 21,
+      "style": "TOC2"
+    },
+    {
+      "title": "4.9 Trang giới thiệu và giao diện trên điện thoại",
+      "page": 22,
+      "style": "TOC2"
+    },
+    {
+      "title": "Chương 5 Kiểm thử website",
+      "page": 23,
+      "style": "TOC1"
+    },
+    {
+      "title": "5.1 Kiểm thử đặt hàng và các tình huống bổ sung",
+      "page": 24,
+      "style": "TOC2"
+    },
+    {
+      "title": "5.2 Kiểm tra sau khi sắp xếp lại mã",
+      "page": 24,
+      "style": "TOC2"
+    },
+    {
+      "title": "Chương 6 Kết luận",
+      "page": 25,
+      "style": "TOC1"
+    },
+    {
+      "title": "6.1 Giới hạn và hướng phát triển",
+      "page": 25,
+      "style": "TOC2"
+    },
+    {
+      "title": "6.2 Công nghệ và công cụ sử dụng",
+      "page": 25,
+      "style": "TOC2"
+    },
+    {
+      "title": "Phụ lục Hướng dẫn chạy và tài liệu tham khảo",
+      "page": 26,
+      "style": "TOC1"
+    },
+    {
+      "title": "Hình 1 Sáu trang và luồng điều hướng",
+      "page": 3,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 2 Thứ tự tìm kiếm lọc và sắp xếp",
+      "page": 5,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 3 Cấu trúc thư mục website hiện tại",
+      "page": 6,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 4 Các nhóm dữ liệu và quan hệ",
+      "page": 8,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 5 Use Case tổng quan website",
+      "page": 9,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 6 Use Case tìm và chọn sản phẩm",
+      "page": 10,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 7 Use Case giỏ hàng và đặt hàng",
+      "page": 11,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 8 Trang chủ PC Astral Market",
+      "page": 14,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 9 Danh sách sau khi lọc Laptop ASUS",
+      "page": 15,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 10 Thông tin chi tiết một sản phẩm",
+      "page": 15,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 11 Luồng quản lý giỏ và tính tổng tiền",
+      "page": 16,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 12 Giỏ hàng sau khi đổi số lượng và tải lại",
+      "page": 17,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 13 Luồng điều khiển slider",
+      "page": 18,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 14 Đếm ngược và xử lý khi hết khuyến mãi",
+      "page": 19,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 15 Luồng đặt đơn và các trường hợp cần sửa",
+      "page": 20,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 16 Form thông báo thông tin chưa hợp lệ",
+      "page": 21,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 17 Xác nhận đơn hàng mô phỏng",
+      "page": 21,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 18 Trang giới thiệu và chính sách minh họa",
+      "page": 22,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Hình 19 Trang chủ và bộ lọc trên màn hình điện thoại",
+      "page": 22,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Bảng 1 Đối chiếu yêu cầu Y1 đến Y3",
+      "page": 4,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Bảng 2 Phân chia nhiệm vụ JavaScript",
+      "page": 7,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Bảng 3 Ví dụ tính tổng giỏ hàng",
+      "page": 16,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Bảng 4 Kiểm thử sản phẩm slider và giỏ hàng",
+      "page": 23,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Bảng 5 Kiểm thử đặt hàng lưu trữ và giao diện",
+      "page": 24,
+      "style": "TableofFigures"
+    },
+    {
+      "title": "Bảng 6 Công nghệ API và công cụ sử dụng",
+      "page": 25,
+      "style": "TableofFigures"
+    }
+  ]
+}

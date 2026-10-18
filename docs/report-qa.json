@@ -1,0 +1,21 @@
+{
+  "pages": 27,
+  "figures": 19,
+  "tables": 6,
+  "code_excerpts": 0,
+  "instructor": "Lê Anh Đào",
+  "member_rows": 3,
+  "usecase_diagrams": 3,
+  "toc_levels": 2,
+  "toc_and_list_entries_checked": 56,
+  "render_engine": "Microsoft Word PDF export + pypdfium2",
+  "standard_renderer_limitation": "LibreOffice soffice.exe absent",
+  "sha256": "2eb2d33fe8990f6be52b5eb186a13575fd8ab45088849c909871ae3ce8bd7733",
+  "visual_review": "All 27 final pages inspected at page resolution; no clipping, overflow or separated captions.",
+  "native_word_refresh": "Saved, closed, reopened and updated fields without reapplying formatting; dot leaders, right-aligned page numbers and PDF destinations verified.",
+  "github_hyperlink": "https://github.com/ngminhtamtech-cmd/Assignment-WEB1044",
+  "website_files_unchanged": 65,
+  "extracted_package_smoke": "PASS",
+  "root_zip_synced": true,
+  "root_docx_synced": true
+}

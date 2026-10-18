@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-17T06:51:35.164Z",
+  "results": [
+    {
+      "name": "R01. Không còn module; script defer đúng thứ tự; dữ liệu giữ nguyên",
+      "status": "PASS"
+    },
+    {
+      "name": "R02. Cập nhật giỏ giữ input và focus, không render lồng nhau",
+      "status": "PASS"
+    },
+    {
+      "name": "R03. Hết khuyến mãi và đồng bộ giỏ giữ nguyên dữ liệu form",
+      "status": "PASS"
+    },
+    {
+      "name": "R04. Giá đổi ngay trước submit; lưu đơn trước xóa giỏ; chống gửi lặp và HTML injection",
+      "status": "PASS"
+    },
+    {
+      "name": "R05. Slider hover, tạm dừng; countdown không reset khi reload",
+      "status": "PASS"
+    },
+    {
+      "name": "R06. Chrome và Edge: sáu trang × ba kích thước, font local, không tràn ngang",
+      "status": "PASS"
+    },
+    {
+      "name": "R07. Không lỗi JS, console, HTTP hoặc yêu cầu tài nguyên ngoài",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

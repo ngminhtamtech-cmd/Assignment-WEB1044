@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-17",
+  "base": "http://127.0.0.1:55163",
+  "browsers": [
+    "Google Chrome",
+    "Microsoft Edge"
+  ],
+  "results": [
+    {
+      "name": "01. Trang chủ khởi tạo đủ ba nhóm, 24 sản phẩm / 4 danh mục",
+      "status": "PASS"
+    },
+    {
+      "name": "02. Slider next / prev / dot / tự chuyển / dừng khi focus",
+      "status": "PASS"
+    },
+    {
+      "name": "03. Tìm kiếm không dấu, không phân biệt hoa thường, không sửa mảng gốc",
+      "status": "PASS"
+    },
+    {
+      "name": "04. Lọc AND / giá biên / sắp xếp / reload / xóa lọc",
+      "status": "PASS"
+    },
+    {
+      "name": "05. Chi tiết hợp lệ / thiếu ID / ID sai / hết hàng / ảnh dự phòng",
+      "status": "PASS"
+    },
+    {
+      "name": "06. Giỏ: thêm trùng, số lượng, tổng, lưu reload và xóa",
+      "status": "PASS"
+    },
+    {
+      "name": "07. Storage JSON hỏng / ID lạ / số lượng sai / gộp trùng",
+      "status": "PASS"
+    },
+    {
+      "name": "08. Đồng bộ giỏ giữa hai tab",
+      "status": "PASS"
+    },
+    {
+      "name": "09. Validation rỗng / khoảng trắng / email sai / điện thoại sai",
+      "status": "PASS"
+    },
+    {
+      "name": "10. Đặt hàng hợp lệ / chuẩn hóa +84 / chống lặp / reload xác nhận",
+      "status": "PASS"
+    },
+    {
+      "name": "11. SessionStorage bị chặn: giữ giỏ, không báo đặt hàng thành công",
+      "status": "PASS"
+    },
+    {
+      "name": "12. LocalStorage bị chặn: cảnh báo và giỏ tạm thời",
+      "status": "PASS"
+    },
+    {
+      "name": "13. Countdown hết hạn / giá trở về giá thường / tổng giỏ cập nhật",
+      "status": "PASS"
+    },
+    {
+      "name": "14. Sáu trang responsive 390 / 768 / 1440, không tràn ngang",
+      "status": "PASS"
+    },
+    {
+      "name": "15. Bàn phím: skip link và thao tác tìm kiếm",
+      "status": "PASS"
+    },
+    {
+      "name": "18. 24 ảnh thật cục bộ / nguồn rõ ràng / không còn SVG",
+      "status": "PASS"
+    },
+    {
+      "name": "16. Không có lỗi JavaScript, console hoặc HTTP",
+      "status": "PASS"
+    },
+    {
+      "name": "17. Edge: khởi tạo, mua hàng, lưu giỏ và responsive",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

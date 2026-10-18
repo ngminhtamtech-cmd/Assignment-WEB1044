@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PC-Astral Market - Laptop, PC, màn hình và phụ kiện. Website mô phỏng môn WEB1044.">
+    <title>Giỏ hàng | PC-Astral Market</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Giữ thứ tự: dữ liệu → hàm dùng chung → logic trang. -->
+    <script defer src="js/data.js"></script>
+    <script defer src="js/utils.js"></script>
+    <script defer src="js/storage.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/cart-page.js"></script>
+  </head>
+  <body data-page="cart">
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <header id="site-header"></header>
+    <p id="storage-warning" class="storage-warning" role="alert" hidden></p>
+    <main id="main">
+      <div class="container page-content">
+        <div class="breadcrumb">
+          <a href="index.html">Trang chủ</a>
+          <span>/</span>
+          <span>Giỏ hàng</span>
+        </div>
+        <div class="page-heading">
+          <p class="eyebrow accent">YOUR NEXT SETUP</p>
+          <h1>Giỏ hàng của bạn</h1>
+          <p id="cart-subtitle"></p>
+        </div>
+        <div id="cart-content">
+          <div class="empty-state" id="cart-empty" hidden>
+            <h2>Giỏ hàng đang trống</h2>
+            <p>Một góc máy mới bắt đầu từ lựa chọn đầu tiên.</p>
+            <a class="button" href="products.html">Khám phá sản phẩm </a>
+          </div>
+          <div class="cart-layout" id="cart-layout" hidden="">
+            <div class="cart-list">
+              <div class="cart-list-title">
+                <h2>Sản phẩm của bạn</h2>
+                <span id="cart-kind-count"></span>
+              </div>
+              <div id="cart-rows"></div>
+              <a href="products.html" class="continue-shopping">← Tiếp tục khám phá sản phẩm</a>
+            </div>
+            <aside class="order-summary">
+              <h2>Tóm tắt đơn hàng</h2>
+              <div class="summary-row">
+                <span>Tạm tính</span>
+                <span id="cart-subtotal">0 ₫</span>
+              </div>
+              <div class="summary-row">
+                <span>Phí vận chuyển</span>
+                <span class="success-text">Miễn phí</span>
+              </div>
+              <div class="summary-total">
+                <span>Tổng thanh toán</span>
+                <strong id="cart-total">0 ₫</strong>
+              </div>
+              <p class="small muted-text">Phí vận chuyển 0đ trong bản demo. Giá tham khảo ngày 16/10/2026; tồn kho mô phỏng.</p>
+              <a class="button full" href="checkout.html">Tiến hành đặt hàng </a>
+              <p class="small centered"> Thông tin chỉ lưu trên trình duyệt</p>
+            </aside>
+          </div>
+          <template id="cart-row-template">
+            <article class="cart-row">
+              <a href="product-detail.html" class="cart-image">
+                <img alt="" width="120" height="90">
+              </a>
+              <div class="cart-name">
+                <a href="product-detail.html">
+                  <h3></h3>
+                </a>
+                <span></span>
+                <button class="text-button remove-item" data-remove=""> Xóa sản phẩm</button>
+              </div>
+              <div class="quantity-control">
+                <button data-step="-1" data-id="" aria-label="Số lượng sản phẩm">−</button>
+                <input type="number" data-quantity="" aria-label="Số lượng sản phẩm" min="1" max="5" step="1" value="1">
+                <button data-step="1" data-id="" aria-label="Số lượng sản phẩm">+</button>
+              </div>
+              <strong class="cart-subtotal"></strong>
+            </article>
+          </template>
+        </div>
+      </div>
+    </main>
+    <footer id="site-footer"></footer>
+    <noscript>
+      <p class="storage-warning">Vui lòng bật JavaScript để xem sản phẩm và sử dụng giỏ hàng.</p>
+    </noscript>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+# Temporary renders, backups and extracted submission checks
+/tmp/
+**/__pycache__/
+*.py[cod]
+
+# Local dependencies and environments
+node_modules/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Office lock files and operating system caches
+~$*
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini

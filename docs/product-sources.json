@@ -1,0 +1,3080 @@
+[
+  {
+    "id": "p01",
+    "categoryId": "laptop",
+    "sourceName": "Laptop ASUS TUF Gaming 16 FX610JH-TU008W (Intel Core i5 Processor 14450HX | RTX 5050 | 16 inch FHD+ 144Hz | 16GB | 512GB | Win 11 | Đen)",
+    "sourcePrice": 38990000,
+    "sourceOriginalPrice": 41990000,
+    "sourceUrl": "https://pcmarket.vn/laptop-asus-tuf-gaming-16-fx610jh-tu008w",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/14116_laptop_asus_tuf_gaming_16_fx610jh_tu008w__1_.jpeg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p01.jpg",
+    "sourceSpecs": [
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tên bộ vi xử lý",
+        "value": "Intel Core i5-14450HX Processor",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tốc độ",
+        "value": "Up to 4.80GHz, 10 Cores, 16 Threads P-Cores: 6 Cores, 2.40GHz up to 4.80GHz Turbo E-Cores: 4 Cores, 1.80GHz up to 3.50GHz Turbo",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Bộ nhớ đệm",
+        "value": "20MB Intel Smart Cache",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Dung lượng",
+        "value": "16GB DDR5-5600 SO-DIMM (1x16GB)",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Số khe cắm",
+        "value": "2 x DDR5 SO-DIMM slots <Đã sử dụng 1> Max up to 64GB",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Dung lượng",
+        "value": "512GB SSD PCIe 4.0 NVMe M.2",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Khả năng lưu trữ",
+        "value": "2 x M.2 PCIe",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Màn hình",
+        "value": "16.0 inch WUXGA, IPS, 144Hz, Anti-Glare, 100% sRGB MSHybrid",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Độ phân giải",
+        "value": "WUXGA (FHD+, 1920 x 1200)",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Bộ xử lý",
+        "value": "NVIDIA GeForce RTX 5050 8GB GDDR7",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Graphic Wattage",
+        "value": "85W(70+15)",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Công nghệ",
+        "value": "Tự động chuyển card",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Wireless",
+        "value": "Wi-Fi 6 (802.11ax) (Dual band) 2*2",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Lan",
+        "value": "1 x RJ45 LAN port",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Bluetooth",
+        "value": "Bluetooth 5.4",
+        "extra": []
+      },
+      {
+        "section": "Keyboard (Bàn phím)",
+        "label": "Kiểu bàn phím",
+        "value": "RGB Keyboard 1-zone",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối USB",
+        "value": "1 x USB 3.2 Gen 2 Type-C with support for DisplayPort / power delivery (data speed up to 10Gbps) 2 x USB 3.2 Gen 1 Type-A (data speed up to 5Gbps) 1 x USB 2.0 Type-A (data speed up to 480Mbps)",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối HDMI/ VGA",
+        "value": "1 x HDMI 2.1 FRL",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Khe cắm thẻ nhớ",
+        "value": "None",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Tai nghe",
+        "value": "1 x 3.5mm Combo Audio Jack",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Camera",
+        "value": "720P HD camera",
+        "extra": []
+      },
+      {
+        "section": "Pin Laptop",
+        "label": "Dung lượng pin",
+        "value": "4-cell 63WHrs",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành đi kèm",
+        "value": "Windows 11 Home SL",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành tương thích",
+        "value": "Windows 11",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Trọng Lượng",
+        "value": "2.20 kg",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Màu sắc",
+        "value": "Đen",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Kích thước",
+        "value": "35.7 x 25.9 x 1.94 ~ 2.69 cm",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Chất liệu",
+        "value": "Mặt A: IMR plastic Mặc B, C, D: Texture plastic",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Tính năng bảo mật",
+        "value": "BIOS Administrator Password and User Password Protection Trusted Platform Module (Firmware TPM)",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Âm thanh",
+        "value": "2-speaker system Built-in array microphone AI noise-canceling technology Dolby Atmos Hi-Res certification (for headphone)",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p02",
+    "categoryId": "laptop",
+    "sourceName": "Laptop ASUS TUF Gaming A16 FA607NUQ-RL007W (AMD Ryzen 7 170 | RTX 4050 6GB GDDR6 | 16 inch FHD+ | 16GB | 512GB | Windows 11 | Xám)",
+    "sourcePrice": 35990000,
+    "sourceOriginalPrice": 39990000,
+    "sourceUrl": "https://pcmarket.vn/laptop-asus-tuf-gaming-a16-fa607nuq-rl007w",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/14115_laptop_asus_tuf_gaming_a16_fa607nuq_rl007w__1_.jpeg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p02.jpg",
+    "sourceSpecs": [
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tên bộ vi xử lý",
+        "value": "AMD Ryzen 7 170 Processor",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tốc độ",
+        "value": "Up to 4.75GHz, 8 Cores, 16 Threads Base Clock 3.20GHz",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Bộ nhớ đệm",
+        "value": "L2 Cache 4MB L3 Cache 16MB",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Dung lượng",
+        "value": "16GB DDR5-4800 SO-DIMM",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Số khe cắm",
+        "value": "2 x DDR5 SO-DIMM slots Max up to 64GB DDR5-5600",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Dung lượng",
+        "value": "512GB SSD PCIe 4.0 NVMe M.2",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Khả năng lưu trữ",
+        "value": "2 x M.2 PCIe <Đã sử dụng 1>",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Màn hình",
+        "value": "16.0 inch WUXGA, IPS, 144Hz, Anti-Glare, 45% NTSC, G-Sync",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Độ phân giải",
+        "value": "WUXGA (FHD+, 1920 x 1200)",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Bộ xử lý",
+        "value": "NVIDIA GeForce RTX 4050 6GB GDDR6 (194 AI TOPs)",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Graphic Wattage",
+        "value": "--",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Công nghệ",
+        "value": "Tự động chuyển card",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Wireless",
+        "value": "Wi-Fi 6(802.11ax) (Dual band) 2*2",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Lan",
+        "value": "1 x RJ45 LAN port",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Bluetooth",
+        "value": "Bluetooth 5.3",
+        "extra": []
+      },
+      {
+        "section": "Keyboard (Bàn phím)",
+        "label": "Kiểu bàn phím",
+        "value": "RGB Keyboard (1-zone), With Copilot key",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối USB",
+        "value": "1 x USB 3.2 Gen 2 Type-C with support for DisplayPort™ / power delivery / G-SYNC (data speed up to 10Gbps) 2 x USB 3.2 Gen 1 Type-A (data speed up to 5Gbps)",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối HDMI/ VGA",
+        "value": "1 x HDMI 2.1 FRL",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Khe cắm thẻ nhớ",
+        "value": "None",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Tai nghe",
+        "value": "1 x 3.5mm Combo Audio Jack",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Camera",
+        "value": "720P HD camera",
+        "extra": []
+      },
+      {
+        "section": "Pin Laptop",
+        "label": "Dung lượng pin",
+        "value": "4-cell 56WHrs",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành đi kèm",
+        "value": "Windows 11 Home SL",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành tương thích",
+        "value": "Windows 11",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Trọng Lượng",
+        "value": "2.20 kg",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Màu sắc",
+        "value": "Xám Mecha Gray",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Kích thước",
+        "value": "35.4 x 25.1 x 2.24 ~ 2.67 cm",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Chất liệu",
+        "value": "Đang cập nhật",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Tính năng bảo mật",
+        "value": "BIOS Administrator Password and User Password Protection Kensington Security Slot Trusted Platform Module (Firmware TPM)",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Âm thanh",
+        "value": "2-speaker system Built-in array microphone AI noise-canceling technology Dolby Atmos Hi-Res certification (for headphone) Support Microsoft Cortana near field/far field (Microsoft service suspended in spring of 2023.)",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p03",
+    "categoryId": "laptop",
+    "sourceName": "Laptop HP Victus 16-s0138AX 9Q985PA (Ryzen 7-7840HS | 32GB | 512GB | RTX 4070 | 16.1 inch FHD 144Hz | Win 11 | Đen)",
+    "sourcePrice": 43990000,
+    "sourceOriginalPrice": 47990000,
+    "sourceUrl": "https://pcmarket.vn/laptop-hp-victus-16-s0138ax-9q985pa",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/14129_laptop_hp_victus_16_s0138ax_9q985pa__1_.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p03.jpg",
+    "sourceSpecs": [
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tên bộ vi xử lý",
+        "value": "AMD Ryzen 7-7840HS Processor",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tốc độ",
+        "value": "Base 3.8GHz Up to 5.10GHz, 8 Cores, 16 Threads",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Bộ nhớ đệm",
+        "value": "L1 Cache: 512KB L2 Cache: 8MB L3 Cache: 16MB",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Dung lượng",
+        "value": "32GB DDR5 5200MHz (2x16GB)",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Số khe cắm",
+        "value": "2 x DDR5 5200MHz SODIMM slots <Đã sử dụng 2> Up to Max 64GB",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Dung lượng",
+        "value": "512GB SSD PCIe® NVMe™ M.2 Gen4",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Khả năng nâng cấp",
+        "value": "1 x SSD PCIe® NVMe™ M.2 Gen4 <Đã sử dụng>",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Màn hình",
+        "value": "16.1 inch FHD IPS 144Hz, micro-edge, anti-glare, 250 nits, 45% NTSC",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Độ phân giải",
+        "value": "FHD (1920 x 1080)",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Bộ xử lý",
+        "value": "NVIDIA® GeForce RTX™ 4070 8GB GDDR6 + AMD Radeon™ Graphics",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Công nghệ",
+        "value": "Tự động chuyển card",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Wireless",
+        "value": "Intel® Wi-Fi 6E AX211 (2x2)",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Lan",
+        "value": "1 x RJ-45 - Integrated 10/100/1000 GbE LAN",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Bluetooth",
+        "value": "Bluetooth® 5.3",
+        "extra": []
+      },
+      {
+        "section": "Keyboard (Bàn Phím)",
+        "label": "Kiểu bàn phím",
+        "value": "Full-size, 1-zone RGB backlit, moonstone grey keyboard with numeric keypad",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối USB",
+        "value": "1 x USB Type-A 5Gbps signaling rate (HP Sleep and Charge); 1 x USB Type-C® 5Gbps signaling rate (USB Power Delivery, DisplayPort™ 1.4, HP Sleep and Charge); 2 x USB Type-A 5Gbps signaling rate;",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối HDMI/VGA",
+        "value": "1 x HDMI 2.1;",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Khe cắm thẻ nhớ",
+        "value": "--",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Tai nghe",
+        "value": "1 x headphone/microphone combo",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Camera",
+        "value": "HP True Vision 1080p FHD camera with temporal noise reduction and integrated dual array digital microphones",
+        "extra": []
+      },
+      {
+        "section": "Pin Laptop",
+        "label": "Dung lượng pin",
+        "value": "4Cell 70WHrs Supports battery fast charge: approximately 50% in 30 minutes",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành đi kèm",
+        "value": "Windows 11 Home SL",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành tương thích",
+        "value": "Windows 11",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Trọng Lượng",
+        "value": "2.33kg",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Kích thước",
+        "value": "36.9 x 25.94 x 2.29 cm ~ 2.39 cm",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Màu sắc",
+        "value": "Black (Đen)",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Chất liệu",
+        "value": "Nhựa",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Audio",
+        "value": "Audio by B&O; Dual speakers; HP Audio Boost",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Phụ kiện đi kèm",
+        "value": "Smart AC power adapter, tài liệu, sách (H)",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p04",
+    "categoryId": "laptop",
+    "sourceName": "Laptop HP OMEN 16-am0178TX BX8Y4PA (Ultra 5 225H | 16GB | 512GB | RTX 5060 | 16inch WUXGA 165Hz | Win 11 | Đen)",
+    "sourcePrice": 39790000,
+    "sourceOriginalPrice": 44990000,
+    "sourceUrl": "https://pcmarket.vn/laptop-hp-omen-16-am0178tx-bx8y4pa",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/14128_laptop_hp_omen_16_am0178tx_bx8y4pa__1_.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p04.jpg",
+    "sourceSpecs": [
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tên bộ vi xử lý",
+        "value": "Intel Core Ultra 5 225H Processor",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tốc độ",
+        "value": "up to 4.90GHz, 14 cores (4P + 8E + 2PLE), 14 threads",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Bộ nhớ đệm",
+        "value": "18MB",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Dung lượng",
+        "value": "16GB DDR5-5600 (2x8GB)",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Số khe cắm",
+        "value": "2 x Slots <Đã sử dụng 2>",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Dung lượng",
+        "value": "512GB SSD PCIe Gen4 NVMe M.2",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Khả nâng nâng cấp",
+        "value": "2 x M.2 <Đã sử dụng 1>",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Màn hình",
+        "value": "16.0 inch WUXGA, IPS, 165Hz, 3 ms response time, micro-edge, anti-glare, Low Blue Light, 400 nits, 100% sRGB",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Độ phân giải",
+        "value": "WUXGA (1920 x 1200)",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Bộ xử lý",
+        "value": "NVIDIA GeForce RTX 5060 8GB GDDR7",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Công nghệ",
+        "value": "N/A",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 6E AX211 (2x2)",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Lan",
+        "value": "1 x RJ-45 Ethernet port - Integrated 10/100/1000 GbE LAN",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Bluetooth",
+        "value": "Bluetooth 5.3",
+        "extra": []
+      },
+      {
+        "section": "Keyboard (Bàn phím)",
+        "label": "Kiểu bàn phím",
+        "value": "RGB keyboard, Full-size, bàn phím đen bóng với bàn phím số và công nghệ phím chống hiện tượng nhấn nhầm 26 phím",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối USB",
+        "value": "1 x USB Type-A 10Gbps signaling rate 2 x USB Type-A 5Gbps signaling rate 1 x USB Type-C 10Gbps signaling rate (USB Power Delivery 3.0, DisplayPort 1.4, HP Sleep and Charge)",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối HDMI/VGA",
+        "value": "1 x HDMI 2.1",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Khe cắm thẻ nhớ",
+        "value": "--",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Tai nghe",
+        "value": "1 x Headphone/microphone combo port",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Camera",
+        "value": "Camera HP True Vision 1080p FHD có chức năng giảm nhiễu tạm thời và micrô kỹ thuật số mảng kép tích hợp",
+        "extra": []
+      },
+      {
+        "section": "Pin Laptop",
+        "label": "Dung lượng pin",
+        "value": "6-cell 83Wh",
+        "extra": []
+      },
+      {
+        "section": "Pin Laptop",
+        "label": "Thời gian sử dụng",
+        "value": "--",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành đi kèm",
+        "value": "Windows 11 Home SL",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành tương thích",
+        "value": "Windows 11",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Audio",
+        "value": "DTS:X Ultra; Dual speakers; HP Audio Boost; HyperX",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Trọng Lượng",
+        "value": "2.43 kg",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Kích thước",
+        "value": "35.75 x 26.9 x 2.37 ~ 2.54 cm",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Màu sắc",
+        "value": "Shadow black (Đen)",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Chất liệu",
+        "value": "Đang cập nhật",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Bảo mật",
+        "value": "Trusted Platform Module (Firmware TPM) support",
+        "extra": []
+      },
+      {
+        "section": "Thông tin khác",
+        "label": "Phụ kiện đi kèm",
+        "value": "Adapter, tài liệu, sách",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p05",
+    "categoryId": "laptop",
+    "sourceName": "Laptop Acer Gaming Nitro ProPanel ANV15-52-50VA NH.QUBSV.002 (Intel Core 5 210H | RTX 3050 6 GB GDDR6 | 15.6 inch FHD | 16GB | 512GB | Windows 11 Home | Đen)",
+    "sourcePrice": 33990000,
+    "sourceOriginalPrice": 37990000,
+    "sourceUrl": "https://pcmarket.vn/laptop-acer-gaming-nitro-propanel-anv15-52-50va-nh-qubsv-002",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/14104_laptop_acer_gaming_nitro_propanel_anv15_52_50va_nh_qubsv_002__1_.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p05.jpg",
+    "sourceSpecs": [
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tên bộ vi xử lý",
+        "value": "Intel® Core™ 5 210H Processor",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tốc độ",
+        "value": "Up to 4.8 GHz; 8 Cores, 12 Threads P-Cores: 4 Cores, 8 Threads, 2.2 GHz Base, 4.8 GHz Turbo E-Cores: 4 Cores, 4 Threads, 1.6 GHz Base, 3.6 GHz Turbo",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Bộ nhớ đệm",
+        "value": "12 MB Intel® Smart Cache",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Dung lượng",
+        "value": "16GB DDR5 5200MHz (1x16GB)",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Số khe cắm",
+        "value": "2 x DDR5 5200MHz slots <Đã sử dụng 1> Nâng cấp tối đa 96GB",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Dung lượng",
+        "value": "512GB SSD PCIe NVMe",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Nâng cấp tối đa",
+        "value": "2 x M.2 PCIe NVMe <Đã sử dụng 1> Nâng cấp tối đa 4TB",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Màn hình",
+        "value": "15.6 inch FHD, IPS, 180Hz, 300 nits, 100% sRGB, 16:9, Acer ComfyView, Non-touch",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Độ phân giải",
+        "value": "FHD (1920x1080)",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Bộ xử lý",
+        "value": "NVIDIA® GeForce® RTX™ 3050 6GB GDDR6",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Wireless",
+        "value": "WLAN • 802.11a/b/g/n/ac+ax wireless LAN • Dual Band (2.4 GHz and 5 GHz) • 2x2 MU-MIMO technology",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Lan",
+        "value": "1 x Ethernet (RJ-45) port LAN • 10/100/1000 Mbps • Hibernation mode support • Wake On Lan support • IPv4 and IPv6 support",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Bluetooth",
+        "value": "Supports Bluetooth® 5.2 or above",
+        "extra": []
+      },
+      {
+        "section": "Keyboard (Bàn phím)",
+        "label": "Kiểu bàn phím",
+        "value": "Bàn phím có đèn nền màu vàng hổ phách (Amber-backlit keyboard), có phím số riêng",
+        "extra": []
+      },
+      {
+        "section": "Keyboard (Bàn phím)",
+        "label": "Hotkey",
+        "value": "NitroSense Key Copilot Key",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối USB",
+        "value": "1 x USB Type-C™ port, supporting: • USB 3.2 Gen 2 (up to 10 Gbps) • DisplayPort over USB-C via iGPU • Thunderbolt™ 4 • USB charging 5 V; 3 A • DC-in port 20 V; 65 W 3 x USB Standard-A ports, supporting: • 1 x port for USB 3.2 Gen 1 featuring power off USB charging • 2 x ports for USB 3.2 Gen 1",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối HDMI",
+        "value": "1 x HDMI® 2.1 port with HDCP support",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Khe cắm thẻ nhớ",
+        "value": "Không",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Tai nghe",
+        "value": "1 x 3.5 mm headphone/speaker jack, supporting headsets with built-in microphone",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Audio",
+        "value": "• DTS® X:Ultra Audio, featuring optimized Bass, Loudness, Speaker Protection with up to 6 custom content modes by smart amplifier • Supported in Windows Spatial Sound for PC Gaming with DTS license integrated • Immersive audio rendering over headphones and internal speakers • High SNR DAC with 2.1 Vrms out capability and can driver high impedance headphone (up to 600 ohm) • Acer Purified.Voice technology with AI noise reduction in dual built-in microphones. Features include far-field pickup, dynamic noisereduction through neural network, adaptive beam forming, and pre-defined personal and conference call modes. • Compatible with Cortana with Voice • Acer TrueHarmony technology for lower distortion, wider frequency range, headphone-like audio and powerful sound",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Camera",
+        "value": "Video conferencing UFC with • T-Type HD camera • Compatible with Windows only • 1280 x 720 resolution • 720p HD video at 30 fps with Temporal Noise Reduction • Blue Glass lens • Dual Mic (33 mm + 33 mm) • 78 x 3.2 (5.2) x 3 mm",
+        "extra": []
+      },
+      {
+        "section": "Pin Laptop",
+        "label": "Dung lượng pin",
+        "value": "4cell 57Wh",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành đi kèm",
+        "value": "Windows 11 Home Single Language",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành tương thích",
+        "value": "Windows 11",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Trọng lượng",
+        "value": "2.1 kg",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Kích thước",
+        "value": "362.3 (W) x 239.89 (D) x 15.7/23.5 (H) mm",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Màu sắc",
+        "value": "Obsidian black (Đen)",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Chất liệu vỏ",
+        "value": "Vỏ nhựa",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Bảo mật",
+        "value": "Mật khẩu Firmware Trusted Platform Module (TPM) solution BIOS user, supervisor passwords, Kensington lock slot",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Tản nhiệt",
+        "value": "2 quạt tản nhiệt",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Bảo hành",
+        "value": "2 năm Bảo hành nhanh VIP 3S1",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p06",
+    "categoryId": "laptop",
+    "sourceName": "Laptop Acer Gaming Aspire 7 A715-59G-53RH_NH.DV0SV.001 (Intel Core 5 processor 210H | RTX 4050 | 15.6 inch FHD 144Hz | 16GB | 512GB | Win 11 | Đen)",
+    "sourcePrice": 33990000,
+    "sourceOriginalPrice": 37990000,
+    "sourceUrl": "https://pcmarket.vn/laptop-acer-gaming-aspire-7-a715-59g-53rh_nh-dv0sv-001",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/14103_laptop_acer_gaming_aspire_7_a715_59g_53rh_nh_dv0sv_001__1_.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p06.jpg",
+    "sourceSpecs": [
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tên bộ vi xử lý",
+        "value": "Intel® Core™ 5 210H Processor",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Tốc độ",
+        "value": "Up to 4.8 GHz; 8 Cores, 12 Threads P-Cores: 4 Cores, 8 Threads, 2.2 GHz Base, 4.8 GHz Turbo E-Cores: 4 Cores, 4 Threads, 1.6 GHz Base, 3.6 GHz Turbo",
+        "extra": []
+      },
+      {
+        "section": "Bộ vi xử lý (CPU)",
+        "label": "Bộ nhớ đệm",
+        "value": "12 MB Intel® Smart Cache",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Dung lượng",
+        "value": "16GB DDR4 3200MHz (1x16GB)",
+        "extra": []
+      },
+      {
+        "section": "Bộ nhớ trong (RAM Laptop)",
+        "label": "Số khe cắm",
+        "value": "2 x DDR4 3200MHz slots <Đã sử dụng 1> Nâng cấp tối đa 64GB",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Dung lượng",
+        "value": "512GB SSD PCIe NVMe",
+        "extra": []
+      },
+      {
+        "section": "Ổ cứng (SSD Laptop)",
+        "label": "Số cổng lưu trữ tối đa",
+        "value": "2 x SSD PCIe NVMe <Đã sử dụng 1> Nâng cấp tối đa 4TB",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Màn hình",
+        "value": "15.6 inch FHD, IPS, 144Hz, 350nits (HDR mode), 45% NTSC, SlimBezel, Non-touch",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị (Màn hình)",
+        "label": "Độ phân giải",
+        "value": "FHD (1920x1080)",
+        "extra": []
+      },
+      {
+        "section": "Đồ Họa (VGA)",
+        "label": "Bộ xử lý",
+        "value": "NVIDIA® GeForce® RTX™ 4050 6GB GDDR6 (194 AI TOPS)",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Wireless",
+        "value": "WLAN • Wi-Fi 6 Wireless LAN • 802.11a/b/g/n/ac+ax • Dual Band (2.4 GHz and 5 GHz) • MU-MIMO technology",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Lan",
+        "value": "1 x Ethernet (RJ-45) port",
+        "extra": []
+      },
+      {
+        "section": "Kết nối (Network)",
+        "label": "Bluetooth",
+        "value": "Bluetooth",
+        "extra": []
+      },
+      {
+        "section": "Keyboard (Bàn phím)",
+        "label": "Kiểu bàn phím",
+        "value": "Bàn phím có đèn nền 1 vùng, 15 màu tùy chỉnh",
+        "extra": []
+      },
+      {
+        "section": "Keyboard (Bàn phím)",
+        "label": "Hotkey",
+        "value": "Copilot Key",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối USB",
+        "value": "2 x USB Type-C™ port supporting: • USB 3.2 Gen 2 (up to 10 Gbps) USB Standard A 2 x USB Standard-A ports, supporting: • One port for USB 2.0 • One port for USB 3.2 Gen 1",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Kết nối HDMI/VGA",
+        "value": "1 x Mini DisplayPort™ 1.4 1 x HDMI® 2.1 port with HDCP support",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Khe cắm thẻ nhớ",
+        "value": "1 x microSD™ Card reader",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Tai nghe",
+        "value": "1 x 3.5 mm headphone/speaker jack, supporting headsets with built-in microphone",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Camera",
+        "value": "Video conferencing Front webcam with: • 1280 x 720 resolution • 720p HD audio/video recording",
+        "extra": []
+      },
+      {
+        "section": "Giao tiếp mở rộng",
+        "label": "Audio",
+        "value": "Two built-in stereo speakers Single built-in microphones",
+        "extra": []
+      },
+      {
+        "section": "Pin laptop",
+        "label": "Dung lượng pin",
+        "value": "3cell 54.8Wh",
+        "extra": []
+      },
+      {
+        "section": "Pin laptop",
+        "label": "Thời gian sử dụng",
+        "value": "Up to 11.50 Hour",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành đi kèm",
+        "value": "Windows 11 Home",
+        "extra": []
+      },
+      {
+        "section": "Hệ điều hành (Operating System)",
+        "label": "Hệ điều hành tương thích",
+        "value": "Windows 11",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Kích thước",
+        "value": "359.5 (W) x 238 (D) x 22.7 (H) mm",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Trọng lượng",
+        "value": "2.1 kg",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Chất liệu vỏ",
+        "value": "Mặt A: Kim loại Mặt B, C, D: Nhựa",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Màu sắc",
+        "value": "Titanium Black (Đen)",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Bảo mật",
+        "value": "Mật khẩu BIOS user, supervisor",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Tản nhiệt",
+        "value": "2 quạt",
+        "extra": []
+      },
+      {
+        "section": "Thông số khác",
+        "label": "Bảo hành",
+        "value": "2 năm Bảo hành nhanh VIP 3S1",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p07",
+    "categoryId": "desktop",
+    "sourceName": "PC AMD Ryzen 5 5500 - RTX 5050 8GB OC",
+    "sourcePrice": 19680000,
+    "sourceOriginalPrice": 21990000,
+    "sourceUrl": "https://pcmarket.vn/pc-amd-ryzen-5-5500-rtx-5050-8gb-oc",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/13850_pc1_6.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p07.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "RAM",
+        "value": "Ram 16GB DDR4 Ram 32GB DDR4",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Ổ cứng SSD",
+        "value": "SSD 500GB SSD 1TB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tản nhiệt",
+        "value": "Tản nhiệt khí Tản nhiệt nước AIO 240_1",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "STT",
+        "value": "Mô tả thiết bị",
+        "extra": [
+          "SL",
+          "BH"
+        ]
+      },
+      {
+        "section": "",
+        "label": "1",
+        "value": "CPU AMD Ryzen 5 5500 (AMD AM4 - 6 Core - 12 Thread - Base 3.6Ghz - Turbo 4.2Ghz - Cache 19MB - No iGPU) TRAY",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "2",
+        "value": "Mainboard MSI A520M-A PRO DDR4",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "3",
+        "value": "Ram SSTC 16GB Bus 3200Mhz DDR4 BLACK TẢN NHIỆT",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "4",
+        "value": "Ổ Cứng SSD HIKSEMI WAVE 512GB - M.2 2280 PCIe Gen3 x4 (Đọc 2500MB/s - Ghi 1025MB/s)",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "5",
+        "value": "Nguồn máy tính SSTC 550F - 550W",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "6",
+        "value": "Card màn hình MSI RTX 5050 8GB Shadow 2X OC",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "7",
+        "value": "Vỏ Case XIGMATEK AQUA MS BLACK - KÈM 3 FAN ARGB",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "8",
+        "value": "TẢN NHIỆT KHÍ JONSBO CR-1200 RGB BLACK",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p08",
+    "categoryId": "desktop",
+    "sourceName": "PC GAMING RTX 3060 12GB - i5 12400F (All NEW) - SL : 10 bộ",
+    "sourcePrice": 22280000,
+    "sourceOriginalPrice": 24990000,
+    "sourceUrl": "https://pcmarket.vn/pc-gaming-rtx-3060-12gb-i5-12400f-all-new.html",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/10689_pcm_pc_rtx_3060_12gb_auqaml_3.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p08.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "CPU",
+        "value": "i5 12400F i5 13400F i5 12600KF i5 14400F",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "RAM",
+        "value": "Ram 16GB DDR4 Ram 32GB DDR4",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Ổ cứng SSD",
+        "value": "SSD 500GB SSD 1TB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tản nhiệt",
+        "value": "Tản nhiệt khí Tản nhiệt nước AIO 240",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "STT",
+        "value": "Mô tả thiết bị",
+        "extra": [
+          "SL",
+          "BH"
+        ]
+      },
+      {
+        "section": "",
+        "label": "1",
+        "value": "CPU Intel Core i5 12400F (Upto 4.4Ghz, 6 nhân 12 luồng, 18MB Cache, 65W) TRAY",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "2",
+        "value": "Mainboard ASUS B760M-F PRIME DDR4",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "3",
+        "value": "Ram SSTC 16GB Bus 3200Mhz DDR4 BLACK TẢN NHIỆT",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "4",
+        "value": "Ổ Cứng SSD HIKSEMI WAVE 512GB - M.2 2280 PCIe Gen3 x4 (Đọc 2500MB/s - Ghi 1025MB/s)",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "5",
+        "value": "Nguồn máy tính Einarex AXIS MASTER L1 650W 80 Plus Bronze Semi-Modular",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "6",
+        "value": "Card Màn Hình ZOTAC GAMING GeForce RTX 3060 Twin Edge 12GB",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "7",
+        "value": "Vỏ Case XIGMATEK AQUA MS BLACK - KÈM 3 FAN ARGB",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "8",
+        "value": "Tản nhiệt khí JONSBO CR-1000 EVO",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p09",
+    "categoryId": "desktop",
+    "sourceName": "PC AMD GAMING PRO Ryzen 7 5700X - RTX 5060 8GB OC",
+    "sourcePrice": 25480000,
+    "sourceOriginalPrice": 27990000,
+    "sourceUrl": "https://pcmarket.vn/pc-amd-gaming-pro-ryzen-7-5700x-rtx-5060-8gb-oc",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/13464_pc1_14.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p09.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "RAM",
+        "value": "Ram 16GB DDR4 Ram 32GB DDR4",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Ổ cứng SSD",
+        "value": "SSD 500GB SSD 1TB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tản nhiệt",
+        "value": "Tản nhiệt khí Tản nhiệt nước AIO 240",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "STT",
+        "value": "Mô tả thiết bị",
+        "extra": [
+          "SL",
+          "BH"
+        ]
+      },
+      {
+        "section": "",
+        "label": "1",
+        "value": "CPU AMD Ryzen 7 5700X (3.4GHz Boost 4.6GHz / 8 nhân 16 luồng / 32MB / AM4)- TRAY",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "2",
+        "value": "Mainboard MSI PRO A520M-S DDR4",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "3",
+        "value": "Ram SSTC 16GB Bus 3200Mhz DDR4 BLACK TẢN NHIỆT",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "4",
+        "value": "Ổ Cứng SSD HIKSEMI WAVE 512GB - M.2 2280 PCIe Gen3 x4 (Đọc 2500MB/s - Ghi 1025MB/s)",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "5",
+        "value": "Nguồn máy tính Einarex AXIS MASTER L1 650W 80 Plus Bronze Semi-Modular",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "6",
+        "value": "Card màn hình COLORFUL GEFORCE RTX 5060 GAMING DUO 8GB-V",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "7",
+        "value": "VỎ CASE XIGMATEK AQUA MS",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "8",
+        "value": "Tản nhiệt khí JONSBO CR-1000 EVO",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p10",
+    "categoryId": "desktop",
+    "sourceName": "PC ULTRA GAMING i5 12400F- 16GB DDR4- RTX 5060 8GB BLACK",
+    "sourcePrice": 25280000,
+    "sourceOriginalPrice": 27990000,
+    "sourceUrl": "https://pcmarket.vn/pc-ultra-gaming-i5-12400f-16gb-ddr4-rtx-5060-8gb-black",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/13133_pc1_12.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p10.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "CPU",
+        "value": "i5 12400F i5 13400F i5 12600KF i5 14400F",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "RAM",
+        "value": "Ram 16GB DDR4 Ram 32GB DDR4",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Ổ cứng SSD",
+        "value": "SSD 500GB SSD 1TB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tản nhiệt",
+        "value": "Tản nhiệt khí Tản nhiệt nước AIO 240",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "STT",
+        "value": "Mô tả thiết bị",
+        "extra": [
+          "SL",
+          "BH"
+        ]
+      },
+      {
+        "section": "",
+        "label": "1",
+        "value": "CPU Intel Core i5 12400F (Upto 4.4Ghz, 6 nhân 12 luồng, 18MB Cache, 65W) TRAY",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "2",
+        "value": "Mainboard ASUS B760M-F PRIME DDR4",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "3",
+        "value": "Ram SSTC 16GB Bus 3200Mhz DDR4 BLACK TẢN NHIỆT",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "4",
+        "value": "Ổ Cứng SSD HIKSEMI WAVE 512GB - M.2 2280 PCIe Gen3 x4 (Đọc 2500MB/s - Ghi 1025MB/s)",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "5",
+        "value": "Nguồn máy tính Einarex AXIS MASTER L1 650W 80 Plus Bronze Semi-Modular",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "6",
+        "value": "Card màn hình COLORFUL GEFORCE RTX 5060 GAMING DUO 8GB-V",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "7",
+        "value": "Vỏ Case XIGMATEK AQUA ML BLACK - KÈM 3 FAN ARGB",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "8",
+        "value": "Tản nhiệt khí JONSBO CR-1000",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p11",
+    "categoryId": "desktop",
+    "sourceName": "PC ULTRA GAMING I5 14400F - RTX 5050 8GB",
+    "sourcePrice": 22680000,
+    "sourceOriginalPrice": 25990000,
+    "sourceUrl": "https://pcmarket.vn/pc-ultra-gaming-i5-14400f-rtx-5050-8gb",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/13363_pc1_6.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p11.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "RAM",
+        "value": "Ram 16GB DDR4 Ram 32GB DDR4",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Ổ cứng SSD",
+        "value": "SSD 500GB SSD 1TB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tản nhiệt",
+        "value": "Tản nhiệt khí Tản nhiệt nước AIO 240",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "STT",
+        "value": "Mô tả thiết bị",
+        "extra": [
+          "SL",
+          "BH"
+        ]
+      },
+      {
+        "section": "",
+        "label": "1",
+        "value": "CPU Intel Core i5 14400F (Up To 4.70GHz, 10 Nhân 16 Luồng, 20MB Cache, LGA 1700) TRAY",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "2",
+        "value": "Mainboard ASUS B760M-F PRIME DDR4",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "3",
+        "value": "Ram SSTC 16GB Bus 3200Mhz DDR4 BLACK TẢN NHIỆT",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "4",
+        "value": "Ổ Cứng SSD HIKSEMI WAVE 512GB - M.2 2280 PCIe Gen3 x4 (Đọc 2500MB/s - Ghi 1025MB/s)",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "5",
+        "value": "NGUỒN MÁY TÍNH SSTC 550F PLUS (550W)",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "6",
+        "value": "Card màn hình MSI RTX 5050 8GB Shadow 2X OC",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "7",
+        "value": "Vỏ Case XIGMATEK AQUA MS - KÈM 3 FAN ARGB",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "8",
+        "value": "Tản nhiệt khí JONSBO CR-1000",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p12",
+    "categoryId": "desktop",
+    "sourceName": "PC AMD GAMING Ryzen 7 5700X - RTX 3050 6GB TWIN X2",
+    "sourcePrice": 16860000,
+    "sourceOriginalPrice": 17990000,
+    "sourceUrl": "https://pcmarket.vn/pc-amd-gaming-ryzen-7-5700x-rtx-3050-6gb",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/11810_20260611_dsc07870.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p12.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "RAM",
+        "value": "Ram 16GB DDR4 Ram 32GB DDR4",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "SSD",
+        "value": "SSD 500GB SSD 1TB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tản nhiệt",
+        "value": "Tản nhiệt khí Tản nhiệt nước AIO 240",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "STT",
+        "value": "Mô tả thiết bị",
+        "extra": [
+          "SL",
+          "BH"
+        ]
+      },
+      {
+        "section": "",
+        "label": "1",
+        "value": "CPU AMD Ryzen 7 5700X (3.4GHz Boost 4.6GHz / 8 nhân 16 luồng / 32MB / AM4)- TRAY",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "2",
+        "value": "Mainboard MSI PRO A520M-S DDR4",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "3",
+        "value": "Ram SSTC 16GB Bus 3200Mhz DDR4 BLACK TẢN NHIỆT",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "4",
+        "value": "Ổ Cứng SSD HIKSEMI WAVE 512GB - M.2 2280 PCIe Gen3 x4 (Đọc 2500MB/s - Ghi 1025MB/s)",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "5",
+        "value": "Nguồn máy tính SSTC 550F - 550W PLUS",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "6",
+        "value": "Card màn hình ZOTAC GAMING GeForce RTX 3050 6GB",
+        "extra": [
+          "1",
+          "36th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "7",
+        "value": "Vỏ Case XIGMATEK AQUA MS BLACK - KÈM 3 FAN ARGB",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      },
+      {
+        "section": "",
+        "label": "8",
+        "value": "Tản nhiệt khí JONSBO CR-1000 EVO",
+        "extra": [
+          "1",
+          "12th"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p13",
+    "categoryId": "monitor",
+    "sourceName": "Màn Hình Gaming ASUS TUF Gaming VG259QM5A (24.5 inch/ Fast IPS/ FHD/ 0.3ms/ 240Hz)",
+    "sourcePrice": 3190000,
+    "sourceOriginalPrice": 4999000,
+    "sourceUrl": "https://pcmarket.vn/man-hinh-gaming-asus-tuf-gaming-vg259qm5a-24-5-inch-fast-ips-fhd-0-3ms-240hz",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/13015_tuf_gaming_vg259qm5a.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p13.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Hãng sản xuất",
+        "value": "Asus",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Model",
+        "value": "VG259QM5A",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước màn hình",
+        "value": "24.5 inch",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ phân giải",
+        "value": "1920x1080",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tỉ lệ",
+        "value": "16:9",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tấm nền màn hình",
+        "value": "IPS",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ sáng",
+        "value": "300cd/㎡",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Màu sắc hiển thị",
+        "value": "16.7 triệu màu",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ tương phản",
+        "value": "1000:1",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tần số quét",
+        "value": "240Hz",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cổng kết nối",
+        "value": "DisplayPort 1.4 x 1 (HBR2) HDMI(v2.0) x 2 Earphone Jack : Yes",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Thời gian đáp ứng",
+        "value": "1ms(GTG), 0.3ms(min.)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Góc nhìn",
+        "value": "178°(H)/178°(V)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tính năng",
+        "value": "Trace Free Technology : Yes GameVisual : Yes Color Temp. Selection : Yes(4 modes) GamePlus : Yes HDCP : Yes, 2.3 Extreme Low Motion Blur : Yes ELMB Sync: Yes VRR Technology : Yes (Adaptive-Sync) GameFast Input technology : Yes Shadow Boost : Yes DisplayWidget : Yes, DisplayWidget Center Low Blue Light : Yes ASUS Power Sync : Yes A.I. Assistant Technology : AI Visual A.I. Assistant Technology : Dynamic Crosshair",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Điện năng tiêu thụ",
+        "value": "Power Consumption : <18W Power Saving Mode : <0.5W Power Off Mode : <0.3W Voltage : 100-240V, 50/60Hz",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước",
+        "value": "Phys. Dimension (W x H x D) : 55.9 x 40.1 x 17.4 cm (22.01\" x 15.79\" x 6.85\") Phys. Dimension without Stand (W x H x D) : 55.9 x 32.9 x 6.2 cm (22.01\" x 12.95\" x 2.44\") Box Dimension (W x H x D) : 62.0 x 41.2 x 17.0 cm (24.41\" x 16.22\" x 6.69\")",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cân nặng",
+        "value": "Net Weight : 3.4 kg (7.50 lbs) Net Weight without Stand : 2.9 kg (6.39 lbs) Gross Weight : 4.9 kg (10.80 lbs)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Phụ kiện",
+        "value": "DisplayPort cable Power cord Quick start guide Warranty Card L-shaped Screwdriver",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p14",
+    "categoryId": "monitor",
+    "sourceName": "Màn Hình AOC 24G50Z (23.8 inch - IPS - FHD - 260Hz - 0.3ms)",
+    "sourcePrice": 2690000,
+    "sourceOriginalPrice": 3990000,
+    "sourceUrl": "https://pcmarket.vn/man-hinh-aoc-24g50z-23-8-inch-ips-fhd-260hz-0-3ms",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/13268_man_hinh_aoc_24g50z_1.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p14.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Hãng sản xuất",
+        "value": "Màn hình AOC",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước màn hình",
+        "value": "23.8 inch",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ phân giải",
+        "value": "1920 × 1080",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tỉ lệ",
+        "value": "-",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tấm nền màn hình",
+        "value": "Fast IPS",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ sáng",
+        "value": "300 cd/m²",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Màu sắc hiển thị",
+        "value": "16.7 triệu màu, NTSC 95% (CIE1976) / sRGB 107% (CIE1931) / DCI-P3 87%",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ tương phản",
+        "value": "1000 : 1 (Typical) / MEGA DCR",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tần số quét",
+        "value": "260Hz",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cổng kết nối",
+        "value": "HDMI 2.0 × 1, DisplayPort 1.4 × 1",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Thời gian đáp ứng",
+        "value": "0.3ms (MPRT) /1ms (GtG)",
+        "extra": []
+      },
+      {
+        "section": "0.3ms (MPRT) /1ms (GtG)",
+        "label": "Góc nhìn",
+        "value": "178° (H) / 178° (V) (CR > 10)",
+        "extra": []
+      },
+      {
+        "section": "0.3ms (MPRT) /1ms (GtG)",
+        "label": "Điện năng tiêu thụ",
+        "value": "18W",
+        "extra": []
+      },
+      {
+        "section": "0.3ms (MPRT) /1ms (GtG)",
+        "label": "Kích thước",
+        "value": "418.1 (H) × 544 (W) × 175 (D) (với chân đế)",
+        "extra": []
+      },
+      {
+        "section": "0.3ms (MPRT) /1ms (GtG)",
+        "label": "Cân nặng",
+        "value": "2.49 (với chân đế)",
+        "extra": []
+      },
+      {
+        "section": "0.3ms (MPRT) /1ms (GtG)",
+        "label": "Phụ kiện",
+        "value": "Cáp nguồn",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p15",
+    "categoryId": "monitor",
+    "sourceName": "Màn Hình Gaming LG UltraGear 25G523B-B (25 inch - IPS - FHD - 200Hz - 1ms)",
+    "sourcePrice": 3190000,
+    "sourceOriginalPrice": 4990000,
+    "sourceUrl": "https://pcmarket.vn/man-hinh-gaming-lg-ultragear-25g523b-b",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/14050_man_hinh_gaming_lg_ultragear_25g523b_b_1.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p15.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Hãng sản xuất",
+        "value": "LG",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Model",
+        "value": "25G523B-B",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước màn hình",
+        "value": "24.4 inch",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ phân giải",
+        "value": "1920 x 1080",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tỉ lệ",
+        "value": "16:9",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tấm nền màn hình",
+        "value": "IPS",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ sáng",
+        "value": "240 cd/m²",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Màu sắc hiển thị",
+        "value": "16,7 triệu sRGB 95% (CIE1931)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ tương phản",
+        "value": "1000:1",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tần số quét",
+        "value": "200Hz",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cổng kết nối",
+        "value": "1 x DisplayPort 1.4, 2xHDMI",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Góc nhìn",
+        "value": "178º(R/L), 178º(U/D)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Điện năng tiêu thụ",
+        "value": "Type External Power(Adapter) AC Input 100~240V (50/60Hz) Power Consumption (Sleep Mode) Less than 0.5W Power Consumption (DC Off) Less than 0.3W",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước",
+        "value": "Dimension with Stand (W x H x D) [mm] 557.6 x 427.2 x 220 Dimension without Stand (W x H x D) [mm] 557.6 x 324.3 x 46.9 Dimension in Shiping (W x H x D) [mm] 655 x 134 x 385 Weight with Stand [kg] 3.5 Weight without Stand [kg] 2.4 Weight in Shipping [kg] 4.9",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Phụ kiện",
+        "value": "Cáp nguồn, Dây DP",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p16",
+    "categoryId": "monitor",
+    "sourceName": "Màn Hình Gaming ViewSonic VX24G30 (24 inch - IPS - FHD - 0.8ms - 240Hz)",
+    "sourcePrice": 2690000,
+    "sourceOriginalPrice": 3990000,
+    "sourceUrl": "https://pcmarket.vn/man-hinh-gaming-viewsonic-vx24g30-24-inch-ips-fhd-0-8ms-240hz",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/13175_man_hinh_gaming_viewsonic_vx24g30_pcm_1.png",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p16.png",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Hãng sản xuất",
+        "value": "Viewsonic",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Model",
+        "value": "VX24G30",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Hiển thị",
+        "value": "Kích thước màn hình (in.): 24",
+        "extra": []
+      },
+      {
+        "section": "Bề mặt: Anti-Glare, Hard Coating (3H)",
+        "label": "Khả năng tương thích",
+        "value": "Độ phân giải PC (tối đa): 1920x1080",
+        "extra": []
+      },
+      {
+        "section": "Độ phân giải Mac® (tối thiểu): 1920x1080",
+        "label": "Đầu nối",
+        "value": "Đầu ra âm thanh 3,5 mm: 1",
+        "extra": []
+      },
+      {
+        "section": "Cổng cắm nguồn: DC Socket (Center Positive)",
+        "label": "Nguồn",
+        "value": "Chế độ Eco (giữ nguyên): 19W",
+        "extra": []
+      },
+      {
+        "section": "Nguồn cấp: External Power Adaptor",
+        "label": "Phần cứng bổ sung",
+        "value": "Khe khóa Kensington: 1",
+        "extra": []
+      },
+      {
+        "section": "Nguồn cấp: External Power Adaptor",
+        "label": "Kiểm soát",
+        "value": "Điều khiển: Key 1 (favorite), Key 2, Key 3, Key 4, Key 5 (power)",
+        "extra": []
+      },
+      {
+        "section": "Hiển thị trên màn hình: Input Select, Audio Adjust, ViewMode, Color Adjust, Manual Image Adjust, Setup Menu",
+        "label": "Điều kiện hoạt động",
+        "value": "Nhiệt độ: 32°F to 104°F (0°C to 40°C)",
+        "extra": []
+      },
+      {
+        "section": "Độ ẩm (không ngưng tụ): 20% to 90%",
+        "label": "Giá treo tường",
+        "value": "Tương Thích VESA: 100 x 100 mm",
+        "extra": []
+      },
+      {
+        "section": "Độ ẩm (không ngưng tụ): 20% to 90%",
+        "label": "Tín hiệu đầu vào",
+        "value": "Tần số Ngang: 30 ~ 268KHz",
+        "extra": []
+      },
+      {
+        "section": "Tần số Dọc: 48 ~ 240Hz",
+        "label": "Đầu vào video",
+        "value": "Đồng bộ kỹ thuật số: TMDS - HDMI (v2.0), PCI-E - DisplayPort (v1.2)",
+        "extra": []
+      },
+      {
+        "section": "Tần số Dọc: 48 ~ 240Hz",
+        "label": "Công thái học",
+        "value": "Nghiêng (Tiến / lùi): -5º / 20º",
+        "extra": []
+      },
+      {
+        "section": "Tần số Dọc: 48 ~ 240Hz",
+        "label": "Trọng lượng (hệ Anh)",
+        "value": "Khối lượng tịnh (lbs): 7.1",
+        "extra": []
+      },
+      {
+        "section": "Tổng (kg): 4.2",
+        "label": "Kích thước (imperial) (wxhxd)",
+        "value": "Bao bì (in.): 23.6 x 15.7 x 5.1",
+        "extra": []
+      },
+      {
+        "section": "Kích thước không có chân đế (mm): 541.86 x 322.95 x 43.1",
+        "label": "Tổng quan",
+        "value": "Quy định: BSMI",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p17",
+    "categoryId": "monitor",
+    "sourceName": "Màn Hình MSI MAG 272F X24 (27 inch - IPS - FHD - 240Hz - 0.5ms)",
+    "sourcePrice": 3490000,
+    "sourceOriginalPrice": 3990000,
+    "sourceUrl": "https://pcmarket.vn/man-hinh-msi-mag-272f-x24-27-inch-ips-fhd-240hz-0-5ms",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/13000_man_hinh_msi_mag_272f_x24_1.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p17.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Hãng sản xuất",
+        "value": "Màn hình MSI",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước màn hình",
+        "value": "27 inch",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ phân giải",
+        "value": "1920 x 1080 (FHD)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tỉ lệ",
+        "value": "16:9",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tấm nền màn hình",
+        "value": "Rapid IPS",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ sáng",
+        "value": "SDR: 300 cd/m²",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Màu sắc hiển thị",
+        "value": "1.07B, 10 bits (8 bits + FRC)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ tương phản",
+        "value": "1000:1",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tần số quét",
+        "value": "240Hz",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cổng kết nối",
+        "value": "2x HDMI™ 2.0b (FHD@240Hz) 1x DisplayPort 1.2a 1x Headphone-out",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Thời gian đáp ứng",
+        "value": "0.5ms (GtG, Min)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Góc nhìn",
+        "value": "178°(H) / 178°(V)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tính năng",
+        "value": "Anti-glare, vesa 100 x 100 mm",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Power Input",
+        "value": "100~240V, 50/60Hz",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước",
+        "value": "612.6 x 249.7 x 439.9 mm (with Stand) (24.1 x 9.8 x 17.3 inch)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cân nặng",
+        "value": "3.9 kg (8.5 lbs) / 6.2 kg (13.6 lbs)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Phụ kiện",
+        "value": "1x HDMI™ Cable (2.0b) 1x Power Cord (C13) 1x Quick Guide",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p18",
+    "categoryId": "monitor",
+    "sourceName": "MÀN HÌNH GAMING GIGABYTE GS25F2 (24.5 INCH / FHD / IPS/ 200Hz / 1MS )",
+    "sourcePrice": 2590000,
+    "sourceOriginalPrice": 3999000,
+    "sourceUrl": "https://pcmarket.vn/man-hinh-gaming-gigabyte-gs25f2-24-5-inch-fhd-ips-200hz-1ms",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/12076_gs25f2_gaming_monitor_03.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p18.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Nhà sản xuất",
+        "value": "Màn hình Gigabyte",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Model",
+        "value": "GS25F2",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Loại màn hình",
+        "value": "Gaming",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tấm nền",
+        "value": "IPS",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước",
+        "value": "24.5\" SS IPS",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ phân giải",
+        "value": "1920 x 1080 (Full HD)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tần số quét",
+        "value": "200Hz",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Thời gian phản hồi",
+        "value": "1ms (GTG)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ bão hòa màu",
+        "value": "120% sRGB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Đọ sáng",
+        "value": "300 cd/m² (TYP)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tỷ lệ tương phản",
+        "value": "1000:1",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Góc nhìn",
+        "value": "178°(H)/178°(V)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "HDR",
+        "value": "HDR10",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cổng kết nối",
+        "value": "2 x HDMI 2.0, 1 x DisplayPort 1.4, 1 x Earphone Jack",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Loa",
+        "value": "N/A",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Loại nguồn",
+        "value": "Power Board Built-in",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tiêu thụ điện năng",
+        "value": "18W",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "VESA Mount",
+        "value": "100 x 100 mm",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Khả năng điều chỉnh",
+        "value": "Tilt (-5°~+20°)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước (With Stand)",
+        "value": "556.9 x 402.0 x 179.4 mm",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước (Without Stand)",
+        "value": "556.9 x 321.5 x 51.3 mm",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cân nặng",
+        "value": "Net: 3.11 kg (With Stand), 2.73 kg (Without Stand), Gross: 4.0 kg",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Phụ kiện",
+        "value": "Power cable, HDMI cable, QSG, Warranty card",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p19",
+    "categoryId": "accessory",
+    "sourceName": "Bàn phím cơ DareU EK98L Grey Black DareU Dream switch",
+    "sourcePrice": 529000,
+    "sourceOriginalPrice": 590000,
+    "sourceUrl": "https://pcmarket.vn/ban-phim-co-dareu-ek98l-grey-black-dareu-dream-switch",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/12615_ban_phim_co_dareu_ek98l_grey_black_dareu_dream_switch_1.png",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p19.png",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "KEYCAP",
+        "value": "PBT",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "LOẠI SWITCH",
+        "value": "Dream switch",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Đèn LED phím",
+        "value": "RGB LED",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "KẾT NỐI",
+        "value": "Có dây",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p20",
+    "categoryId": "accessory",
+    "sourceName": "Bàn phím cơ DareU EK87 Pro Triple Mode Black Golden Dream switch",
+    "sourcePrice": 1090000,
+    "sourceOriginalPrice": 1299000,
+    "sourceUrl": "https://pcmarket.vn/ban-phim-co-dareu-ek87-pro-triple-mode-black-golden-dream-switch",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/12007_dareu_ek87_pro_black_golden_1.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p20.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Thương hiệu",
+        "value": "DareU",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Bảo hành",
+        "value": "24 tháng",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kiểu",
+        "value": "Bàn phím cơ",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kết nối",
+        "value": "Bluetooth, USB-C, Wireless 2.4Ghz",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kiểu kết nối",
+        "value": "Không dây",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Chất liệu keycap",
+        "value": "Double Shot PBT, CHERRY Profile",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kiểu switch",
+        "value": "DareU DREAM (Linear), DareU FIRE-FLY (Tactile)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Màu sắc",
+        "value": "Đen, Trắng",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Màu sắc đèn LED",
+        "value": "RGB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước",
+        "value": "364 x 136 x 41mm",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Trọng lượng",
+        "value": "740g",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p21",
+    "categoryId": "accessory",
+    "sourceName": "Bàn phím cơ DareU EK75 Pro Triple Mode Sakura Pink - Dream switch",
+    "sourcePrice": 1090000,
+    "sourceOriginalPrice": 1499000,
+    "sourceUrl": "https://pcmarket.vn/ban-phim-co-dareu-ek75-pro-triple-mode-sakura-pink-dream-switch",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/12003_dareu_ek75_pro_sakura_pink_1.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p21.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Chế độ kết nối",
+        "value": "Triple Mode: Type-C, BT, 2.4G",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Keycap",
+        "value": "OEM profile, PBT Double-Shot",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cấu trúc",
+        "value": "Gasket-Mount",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Hỗ trợ hot-swap switch",
+        "value": "Có",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Switch",
+        "value": "DareU DREAM (Linear)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Dung lượng pin",
+        "value": "3.750mAh",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Đèn nền LED",
+        "value": "RGB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước",
+        "value": "333 x 140 x 40mm",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Trọng lượng",
+        "value": "740g",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tương thích",
+        "value": "Windows, Mac, Mobile",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Bảo hành",
+        "value": "24 tháng",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p22",
+    "categoryId": "accessory",
+    "sourceName": "Chuột Gaming có dây ASUS TUF M3 GEN II",
+    "sourcePrice": 390000,
+    "sourceOriginalPrice": 599000,
+    "sourceUrl": "https://pcmarket.vn/chuot-gaming-co-day-asus-tuf-m3-gen-ii",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/12074_chuot_tuf_gaming_m3_gen_ii_pcm_1.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p22.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Hãng sản xuất:",
+        "value": "Asus",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Bảo hành:",
+        "value": "24 Tháng",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kiểu kết nối:",
+        "value": "Có dây",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ nhạy (DPI):",
+        "value": "Lên đến 8000",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cảm biến:",
+        "value": "PAW3318",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Số nút bấm:",
+        "value": "6",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tuổi thọ switch:",
+        "value": "Lên đến 60 triệu lần nhấn",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước:",
+        "value": "123x68x40mm",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Khối lượng:",
+        "value": "59g",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "OS:",
+        "value": "Windows® 10, Windows® 11",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p23",
+    "categoryId": "accessory",
+    "sourceName": "Chuột game Logitech G502X ĐEN",
+    "sourcePrice": 1590000,
+    "sourceOriginalPrice": 1999000,
+    "sourceUrl": "https://pcmarket.vn/chuot-game-logitech-g502x-den",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/11606_chuot_game_logitech_g502x_den_910_006140_.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p23.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Nhà sản xuất",
+        "value": "Logitech",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Model",
+        "value": "910-006140 (BLACK)",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Loại kết nối",
+        "value": "Có dây",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Cảm biến:",
+        "value": "Hero 25K",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kết nối:",
+        "value": "Có dây",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "DPI:",
+        "value": "100 – 25.600",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tăng tốc tối đá:",
+        "value": "> 40G2",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tốc độ tối đa:",
+        "value": "> 400 IPS2",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Nút:",
+        "value": "13 Nút điều khiển có thể lập trình",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Chân PTFE:",
+        "value": "Có độ ma sát thấp",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước:",
+        "value": "131,4 mm x 41,1 mm x 79,2 mm",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Trọng lượng:",
+        "value": "89g",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tương thích:",
+        "value": "Windows® 10 trở lên",
+        "extra": []
+      },
+      {
+        "section": "macOS 10.14 trở lên",
+        "label": "Màu sắc",
+        "value": "ĐEN",
+        "extra": []
+      },
+      {
+        "section": "macOS 10.14 trở lên",
+        "label": "Bảo hành",
+        "value": "24 tháng",
+        "extra": []
+      }
+    ]
+  },
+  {
+    "id": "p24",
+    "categoryId": "accessory",
+    "sourceName": "Chuột chơi game Logitech G102 Gen2 Lightsync Black (USB/RGB/Đen)",
+    "sourcePrice": 350000,
+    "sourceOriginalPrice": 350000,
+    "sourceUrl": "https://pcmarket.vn/chuot-choi-game-logitech-g102-gen2-lightsync-black-usbrgbden.html",
+    "sourceImageUrl": "https://pcmarket.vn/media/product/8571_53012_mouse_logitech_g102_lightsync_rgb_black_0000_1.jpg",
+    "sourceRetrievedAt": "2026-10-16",
+    "image": "assets/images/products/p24.jpg",
+    "sourceSpecs": [
+      {
+        "section": "",
+        "label": "Hãng sản xuất",
+        "value": "Logitech",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tên sản phẩm",
+        "value": "Logitech G102 Lightsync RGB White",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Thiết kế",
+        "value": "Đối xứng - Ambidextrous",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Mắt đọc",
+        "value": "Mercury Sensor",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "DPI",
+        "value": "8000 DPI",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Inch Per Second (IPS)",
+        "value": "200",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Gia tốc",
+        "value": "30g",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tần số phản hồi",
+        "value": "1000Hz",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Chất liệu vỏ",
+        "value": "Nhựa ABS",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Màu sắc",
+        "value": "Trắng",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Số lượng nút bấm",
+        "value": "6",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Switch",
+        "value": "Omron",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tuổi thọ",
+        "value": "50 triệu lần nhấn",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "LED",
+        "value": "RGB Lightsync",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kết nối",
+        "value": "USB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Loại dây",
+        "value": "Dây USB",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Độ dài dây (cm)",
+        "value": "210",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Phần mềm",
+        "value": "Logitech G-Hub",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Tương thích",
+        "value": "Windows, MacOS 10.10 trở lên",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Kích thước (mm)",
+        "value": "Dài 116.6 x Rộng 62.15 x Cao 38.2",
+        "extra": []
+      },
+      {
+        "section": "",
+        "label": "Trọng lượng (gr)",
+        "value": "85g (không cable)",
+        "extra": []
+      }
+    ]
+  }
+]

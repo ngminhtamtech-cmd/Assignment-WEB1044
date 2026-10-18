@@ -1,0 +1,261 @@
+[
+  {
+    "image": "about-1440.png",
+    "before": [
+      1440,
+      2134
+    ],
+    "after": [
+      1440,
+      2134
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "about-390.png",
+    "before": [
+      390,
+      2560
+    ],
+    "after": [
+      390,
+      2560
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "about-768.png",
+    "before": [
+      768,
+      2175
+    ],
+    "after": [
+      768,
+      2175
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "cart-1440.png",
+    "before": [
+      1440,
+      1151
+    ],
+    "after": [
+      1440,
+      1151
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "cart-390.png",
+    "before": [
+      390,
+      1444
+    ],
+    "after": [
+      390,
+      1444
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "cart-768.png",
+    "before": [
+      768,
+      1566
+    ],
+    "after": [
+      768,
+      1566
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "checkout-1440.png",
+    "before": [
+      1440,
+      1538
+    ],
+    "after": [
+      1440,
+      1538
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "checkout-390.png",
+    "before": [
+      390,
+      2082
+    ],
+    "after": [
+      390,
+      2082
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "checkout-768.png",
+    "before": [
+      768,
+      2133
+    ],
+    "after": [
+      768,
+      2133
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "index-1440.png",
+    "before": [
+      1440,
+      3569
+    ],
+    "after": [
+      1440,
+      3569
+    ],
+    "difference": [
+      122,
+      926,
+      803,
+      2027
+    ],
+    "differentPixels": 6138
+  },
+  {
+    "image": "index-390.png",
+    "before": [
+      390,
+      5071
+    ],
+    "after": [
+      390,
+      5071
+    ],
+    "difference": [
+      241,
+      2443,
+      325,
+      2521
+    ],
+    "differentPixels": 5473
+  },
+  {
+    "image": "index-768.png",
+    "before": [
+      768,
+      5009
+    ],
+    "after": [
+      768,
+      5009
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "product-detail-1440.png",
+    "before": [
+      1440,
+      2281
+    ],
+    "after": [
+      1440,
+      2281
+    ],
+    "difference": [
+      181,
+      1447,
+      323,
+      1554
+    ],
+    "differentPixels": 2696
+  },
+  {
+    "image": "product-detail-390.png",
+    "before": [
+      390,
+      3144
+    ],
+    "after": [
+      390,
+      3144
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "product-detail-768.png",
+    "before": [
+      768,
+      2909
+    ],
+    "after": [
+      768,
+      2909
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "products-1440.png",
+    "before": [
+      1440,
+      4793
+    ],
+    "after": [
+      1440,
+      4793
+    ],
+    "difference": [
+      427,
+      512,
+      584,
+      684
+    ],
+    "differentPixels": 4349
+  },
+  {
+    "image": "products-390.png",
+    "before": [
+      390,
+      6280
+    ],
+    "after": [
+      390,
+      6280
+    ],
+    "difference": null,
+    "differentPixels": 0
+  },
+  {
+    "image": "products-768.png",
+    "before": [
+      768,
+      5651
+    ],
+    "after": [
+      768,
+      5651
+    ],
+    "difference": [
+      287,
+      3627,
+      671,
+      3711
+    ],
+    "differentPixels": 11323
+  }
+]

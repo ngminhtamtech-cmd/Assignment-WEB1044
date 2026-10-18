@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PC-Astral Market - Laptop, PC, màn hình và phụ kiện. Website mô phỏng môn WEB1044.">
+    <title>Sản phẩm | PC-Astral Market</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Giữ thứ tự: dữ liệu → hàm dùng chung → logic trang. -->
+    <script defer src="js/data.js"></script>
+    <script defer src="js/utils.js"></script>
+    <script defer src="js/storage.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/products.js"></script>
+  </head>
+  <body data-page="products">
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <header id="site-header"></header>
+    <p id="storage-warning" class="storage-warning" role="alert" hidden></p>
+    <main id="main">
+      <div class="container page-content">
+        <div class="breadcrumb">
+          <a href="index.html">Trang chủ</a>
+          <span>/</span>
+          <span>Sản phẩm</span>
+        </div>
+        <div class="page-heading">
+          <p class="eyebrow accent">THE ASTRAL COLLECTION</p>
+          <h1 id="catalog-title">Tìm đúng chất riêng của bạn.</h1>
+          <p id="query-description">Cấu hình phù hợp, trải nghiệm trọn vẹn.</p>
+        </div>
+        <div class="catalog-layout">
+          <aside class="filter-panel">
+            <button id="filter-toggle" class="button button-outline filter-toggle" aria-expanded="false" aria-controls="filters">Bộ lọc sản phẩm</button>
+            <form id="filters">
+              <div class="filter-heading">
+                <h2>Bộ lọc</h2>
+                <button type="button" class="text-button" id="clear-filters">Xóa tất cả</button>
+              </div>
+              <div class="field">
+                <label for="filter-q">Tìm sản phẩm</label>
+                <input id="filter-q" name="q" type="search" placeholder="Tên hoặc thương hiệu" maxlength="100">
+              </div>
+              <div class="field">
+                <label for="filter-category">Danh mục</label>
+                <select id="filter-category" name="category"></select>
+              </div>
+              <div class="field">
+                <label for="filter-brand">Thương hiệu</label>
+                <select id="filter-brand" name="brand"></select>
+              </div>
+              <div class="field">
+                <label for="filter-price">Khoảng giá</label>
+                <select id="filter-price" name="price">
+                  <option value="all">Tất cả mức giá</option>
+                  <option value="under5">Dưới 5 triệu</option>
+                  <option value="5to15">5 đến dưới 15 triệu</option>
+                  <option value="15to30">15 đến dưới 30 triệu</option>
+                  <option value="above30">Từ 30 triệu</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="filter-group">Bộ sưu tập</label>
+                <select id="filter-group" name="group">
+                  <option value="">Tất cả sản phẩm</option>
+                  <option value="new">Sản phẩm mới</option>
+                  <option value="hot">Sản phẩm hot</option>
+                  <option value="sale">Khuyến mãi</option>
+                </select>
+              </div>
+              <button class="button full" type="submit">Áp dụng tìm kiếm</button>
+            </form>
+            <div class="filter-note">
+              <h3>Chọn đúng nhu cầu</h3>
+              <p>Kết hợp danh mục và ngân sách để tìm cấu hình dành cho bạn.</p>
+            </div>
+          </aside>
+          <section class="catalog-results" aria-label="Danh sách sản phẩm">
+            <div class="catalog-toolbar">
+              <span id="result-count" role="status"></span>
+              <label for="sort">Sắp xếp <select id="sort">
+                  <option value="default">Đề xuất của Astral</option>
+                  <option value="price-asc">Giá tăng dần</option>
+                  <option value="price-desc">Giá giảm dần</option>
+                  <option value="name">Tên A–Z</option>
+                </select>
+              </label>
+            </div>
+            <div id="products-grid" class="product-grid catalog-grid"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer id="site-footer"></footer>
+    <noscript>
+      <p class="storage-warning">Vui lòng bật JavaScript để xem sản phẩm và sử dụng giỏ hàng.</p>
+    </noscript>
+  </body>
+</html>

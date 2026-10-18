@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PC-Astral Market - Laptop, PC, màn hình và phụ kiện. Website mô phỏng môn WEB1044.">
+    <title>Công nghệ phù hợp, cảm hứng mỗi ngày | PC-Astral Market</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Giữ thứ tự: dữ liệu → hàm dùng chung → logic trang. -->
+    <script defer src="js/data.js"></script>
+    <script defer src="js/utils.js"></script>
+    <script defer src="js/storage.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/home.js"></script>
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <header id="site-header"></header>
+    <p id="storage-warning" class="storage-warning" role="alert" hidden></p>
+    <main id="main">
+      <div class="container home-top">
+        <section class="hero" id="hero" aria-label="Bộ sưu tập nổi bật" aria-roledescription="carousel">
+          <div id="hero-content" class="hero-content">
+            <div class="hero-copy">
+              <p class="eyebrow" id="hero-eyebrow"></p>
+              <h1 id="hero-title"></h1>
+              <p class="hero-description" id="hero-description"></p>
+              <a class="button" href="product-detail.html?id=p07" id="hero-link"></a>
+              <div class="hero-proof">Hiệu năng bạn cần. Phong cách bạn chọn.</div>
+            </div>
+            <div class="hero-art">
+              <img alt="AMD RYZEN 5 5500 / RTX 5050" width="520" height="370" id="hero-photo">
+              <div class="hero-caption">
+                <b id="hero-caption-title"></b>
+                <span id="hero-caption-spec"></span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-controls">
+            <div id="slide-dots" class="slide-dots"></div>
+            <button id="pause-slide" class="pause-slide" aria-pressed="false">Tạm dừng</button>
+            <span id="slide-count"></span>
+            <button id="prev-slide" class="slider-arrow" aria-label="Banner trước">Trước</button>
+            <button id="next-slide" class="slider-arrow" aria-label="Banner tiếp theo">Sau</button>
+          </div>
+        </section>
+        <section class="benefits" aria-label="Cam kết minh họa">
+          <div>
+            <p>
+              <b>Cấu hình được chọn lọc</b>
+              <small>Dễ chọn, đúng nhu cầu</small>
+            </p>
+          </div>
+          <div>
+            <p>
+              <b>An tâm trải nghiệm</b>
+              <small>Chính sách rõ ràng</small>
+            </p>
+          </div>
+          <div>
+            <p>
+              <b>Giao hàng miễn phí</b>
+              <small>Áp dụng cho bản demo</small>
+            </p>
+          </div>
+          <div>
+            <p>
+              <b>Đồng hành cùng bạn</b>
+              <small>Từ học tập đến sáng tạo</small>
+            </p>
+          </div>
+        </section>
+        <section class="section categories-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow accent">BẮT ĐẦU TỪ ĐIỀU BẠN CẦN</p>
+              <h2>Chọn góc công nghệ của bạn</h2>
+            </div>
+            <a href="products.html">Tất cả sản phẩm </a>
+          </div>
+          <div id="category-grid" class="category-grid"></div>
+        </section>
+        <section class="section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow accent">NEW ARRIVALS</p>
+              <h2>Mới đến từ Astral <span class="heading-dot"></span>
+              </h2>
+            </div>
+            <a href="products.html?group=new">Xem tất cả</a>
+          </div>
+          <div id="new-grid" class="product-grid"></div>
+        </section>
+        <section class="sale-section section">
+          <div class="sale-heading">
+            <div>
+              <p class="eyebrow">ASTRAL LAUNCH SALE</p>
+              <h2>Đúng lúc nâng cấp.</h2>
+              <p>Ưu đãi khởi đầu cho góc máy mới của bạn.</p>
+            </div>
+            <div class="countdown-wrap">
+              <span>Kết thúc sau</span>
+              <div id="countdown" class="countdown" aria-label="Thời gian còn lại của khuyến mãi">
+                <span>
+                  <b data-countdown-number>00</b>
+                  <small>Ngày</small>
+                </span>
+                <span>
+                  <b data-countdown-number>00</b>
+                  <small>Giờ</small>
+                </span>
+                <span>
+                  <b data-countdown-number>00</b>
+                  <small>Phút</small>
+                </span>
+                <span>
+                  <b data-countdown-number>00</b>
+                  <small>Giây</small>
+                </span>
+              </div>
+            </div>
+            <a class="button button-light" href="products.html?group=sale">Săn ưu đãi</a>
+          </div>
+          <div id="sale-grid" class="product-grid"></div>
+        </section>
+        <section class="section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow accent">ASTRAL FAVORITES</p>
+              <h2>Những lựa chọn nổi bật</h2>
+            </div>
+            <a href="products.html?group=hot">Khám phá thêm</a>
+          </div>
+          <div id="hot-grid" class="product-grid"></div>
+        </section>
+        <section class="brand-story">
+          <div>
+            <p class="eyebrow accent">HELLO, WE ARE ASTRAL</p>
+            <h2>Một góc máy.<br>Vô vàn khả năng.</h2>
+          </div>
+          <div>
+            <p>Chúng tôi tin rằng công nghệ tốt bắt đầu từ sự phù hợp. Một chiếc laptop cho buổi học, một bộ PC cho đam mê, hay một màn hình mở ra nhiều ý tưởng.</p>
+            <a href="about.html">Câu chuyện PC-Astral Market</a>
+          </div>
+        </section>
+      </div>
+      <template id="category-template">
+        <a class="category-tile" href="products.html?category=laptop">
+          <img class="category-photo" alt="" width="70" height="60">
+          <div>
+            <h3></h3>
+            <span></span>
+          </div>
+          <span class="category-number">01</span>
+        </a>
+      </template>
+    </main>
+    <footer id="site-footer"></footer>
+    <noscript>
+      <p class="storage-warning">Vui lòng bật JavaScript để xem sản phẩm và sử dụng giỏ hàng.</p>
+    </noscript>
+  </body>
+</html>
