@@ -1,0 +1,12 @@
+[
+  "TongQuan_Va_BaoVe_PC-Astral-Market.docx",
+  "BaoCao_Nhanh_Sua_JS_PC-Astral-Market.docx",
+  "tools/build_overview.py",
+  "tools/build_quick_defense.py",
+  "tools/build_report.py",
+  "tools/export_overview.ps1",
+  "tools/export_quick_defense.ps1",
+  "tools/export_report.ps1",
+  "tools/verify_report.py",
+  "tools/report_visuals.py"
+]

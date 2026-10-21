@@ -1,0 +1,10 @@
+{
+  "pages": 6,
+  "sha256": "1148ca3f82f69982f1768d10184eec8335224ceb99a2a7b8fe4b37b3462c38d0",
+  "date": "2026-10-21",
+  "visual_review": "All 6 rendered pages visually inspected after logic fixes and draft persistence. Final overview page 1 rechecked; other 20 pages pixel-identical. No clipping, overlap or missing Vietnamese text.",
+  "status": "PASS",
+  "logic_scenarios": 13,
+  "logic_http_checks": 26,
+  "logic_file_checks": 26
+}

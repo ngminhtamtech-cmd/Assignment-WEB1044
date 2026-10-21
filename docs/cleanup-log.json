@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-21",
+  "removed": [
+    {
+      "path": "tmp",
+      "files": 1739,
+      "bytes": 216379028.0
+    },
+    {
+      "path": "tools\\__pycache__",
+      "files": 3,
+      "bytes": 40008.0
+    },
+    {
+      "path": "tools\\capture_comparison.cjs",
+      "files": 1,
+      "bytes": 2602.0
+    },
+    {
+      "path": "tools\\capture_preview.cjs",
+      "files": 1,
+      "bytes": 1224.0
+    },
+    {
+      "path": "tools\\inspect_font.cjs",
+      "files": 1,
+      "bytes": 955.0
+    },
+    {
+      "path": "tools\\inspect_pcmarket.py",
+      "files": 1,
+      "bytes": 1013.0
+    },
+    {
+      "path": "tools\\test_site.cjs",
+      "files": 1,
+      "bytes": 16757.0
+    },
+    {
+      "path": "tools\\test_refactor.cjs",
+      "files": 1,
+      "bytes": 10216.0
+    },
+    {
+      "path": "docs\\basic-js-refactor-check.json",
+      "files": 1,
+      "bytes": 1753.0
+    },
+    {
+      "path": "submission\\BaoCao_Assignment2_PC-Astral-Market.docx",
+      "files": 1,
+      "bytes": 2100368.0
+    },
+    {
+      "path": "submission\\TongQuan_Va_BaoVe_PC-Astral-Market.docx",
+      "files": 1,
+      "bytes": 220045.0
+    }
+  ],
+  "preserved": "Current website; three unique Word documents at root; current submission ZIP; diagram sources and report tools; .git",
+  "removed_files": 1751,
+  "removed_bytes": 218773969.0
+}

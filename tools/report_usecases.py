@@ -132,10 +132,10 @@ class UseCaseDiagram:
 
 def make_usecases():
     OUT.mkdir(parents=True, exist_ok=True)
-    overview = UseCaseDiagram('01-overview', 'Tổng quan', 1400, 690)
+    overview = UseCaseDiagram('01-overview', 'Tổng quan', 1620, 790)
     labels = [
         'Tra cứu và chọn sản phẩm', 'Quản lý giỏ hàng', 'Đặt hàng mô phỏng',
-        'Xem xác nhận đơn gần nhất', 'Xem giới thiệu và chính sách',
+        'Xem xác nhận đơn gần nhất', 'Đăng ký và đăng nhập', 'Xem giới thiệu và chính sách',
     ]
     for index, label in enumerate(labels):
         key = 'overview-' + str(index + 1)

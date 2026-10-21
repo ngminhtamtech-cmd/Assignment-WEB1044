@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "base": "http://127.0.0.1:56028",
+  "results": [
+    {
+      "browser": "chrome",
+      "name": "L01 F5 giữ cả năm trường nháp kể cả dữ liệu sai",
+      "status": "FAIL",
+      "detail": "Expected values to be strictly equal:\n+ actual - expected\n\n+ ''\n- '  Khách thử nháp  '\n"
+    },
+    {
+      "browser": "chrome",
+      "name": "L02 Giá tự cập nhật vẫn cần xác nhận lại",
+      "status": "FAIL",
+      "detail": "The expression evaluated to a falsy value:\n\n  assert(await page.locator('#order-confirmation').isHidden())\n"
+    },
+    {
+      "browser": "chrome",
+      "name": "L03 Lưu đơn được nhưng xóa giỏ lỗi rồi F5 thử lại không sinh đơn mới",
+      "status": "FAIL",
+      "detail": "Expected values to be strictly equal:\n+ actual - expected\n\n+ undefined\n- true\n"
+    },
+    {
+      "browser": "chrome",
+      "name": "L04 Reset trong lúc dangKy không ghi lại tài khoản",
+      "status": "FAIL",
+      "detail": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "browser": "chrome",
+      "name": "L04 Reset trong lúc dangNhap không ghi lại tài khoản",
+      "status": "FAIL",
+      "detail": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    }
+  ]
+}

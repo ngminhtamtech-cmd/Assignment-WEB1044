@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-21",
+  "base": "file:///D:/0_Web1044/Web1044%20-%20Ass2/PC-Astral-Market",
+  "results": [
+    {
+      "browser": "chrome",
+      "name": "L01 F5 giữ cả năm trường nháp kể cả dữ liệu sai",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L02 Giá tự cập nhật vẫn cần xác nhận lại",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L03 Lưu đơn được nhưng xóa giỏ lỗi rồi F5 thử lại không sinh đơn mới",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L04 Reset trong lúc dangKy không ghi lại tài khoản",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L04 Reset trong lúc dangNhap không ghi lại tài khoản",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L05 Giỏ thay đổi cùng tổng tiền vẫn cần xác nhận",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L06 Giỏ mới không bị nút dọn giỏ đơn cũ xóa",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L07 Nháp hỏng sai kiểu và tab khác không ghi đè form đang gõ",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L08 Ghi nháp bị chặn vẫn nhập được và xóa nháp lỗi báo rõ",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L09 Reset xóa nháp giữ dữ liệu website khác",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L10 Lưu đơn lỗi giữ nguyên giỏ và nháp",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L11 Tab cũ không dọn lại giỏ mua mới sau khi tab khác hoàn tất",
+      "status": "PASS"
+    },
+    {
+      "browser": "chrome",
+      "name": "L12 Giỏ đã xóa nhưng lưu cờ hoàn tất lỗi vẫn thử lại cùng đơn",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L01 F5 giữ cả năm trường nháp kể cả dữ liệu sai",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L02 Giá tự cập nhật vẫn cần xác nhận lại",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L03 Lưu đơn được nhưng xóa giỏ lỗi rồi F5 thử lại không sinh đơn mới",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L04 Reset trong lúc dangKy không ghi lại tài khoản",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L04 Reset trong lúc dangNhap không ghi lại tài khoản",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L05 Giỏ thay đổi cùng tổng tiền vẫn cần xác nhận",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L06 Giỏ mới không bị nút dọn giỏ đơn cũ xóa",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L07 Nháp hỏng sai kiểu và tab khác không ghi đè form đang gõ",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L08 Ghi nháp bị chặn vẫn nhập được và xóa nháp lỗi báo rõ",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L09 Reset xóa nháp giữ dữ liệu website khác",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L10 Lưu đơn lỗi giữ nguyên giỏ và nháp",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L11 Tab cũ không dọn lại giỏ mua mới sau khi tab khác hoàn tất",
+      "status": "PASS"
+    },
+    {
+      "browser": "msedge",
+      "name": "L12 Giỏ đã xóa nhưng lưu cờ hoàn tất lỗi vẫn thử lại cùng đơn",
+      "status": "PASS"
+    }
+  ]
+}

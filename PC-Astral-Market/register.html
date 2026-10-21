@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
+    <title>Đăng ký và đăng nhập | PC-Astral Market</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- KHỞI TẠO: events chờ dữ liệu JSON, tạo models rồi gọi trang tài khoản. -->
+    <!-- Dữ liệu dự phòng cho mở trực tiếp file HTML trên máy khác. -->
+    <script src="js/san-pham-du-phong.js" defer></script>
+    <script defer src="js/du-lieu.js"></script>
+    <script defer src="js/luu-tru.js"></script>
+    <script defer src="js/mo-hinh.js"></script>
+    <script defer src="js/hien-thi.js"></script>
+    <script defer src="js/trang/tai-khoan.js"></script>
+    <script defer src="js/su-kien.js"></script>
+  </head>
+  <body data-page="register">
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <!-- CHỨC NĂNG: header và trạng thái tài khoản được dựng dùng chung. -->
+    <header id="site-header"></header>
+    <p id="storage-warning" class="storage-warning" role="alert" hidden></p>
+    <main id="main" class="container page-content">
+      <div class="breadcrumb"><a href="index.html">Trang chủ</a><span>/</span><span>Tài khoản</span></div>
+      <div class="page-heading">
+        <p class="eyebrow">TÀI KHOẢN DEMO</p>
+        <h1>Chào mừng đến với Astral.</h1>
+        <p>Đăng ký rồi đăng nhập ngay trên trình duyệt này.</p>
+      </div>
+      <p class="auth-notice">Tài khoản dùng cho bài tập mô phỏng. Hãy dùng mật khẩu riêng cho buổi demo. Bạn vẫn có thể mua hàng với vai trò khách.</p>
+      <p id="account-message" class="account-message" role="status" aria-live="polite"></p>
+      <!-- CHỨC NĂNG: chỉ hiện khi có trạng thái đăng nhập hợp lệ trong LocalStorage. -->
+      <section id="account-signed-in" class="auth-card" hidden>
+        <h2>Đã đăng nhập</h2>
+        <p>Xin chào <strong id="account-username"></strong>.</p>
+        <div class="auth-actions">
+          <a href="products.html" class="button">Tiếp tục mua sắm</a>
+          <button type="button" id="logout-button" class="control-button">Đăng xuất</button>
+        </div>
+        <p class="small">Đăng xuất giữ lại tài khoản và giỏ; nút Kết thúc buổi demo ở cuối trang xóa toàn bộ dữ liệu demo.</p>
+      </section>
+      <div id="account-forms" class="auth-grid">
+        <!-- CHỨC NĂNG ĐĂNG KÝ: kiểm tra trường rỗng, định dạng, mật khẩu trùng và username đã tồn tại. -->
+        <section class="auth-card">
+          <h2>Tạo tài khoản</h2>
+          <form id="register-form" novalidate>
+            <div class="form-field">
+              <label for="register-username">Tên đăng nhập *</label>
+              <input id="register-username" name="username" autocomplete="username" minlength="3" maxlength="24" required aria-describedby="register-username-error">
+              <small id="register-username-error" class="field-error"></small>
+            </div>
+            <div class="form-field">
+              <label for="register-password">Mật khẩu *</label>
+              <input id="register-password" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="64" required aria-describedby="register-password-error">
+              <small id="register-password-error" class="field-error"></small>
+            </div>
+            <div class="form-field">
+              <label for="register-confirmPassword">Nhập lại mật khẩu *</label>
+              <input id="register-confirmPassword" name="confirmPassword" type="password" autocomplete="new-password" minlength="8" maxlength="64" required aria-describedby="register-confirmPassword-error">
+              <small id="register-confirmPassword-error" class="field-error"></small>
+            </div>
+            <button id="register-submit" class="button full" type="submit">Đăng ký</button>
+          </form>
+        </section>
+        <!-- CHỨC NĂNG ĐĂNG NHẬP: so sánh mã băm với tài khoản đã lưu; không gửi mật khẩu ra ngoài. -->
+        <section class="auth-card">
+          <h2>Đăng nhập</h2>
+          <form id="login-form" novalidate>
+            <div class="form-field">
+              <label for="login-username">Tên đăng nhập *</label>
+              <input id="login-username" name="username" autocomplete="username" maxlength="24" required aria-describedby="login-username-error">
+              <small id="login-username-error" class="field-error"></small>
+            </div>
+            <div class="form-field">
+              <label for="login-password">Mật khẩu *</label>
+              <input id="login-password" name="password" type="password" autocomplete="current-password" maxlength="64" required aria-describedby="login-password-error">
+              <small id="login-password-error" class="field-error"></small>
+            </div>
+            <button id="login-submit" class="button full" type="submit">Đăng nhập</button>
+          </form>
+          <p class="small">Dữ liệu vẫn còn khi F5 hoặc tắt Live Server. Bấm “Kết thúc buổi demo” để chủ động xóa.</p>
+        </section>
+      </div>
+    </main>
+    <!-- CHỨC NĂNG: nút reset demo dùng chung nằm trong footer. -->
+    <footer id="site-footer"></footer>
+    <noscript><p class="storage-warning">Vui lòng bật JavaScript để đăng ký hoặc đăng nhập.</p></noscript>
+  </body>
+</html>

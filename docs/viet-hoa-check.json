@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "date": "2026-10-21",
+  "javascript_files": 12,
+  "html_pages": 7,
+  "function_declarations": 135,
+  "all_custom_functions_vietnamese": true,
+  "standard_names_preserved": [
+    "Product",
+    "Cart",
+    "constructor",
+    "Browser APIs",
+    "JSON fields",
+    "Storage keys"
+  ],
+  "simple_syntax_verified": true,
+  "source_sha256": {
+    "js/du-lieu.js": "57fbf70a93b936cecf77614e316da82fe5ae4707dfaf7bab62161fd8276b59bb",
+    "js/mo-hinh.js": "d762a977753209ef13f70f1689ac9ca8c0c42bf28dc320aac73b122a8b7fe224",
+    "js/luu-tru.js": "52d5303d6aff466e6d4a8d61dd1f7d5d65c3bf0ed73549ef70a2bdc14328e189",
+    "js/hien-thi.js": "9cc8007670a45be462db85d0c23a855049391104cd7ba559b63e04c02bbd361e",
+    "js/su-kien.js": "8d223ab843cd391bcfa3f2dcf711abfd80fbe58405f0c8f9d924866d3bd18527",
+    "js/san-pham-du-phong.js": "75baaabf7d5ef6920cc081f0ec527f1862d20fd2db053002634a4e825c729f27",
+    "js/trang/trang-chu.js": "ea7d68b2f996447a792ef51a60ddebd6fb3440ab867224fb18e6a3c622e879b2",
+    "js/trang/san-pham.js": "ef03a3a6db4f2fbbc5424769f0f889ae0431f2e5216e6d08a543e243602f2436",
+    "js/trang/chi-tiet.js": "30fe9b1fb6986549d4ca18c184ff6d8fec4341b50a34812aade23b9d92cabd37",
+    "js/trang/gio-hang.js": "04822f244ff8df4dc0d25dbf73b9a253691dcb9a91dd42409dc5e438b61b2a56",
+    "js/trang/dat-hang.js": "ea182b611e032f8329c0ace20c7f98483f2b9e0193218fe21f60b5af25e27879",
+    "js/trang/tai-khoan.js": "50c7a6a0848027b778be4f9c27da3f16f2ef507f15f64be186a2fe56d6320a6d"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "pages": 6,
-  "scenario": "Extracted ZIP: all pages, local assets, cart add/reload, checkout, duplicate submission, confirmation reload",
+  "pages": 7,
+  "scenario": "Extracted ZIP: all pages, local assets, cart add/reload, checkout, duplicate submission, confirmation reload, register/login/reload/reset; nested website directory",
   "externalRequests": 0,
   "errors": []
 }

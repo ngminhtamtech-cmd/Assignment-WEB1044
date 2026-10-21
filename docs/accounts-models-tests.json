@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-19",
+  "results": [
+    {
+      "name": "C01 JSON đủ 24 sản phẩm 4 danh mục và bảy trường đúng kiểu",
+      "status": "PASS"
+    },
+    {
+      "name": "C02 Product có ít nhất năm method và Cart tính đúng giỏ riêng hai món",
+      "status": "PASS"
+    },
+    {
+      "name": "C03 Thêm record JSON tối thiểu tự render và event delegation nhận nút con",
+      "status": "PASS"
+    },
+    {
+      "name": "C04 JSON hỏng được báo rõ không làm phát sinh lỗi JS chưa xử lý",
+      "status": "PASS"
+    },
+    {
+      "name": "C05 Đăng ký chặn rỗng sai định dạng và mật khẩu không khớp",
+      "status": "PASS"
+    },
+    {
+      "name": "C06 Đăng ký thành công lưu username salt hash và chặn tên trùng khác hoa thường",
+      "status": "PASS"
+    },
+    {
+      "name": "C07 Đăng nhập sai bị chặn đăng nhập đúng giữ trạng thái khi F5 và đổi trang",
+      "status": "PASS"
+    },
+    {
+      "name": "C08 Đăng xuất giữ tài khoản giỏ và đăng nhập lại được",
+      "status": "PASS"
+    },
+    {
+      "name": "C09 Hủy reset giữ dữ liệu xác nhận reset xóa đúng khóa và đồng bộ tab khác",
+      "status": "PASS"
+    },
+    {
+      "name": "C10 Storage chặn đăng ký không báo thành công dữ liệu tài khoản hỏng không làm lỗi trang",
+      "status": "PASS"
+    },
+    {
+      "name": "C11 Giỏ giữ input focus và form giữ dữ liệu khi giá vừa đổi yêu cầu xác nhận lại",
+      "status": "PASS"
+    },
+    {
+      "name": "C12 Trang tài khoản tại 390 768 1440 và ảnh minh chứng",
+      "status": "PASS"
+    },
+    {
+      "name": "C13 Không có lỗi JavaScript chưa xử lý trong các trường hợp bổ sung",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

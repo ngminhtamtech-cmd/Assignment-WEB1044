@@ -26,7 +26,7 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(0, '127.0.0.1', () => {
-  const testFile = process.argv[2] || 'test_site.cjs';
+  const testFile = process.argv[2] || 'test_current.cjs';
   const child = spawn(process.execPath, [path.join(__dirname, testFile)], {
     stdio: 'inherit',
     env: { ...process.env, ASTRAL_TEST_URL: 'http://127.0.0.1:' + server.address().port },

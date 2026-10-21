@@ -12,8 +12,9 @@ import json, re, io
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT/'tmp/pcmarket'
 BASE = 'https://pcmarket.vn'
-PHOTO = ROOT/'PC-Astral-Market/assets/images/products'
+PHOTO = ROOT/'PC-Astral-Market/img'
 DATE = '2026-10-16'
+PHOTO.mkdir(parents=True, exist_ok=True)
 def clean(value): return ' '.join(value.split())
 def get(url):
     return urlopen(Request(url, headers={'User-Agent':'Mozilla/5.0'}), timeout=45).read()
@@ -39,7 +40,7 @@ def fetch(job):
     with Image.open(io.BytesIO(raw)) as image:
         image.verify()
         extension={'JPEG':'.jpg','PNG':'.png','WEBP':'.webp'}[image.format]
-    relative='assets/images/products/'+pid+extension
+    relative='img/'+pid+extension
     (ROOT/'PC-Astral-Market'/relative).write_bytes(raw)
     specs=[];section=''
     for row in tree.xpath('//table//tr'):

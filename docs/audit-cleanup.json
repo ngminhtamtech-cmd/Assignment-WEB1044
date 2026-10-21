@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "purpose": "Temporary assignment audit renders and extracted test copies",
+  "removed": [
+    {
+      "path": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\audit",
+      "files": 6,
+      "bytes": 386787.0
+    },
+    {
+      "path": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\audit-overview",
+      "files": 22,
+      "bytes": 4216910.0
+    },
+    {
+      "path": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\audit-quick",
+      "files": 7,
+      "bytes": 1176656.0
+    },
+    {
+      "path": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\Máy khác - nzxGcy",
+      "files": 65,
+      "bytes": 4513454.0
+    },
+    {
+      "path": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\submission-check-26klood3",
+      "files": 66,
+      "bytes": 4736653.0
+    }
+  ]
+}

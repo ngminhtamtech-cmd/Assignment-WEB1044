@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "date": "2026-10-21",
+  "pages": 21,
+  "questions": 25,
+  "wireframe_and_logic_images": 2,
+  "members_left_blank": 3,
+  "instructor": "Cô Lê Anh Đào",
+  "render_engine": "Microsoft Word PDF export + pypdfium2",
+  "renderer_limitation": "Bundled LibreOffice soffice.exe unavailable",
+  "visual_review": "All 21 rendered pages visually inspected after logic fixes and draft persistence. Final overview page 1 rechecked; other 20 pages pixel-identical. No clipping, overlap or missing Vietnamese text.",
+  "sha256": "5fee59bbe98ec566f751d5ff478b21137699c5f7fcee2b8862456b93850a586a",
+  "main_checks": 18,
+  "additional_checks": 13,
+  "score": "25/25 technical self-assessment; 15 oral explanation points not yet assessed",
+  "github_pushed": false,
+  "assignment_requirement_sections": [
+    18,
+    19
+  ],
+  "logic_scenarios": 13,
+  "logic_http_checks": 26,
+  "logic_file_checks": 26
+}

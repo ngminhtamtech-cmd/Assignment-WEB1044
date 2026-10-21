@@ -6,23 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="PC-Astral Market - Laptop, PC, màn hình và phụ kiện. Website mô phỏng môn WEB1044.">
     <title>Về Astral | PC-Astral Market</title>
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/pages.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Giữ thứ tự: dữ liệu → hàm dùng chung → logic trang. -->
-    <script defer src="js/data.js"></script>
-    <script defer src="js/utils.js"></script>
-    <script defer src="js/storage.js"></script>
-    <script defer src="js/cart.js"></script>
-    <script defer src="js/common.js"></script>
-    <script defer src="js/about.js"></script>
+
+    <!-- GIAO DIỆN: một stylesheet, chia phần bằng chú thích trong file. -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- KHỞI TẠO: du-lieu.js nạp JSON; luu-tru.js, mo-hinh.js, hien-thi.js định nghĩa chức năng; su-kien.js chạy sau cùng. -->
+    <!-- Dữ liệu dự phòng cho mở trực tiếp file HTML trên máy khác. -->
+    <script src="js/san-pham-du-phong.js" defer></script>
+    <script defer src="js/du-lieu.js"></script>
+    <script defer src="js/luu-tru.js"></script>
+    <script defer src="js/mo-hinh.js"></script>
+    <script defer src="js/hien-thi.js"></script>
+    <script defer src="js/su-kien.js"></script>
   </head>
   <body data-page="about">
     <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <!-- CHỨC NĂNG: header dùng chung do hien-thi.js tạo. -->
     <header id="site-header"></header>
     <p id="storage-warning" class="storage-warning" role="alert" hidden></p>
+    <!-- CHỨC NĂNG: nội dung chính của trang about; JavaScript điền dữ liệu vào ID/data-*. -->
     <main id="main">
       <div class="container page-content">
         <div class="breadcrumb">
@@ -75,7 +76,7 @@
           </details>
           <details>
             <summary>Dữ liệu trên trình duyệt</summary>
-            <p>Giỏ được lưu bằng LocalStorage. Đơn gần nhất được giữ trong SessionStorage của tab hiện tại. Không có máy chủ tiếp nhận thông tin; đóng phiên hoặc xóa dữ liệu trình duyệt sẽ xóa thông tin tương ứng.</p>
+              <p>Giỏ, đơn demo, tài khoản và trạng thái đăng nhập được lưu bằng LocalStorage trên trình duyệt. F5 hoặc tắt Live Server không tự xóa dữ liệu. Bấm “Kết thúc buổi demo” ở cuối trang để xóa riêng dữ liệu của website. Đăng xuất chỉ kết thúc đăng nhập, vẫn giữ tài khoản và giỏ.</p>
           </details>
           <details>
             <summary>Giá và khuyến mãi</summary>
@@ -97,6 +98,7 @@
         </section>
       </div>
     </main>
+    <!-- CHỨC NĂNG: footer có nút Kết thúc buổi demo. -->
     <footer id="site-footer"></footer>
     <noscript>
       <p class="storage-warning">Vui lòng bật JavaScript để xem sản phẩm và sử dụng giỏ hàng.</p>

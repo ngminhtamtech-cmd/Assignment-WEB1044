@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="PC-Astral Market - Laptop, PC, màn hình và phụ kiện. Website mô phỏng môn WEB1044.">
     <title>Đặt hàng | PC-Astral Market</title>
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/pages.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Giữ thứ tự: dữ liệu → hàm dùng chung → logic trang. -->
-    <script defer src="js/data.js"></script>
-    <script defer src="js/utils.js"></script>
-    <script defer src="js/storage.js"></script>
-    <script defer src="js/cart.js"></script>
-    <script defer src="js/common.js"></script>
-    <script defer src="js/checkout.js"></script>
+
+    <!-- GIAO DIỆN: một stylesheet, chia phần bằng chú thích trong file. -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- KHỞI TẠO: du-lieu.js nạp JSON; luu-tru.js, mo-hinh.js, hien-thi.js định nghĩa chức năng; su-kien.js chạy sau cùng. -->
+    <!-- Dữ liệu dự phòng cho mở trực tiếp file HTML trên máy khác. -->
+    <script src="js/san-pham-du-phong.js" defer></script>
+    <script defer src="js/du-lieu.js"></script>
+    <script defer src="js/luu-tru.js"></script>
+    <script defer src="js/mo-hinh.js"></script>
+    <script defer src="js/hien-thi.js"></script>
+    <script defer src="js/trang/dat-hang.js"></script>
+    <script defer src="js/su-kien.js"></script>
   </head>
   <body data-page="checkout">
     <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <!-- CHỨC NĂNG: header dùng chung do hien-thi.js tạo. -->
     <header id="site-header"></header>
     <p id="storage-warning" class="storage-warning" role="alert" hidden></p>
+    <!-- CHỨC NĂNG: nội dung chính của trang checkout; JavaScript điền dữ liệu vào ID/data-*. -->
     <main id="main">
       <div class="container page-content">
         <div id="checkout-heading">
@@ -117,6 +119,10 @@
             <h1>Đặt hàng mô phỏng thành công!</h1>
             <p>Cảm ơn <strong id="confirmation-customer"></strong> đã ghé PC-Astral Market.</p>
             <div class="demo-notice">Đây là đơn mô phỏng cho bài tập. Không phát sinh giao dịch, giao hàng hay email xác nhận.</div>
+            <!-- KHÔI PHỤC SAU LỖI: chỉ thử dọn giỏ của đơn đã lưu, không gửi đơn lần nữa. -->
+            <p id="cart-cleanup-message" role="status" hidden></p>
+            <button id="retry-cart-cleanup" class="button secondary" type="button" hidden>Thử dọn giỏ của đơn này</button>
+            <p id="draft-cleanup-message" role="status" hidden></p>
             <div class="confirmation-meta">
               <div>
                 <span>Mã đơn hàng</span>
@@ -139,6 +145,7 @@
             </div>
             <a class="button" href="products.html">Tiếp tục khám phá </a>
           </section>
+          <!-- MẪU DÒNG: JavaScript nhân bản template, không viết tay từng sản phẩm. -->
           <template id="checkout-line-template">
             <div>
               <span>
@@ -148,6 +155,7 @@
               <b data-line-total></b>
             </div>
           </template>
+          <!-- MẪU DÒNG: JavaScript nhân bản template, không viết tay từng sản phẩm. -->
           <template id="confirmation-line-template">
             <div data-confirmed-line>
               <span></span>
@@ -157,6 +165,7 @@
         </div>
       </div>
     </main>
+    <!-- CHỨC NĂNG: footer có nút Kết thúc buổi demo. -->
     <footer id="site-footer"></footer>
     <noscript>
       <p class="storage-warning">Vui lòng bật JavaScript để xem sản phẩm và sử dụng giỏ hàng.</p>

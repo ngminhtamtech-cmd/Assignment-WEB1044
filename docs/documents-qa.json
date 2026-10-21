@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-21",
+  "status": "PASS",
+  "renderer": "Microsoft Word COM PDF export and pypdfium2 PNG",
+  "renderer_note": "LibreOffice not available in bundled environment; inspected all 17 Word-rendered pages.",
+  "documents": [
+    {
+      "file": "BaoCao_Assignment2_PC-Astral-Market.docx",
+      "pages": 9,
+      "figures": 4,
+      "sha256": "a4513b5879c123a1861748de1326130f2dd93a6ba5f9035fd2e534865269f103",
+      "all_pages_rendered_and_visually_reviewed": true,
+      "layout": "PASS"
+    },
+    {
+      "file": "UseCase_Logic_Ham_PC-Astral-Market.docx",
+      "pages": 8,
+      "figures": 7,
+      "sha256": "20b336cfb6d565ea47de8ff6df2efac828ace009c9f43fd49945cde84e55deee",
+      "all_pages_rendered_and_visually_reviewed": true,
+      "layout": "PASS"
+    }
+  ],
+  "root_docx_count": 2
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "purpose": "Remove reviewed renders and verified extracted test copies",
+  "removed": [
+    {
+      "path": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\logic-overview",
+      "files": 23,
+      "bytes": 4470087.0
+    },
+    {
+      "path": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\logic-quick",
+      "files": 7,
+      "bytes": 1410684.0
+    },
+    {
+      "path": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\Máy khác - bN0OTi",
+      "files": 65,
+      "bytes": 4521647.0
+    },
+    {
+      "path": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\submission-check-mywpobmu",
+      "files": 66,
+      "bytes": 4746453.0
+    },
+    {
+      "path": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\submission-check-c049f380",
+      "files": 66,
+      "bytes": 4745560.0
+    }
+  ]
+}

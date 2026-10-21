@@ -1,226 +1,187 @@
 # PC-Astral Market — Assignment WEB1044
 
-PC-Astral Market là website bán máy tính mô phỏng cho môn **Lập trình cơ sở với JavaScript (WEB1044)**. Dự án thực hành cách tổ chức dữ liệu, thao tác DOM, xử lý sự kiện, kiểm tra form và lưu trạng thái trên trình duyệt bằng **HTML, CSS và JavaScript thuần**.
+## Cập nhật giữ dữ liệu và sửa lỗi ngày 21/10
 
-Website có **6 trang, 24 sản phẩm, 4 danh mục**, hoạt động bằng dữ liệu tĩnh và chạy trên máy cá nhân. Không cần backend, API, SQL, npm, bước build hoặc hosting để trình bày bài.
+- Form đặt hàng lưu nháp năm trường vào `pc-astral.checkout-draft.v1`, khôi phục khi F5; không lưu mật khẩu đang gõ. Nháp xóa sau khi đơn lưu thành công hoặc kết thúc demo. Tab khác không tự ghi đè form đang mở.
+- Đơn có cờ `choDonGio`. Nếu lưu đơn thành công nhưng dọn giỏ lỗi, xác nhận vẫn giữ mã đơn; nút thử lại chỉ dọn giỏ còn khớp, không tạo thêm đơn và không tự xóa giỏ mua mới.
+- Khi giá hoặc nội dung giỏ đổi, người mua phải xác nhận lại dù tổng tiền đã tự cập nhật. So sánh cả ID, số lượng và đơn giá.
+- Tài khoản vẫn giữ username, salt và mã băm qua F5/tắt server/đăng xuất. Kiểm tra dấu reset sau `await` ngăn tác vụ đăng ký/đăng nhập cũ ghi dữ liệu trở lại sau kết thúc demo.
+- Giữ tên hàm tiếng Việt, tách đọc form để dùng chung, gộp nhánh đăng nhập lặp. Chi tiết: [kết quả sửa lỗi](docs/sua-loi-logic.md).
 
-- **Kho GitHub:** [ngminhtamtech-cmd/Assignment-WEB1044](https://github.com/ngminhtamtech-cmd/Assignment-WEB1044)
-- **Báo cáo Word:** [Tải báo cáo Assignment 2](submission/BaoCao_Assignment2_PC-Astral-Market.docx)
-- **Gói nộp:** [Tải ZIP website và báo cáo](submission/WEB1044_LapTrinhJSCoBan_PC-Astral-Market_Assignment.zip)
-- **Hướng dẫn riêng của website:** [PC-Astral-Market/README.md](PC-Astral-Market/README.md)
-- **Ảnh minh chứng:** [docs/screenshots](docs/screenshots)
+Kho dự án nhóm môn Lập trình cơ sở với JavaScript. Giảng viên hướng dẫn **Cô Lê Anh Đào**, nhóm 3 thành viên; tên/MSSV vẫn để trống trong tài liệu.
 
-Giảng viên hướng dẫn: **Cô Lê Anh Đào**. Nhóm gồm **3 thành viên**; tên và MSSV được để trống trên bìa để nhóm tự bổ sung.
+- [Kho GitHub](https://github.com/ngminhtamtech-cmd/Assignment-WEB1044)
+- [Báo cáo Y3 — 9 trang](BaoCao_Assignment2_PC-Astral-Market.docx)
+- [Use Case, logic và các hàm — 8 trang](UseCase_Logic_Ham_PC-Astral-Market.docx)
+- [ZIP website và tài liệu hiện tại](submission/WEB1044_LapTrinhJSCoBan_PC-Astral-Market_Assignment.zip)
+- [Cấu trúc chi tiết và vị trí sửa mã](docs/current-structure.md)
+- [Đối chiếu đề Y1–Y3 và kết quả rà soát JavaScript](docs/doi-chieu-de-bai.md)
+- [Nguồn ảnh](PC-Astral-Market/ASSET-SOURCES.md)
 
-## 1. Mục tiêu và phạm vi
+Báo cáo Y3 đã viết lại theo cấu trúc tiếng Việt hiện hành, gồm ba chức năng tự đề xuất và lý do, sơ đồ phân tích, công nghệ/thư viện và kết quả kiểm thử. Tài liệu thứ hai chỉ gồm Use Case, logic và tra cứu hàm. Các Word cũ đã được thay thế; dự án chỉ giữ hai file DOCX này.
 
-Người xem có thể tìm một máy tính phù hợp, xem cấu hình, thêm sản phẩm vào giỏ, điều chỉnh số lượng và điền thông tin đặt hàng. Sau khi kiểm tra hợp lệ, website tạo xác nhận đơn mô phỏng trong trình duyệt.
-
-Đây là bài tập frontend. Website không gửi đơn tới cửa hàng, không gửi email, không nhận thanh toán thật và không có tài khoản hay trang quản trị. Thông tin giá và tồn kho phục vụ minh họa, không phải dữ liệu kinh doanh cập nhật.
-
-## 2. Chạy dự án
-
-### Cách 1 — VS Code Live Server
-
-1. Tải ZIP từ GitHub và giải nén, hoặc clone kho:
-
-   ```bash
-   git clone https://github.com/ngminhtamtech-cmd/Assignment-WEB1044.git
-   ```
-
-2. Trong VS Code, mở đúng thư mục **`Assignment-WEB1044/PC-Astral-Market`**.
-3. Cài tiện ích **Live Server** của Ritwick Dey nếu chưa có.
-4. Nhấp phải `index.html` → **Open with Live Server**.
-5. Chuyển trang bằng các liên kết trong website; giữ cùng hostname và cổng để các trang dùng chung giỏ hàng.
-
-Nếu đã có Live Server của dự án khác đang chạy, dừng server đó trước khi mở website này. Khi mở trực tiếp thư mục `PC-Astral-Market`, địa chỉ thường có dạng `http://127.0.0.1:5500/index.html`; cổng thực tế có thể khác.
-
-### Cách 2 — Máy chủ tĩnh của Python
-
-Nếu máy đã có Python, mở terminal ở thư mục kho và chạy:
+## Tải mã
 
 ```bash
-cd PC-Astral-Market
-python -m http.server 5500
+git clone https://github.com/ngminhtamtech-cmd/Assignment-WEB1044.git
 ```
 
-Mở [http://localhost:5500](http://localhost:5500). Dùng `Ctrl+C` trong terminal để dừng server. Nếu cổng đang bận, chọn cổng khác và dùng cổng đó xuyên suốt buổi demo.
+Mở thư mục con PC-Astral-Market để chạy website. Các phần bên dưới cũng có trong README nằm trong gói website.
 
-Chạy qua HTTP local để kiểm thử lưu trữ giữa các trang; không dùng đường dẫn `file://`. Máy chủ tĩnh chỉ phục vụ tệp, không phải backend xử lý đơn hàng. Ảnh và font đều được lưu trong dự án nên website không cần CDN khi demo.
 
-## 3. Các trang và chức năng
+Website bán máy tính mô phỏng môn WEB1044, dùng HTML, CSS và JavaScript thuần. Phiên bản **20/10/2026** có **24 sản phẩm, 4 danh mục, 7 trang**, JSON, class Product/Cart và tài khoản demo.
 
-| Trang | Tệp | Nội dung chính |
+## Chạy dự án
+
+Mở đúng thư mục `PC-Astral-Market` bằng VS Code, nhấp phải `index.html` → **Open with Live Server**. Dừng server của dự án khác nếu đang mở nhầm trang. Giữ cùng hostname và cổng khi chuyển trang.
+
+**Chạy nhanh trên máy khác:** giải nén toàn bộ ZIP, vào thư mục `PC-Astral-Market` và nhấp đúp `index.html`. Chế độ `file://` đọc bản JSON nhúng trong `js/san-pham-du-phong.js`, không dùng fetch nên không còn lỗi Failed to fetch. Đã thử Chrome và Edge với chuyển trang, giỏ, tài khoản và đặt hàng. Ảnh/font đều cục bộ.
+
+**Khi sửa dữ liệu để bảo vệ:** nên dùng Live Server; chế độ HTTP luôn đọc trực tiếp `js/products.json`, sửa xong F5 là thấy. Bản nhúng không tự cập nhật khi sửa JSON: chạy `tools/sync_offline_products.py` hoặc công cụ đóng gói `tools/package_submission.py` ở thư mục dự án để đồng bộ. Hai công cụ này dùng Python, chỉ cần trên máy chuẩn bị gói nộp; máy xem bài không cần cài. Không sửa tay `san-pham-du-phong.js`.
+
+Giữ cùng cách mở khi demo. Dữ liệu LocalStorage của file trực tiếp và localhost có thể khác nhau; không trông chờ chuyển giỏ giữa hai cách mở. Live Server vẫn phù hợp khi dùng trình duyệt khác hoặc chính sách máy chặn lưu trữ file. Không cần npm, backend hoặc hosting.
+
+## Chức năng và các trang
+
+| Trang | Tệp | Chức năng |
 |---|---|---|
-| Trang chủ | `index.html` | Slider, danh mục, sản phẩm mới/hot/khuyến mãi, countdown |
-| Danh sách sản phẩm | `products.html` | Tìm kiếm, lọc, sắp xếp, số kết quả và trạng thái không tìm thấy |
-| Chi tiết sản phẩm | `product-detail.html` | Ảnh, cấu hình, giá, tồn kho minh họa, chọn số lượng và thêm giỏ |
-| Giỏ hàng | `cart.html` | Thêm/gộp sản phẩm, sửa số lượng, xóa, thành tiền và tổng tiền |
-| Đặt hàng | `checkout.html` | Kiểm tra form, tóm tắt giỏ và xác nhận đơn mô phỏng |
-| Giới thiệu | `about.html` | Giới thiệu đề tài, chính sách và liên hệ minh họa |
+| Trang chủ | index.html | Slider, nhóm mới/hot/khuyến mãi, countdown |
+| Danh sách | products.html | Tìm không dấu, lọc AND, sắp xếp, giữ lựa chọn trên URL |
+| Chi tiết | product-detail.html | Ảnh, cấu hình, giá, tồn kho, chọn số lượng |
+| Giỏ | cart.html | Gộp trùng, tăng/giảm/xóa, tổng tự cập nhật |
+| Đặt hàng | checkout.html | Validation, lưu đơn trước khi xóa giỏ, chặn gửi lặp |
+| Tài khoản | register.html | Đăng ký, đăng nhập, đăng xuất demo |
+| Giới thiệu | about.html | Mô tả và chính sách minh họa |
 
-### Sản phẩm, tìm kiếm và bộ lọc
+Khách không bắt buộc đăng nhập để đặt đơn. Số lượng phải là số nguyên từ 1 đến tồn kho; nhập 0/âm/lẻ/quá tồn bị chặn và giữ số cũ. Muốn bỏ món dùng nút Xóa. Giỏ rỗng có thông báo và không thể đặt hàng. Phí giao hàng demo bằng 0.
 
-- Bốn danh mục: **Laptop, PC để bàn, Màn hình, Phụ kiện**; mỗi danh mục có 6 sản phẩm.
-- Ba nhóm **mới, hot, khuyến mãi** độc lập với danh mục; một sản phẩm có thể thuộc nhiều nhóm.
-- Tìm theo tên hoặc thương hiệu, không phân biệt hoa/thường và dấu tiếng Việt.
-- Lọc đồng thời theo danh mục, thương hiệu, nhóm và khoảng giá; sản phẩm phải thỏa tất cả điều kiện.
-- Khoảng giá: dưới 5 triệu; từ 5 đến dưới 15 triệu; từ 15 đến dưới 30 triệu; từ 30 triệu.
-- Sắp xếp mặc định, giá tăng, giá giảm hoặc tên A–Z; không sửa mảng sản phẩm gốc.
-- Trạng thái tìm/lọc/sắp xếp được lưu trên URL nên tải lại vẫn giữ lựa chọn.
+## Dữ liệu JSON và class
 
-Ví dụ URL trong website:
+`js/products.json` là mảng JSON chuẩn, có đủ `id`, `name`, `price`, `imgUrl`, `description`, `category`, `quantity`. Các trường thêm phục vụ thương hiệu, giá giảm và cấu hình. `du-lieu.js` nạp/kiểm tra JSON; `su-kien.js` chờ xong rồi tạo Product và Cart.
 
-```text
-products.html?category=laptop
-products.html?group=new
-products.html?q=asus
-product-detail.html?id=p01
-```
+Ảnh dùng đường dẫn tương đối `img/p01.jpg`, có dấu `/` giữa thư mục và file, **không có dấu `/` ở đầu**. Product.quantity là tồn kho; CartItem.quantity là số khách chọn mua.
 
-### Slider và countdown
+- Product: `dangGiamGia`, `layGia`, `layGiaHienThi`, `conHang`, `coTheMua`, `layTenDanhMuc`.
+- Cart: `themSanPham`, `xoaSanPham`, `doiSoLuong`, `layTongTien`, `tinhTongGio`, `layGio`, `xoaGio`, `kiemTraGio`.
+- Event delegation: `document` nhận nút thêm giỏ; `#cart-rows` nhận tăng/giảm/xóa và đổi số lượng.
+- Các script dùng `defer`, trao đổi qua `window.PCAstral`, không dùng `import/export`.
 
-Slider có 3 banner, nút trước/tiếp, chấm chọn và tự chuyển sau 6 giây. Tự chuyển được tạm dừng khi rê chuột, focus bằng bàn phím, bấm tạm dừng hoặc tab bị ẩn.
+Ví dụ URL: `products.html?category=laptop`, `products.html?q=asus`, `products.html?group=new`, `product-detail.html?id=p01`.
 
-Chiến dịch khuyến mãi kết thúc lúc **23:59:59 ngày 30/10/2026, múi giờ UTC+07:00**. Thời hạn được đặt cố định trong `js/data.js`, không tạo lại khi reload. Hết hạn, đồng hồ dừng và sản phẩm dùng lại giá thường ở tất cả các trang. Nếu demo sau ngày này, có thể chủ động đặt một thời hạn tương lai cố định trong dữ liệu trước buổi trình bày.
+## Cách đọc JavaScript bản đơn giản ngày 20/10/2026
 
-### Giỏ hàng và đặt hàng
+Tên file JS và hàm tự viết đã đổi sang tiếng Việt không dấu: `themSanPham`, `doiSoLuong`, `tinhTongGio`, `hienThiGioHang`, `xuLyDatHang`. Biến nghiệp vụ dùng các tên như `sanPham`, `gioHang`, `tongTien`, `soLuong`. Product và Cart giữ tên class theo mẫu môn học; các trường JSON, khóa lưu trữ và tham số URL giữ nguyên để dữ liệu đang lưu tiếp tục dùng được.
 
-- Thêm trùng sản phẩm sẽ tăng số lượng trên dòng hiện có.
-- Số lượng phải là số nguyên từ 1 đến tồn kho; nhập sai giữ lại giá trị hợp lệ trước đó. Xóa hàng dùng nút riêng.
-- Tổng tiền bằng tổng thành tiền các dòng; phí vận chuyển mô phỏng bằng 0.
-- LocalStorage giữ giỏ sau khi reload/chuyển trang và đồng bộ giữa các tab cùng origin.
-- Form bắt buộc họ tên, email, điện thoại và địa chỉ; ghi chú không bắt buộc.
-- Điện thoại nhận 10 chữ số bắt đầu bằng `0`, hoặc dạng `+84` tương ứng sau chuẩn hóa.
-- Lỗi hiển thị cạnh trường; focus tới trường lỗi đầu tiên, giữ dữ liệu đang nhập.
-- Giá vừa thay đổi thì yêu cầu xem lại tổng và xác nhận lại; chặn gửi lặp trong lúc xử lý.
-- Lưu đơn vào SessionStorage thành công **trước khi xóa giỏ**. Nếu lưu lỗi, giữ giỏ để thử lại.
-- Xác nhận đơn gần nhất có thể tải lại trong cùng phiên; đây không phải lịch sử đơn hàng của tài khoản.
+`constructor`, `addEventListener`, `JSON.parse`, `localStorage`, `fetch`, `sort` là tên chuẩn của JavaScript hoặc trình duyệt nên giữ nguyên. Tìm/lọc/tính tổng dùng vòng for; hàm so sánh sort được khai báo đầy đủ. Các bước bỏ dấu và chuẩn hóa số điện thoại viết riêng từng dòng; banner về đầu/cuối dùng if/else. Phần băm mật khẩu dùng Web Crypto có chú thích và vẫn giữ tài khoản đã đăng ký.
 
-## 4. Đối chiếu yêu cầu Assignment
+
+Các hàm được khai báo bằng `function tenHam(thamSo) { ... }`, sau đó mới gọi hoặc truyền tên hàm vào sự kiện. Class Product và Cart giữ cú pháp phương thức của class. Biến đều dùng `const` hoặc `let`, object chia sẻ ghi đủ `tenThuocTinh: giaTri`.
+
+- Dùng vòng `for` để tìm sản phẩm, sao chép dòng giỏ, lọc danh sách và cộng tổng tiền từ 0.
+- Dùng `if/else` có dấu ngoặc khối; đã bỏ arrow function, toán tử ba ngôi, spread, destructuring và hàm tự chạy IIFE.
+- Đọc từng trường form qua `form.elements.tenTruong.value`, dễ đối chiếu với HTML.
+- `sort` dùng hàm so sánh có tên. Không thay đổi thứ tự mảng sản phẩm gốc.
+- `fetch`/`async`/`await` chỉ phục vụ đọc JSON và thao tác tài khoản có băm mật khẩu; có chú thích tại đoạn sử dụng.
+- Vẫn dùng `addEventListener`, event delegation, DOM, JSON và LocalStorage theo môn học.
+
+Nên đọc `mo-hinh.js` → `luu-tru.js` → `hien-thi.js` → `su-kien.js` → file trong `trang/`. Khi theo dõi nút Thêm giỏ: `xuLyBamNutChung` → `xuLyThemGio` → `themSanPham` → `baoGioThayDoi` → `luuGio` → giao diện nhận `cart-changed`.
+
+| Bài học trong ảnh | Vị trí thực hành |
+|---|---|
+| Biến, kiểu dữ liệu, ép kiểu | `du-lieu.js`: kiểm tra kiểu; `su-kien.js`: Number đổi số lượng từ input |
+| Điều kiện, vòng lặp | `mo-hinh.js`: kiểm tra tồn kho, tìm dòng và cộng tổng |
+| Khai báo hàm, tham số, return | `hien-thi.js`: dinhDangTien, boDau, locSanPham |
+| Mảng và object | `products.json`, danh sách items trong Cart, mảng kết quả lọc |
+| OOP cơ bản | `mo-hinh.js`: class Product, Cart, constructor và các phương thức |
+| BOM, DOM | `trang/`: đọc input, tạo dòng từ template, cập nhật textContent |
+| Sự kiện | `su-kien.js`, `trang/gio-hang.js`: nghe ở thẻ cha và tìm nút bằng closest |
+| API trình duyệt | `luu-tru.js`: LocalStorage/JSON; `trang/trang-chu.js`: timer |
+
+## Tìm đúng nơi để sửa
+
+| Công việc | Tệp |
+|---|---|
+| Thêm/sửa sản phẩm | js/products.json |
+| Banner, danh mục, hạn khuyến mãi | js/du-lieu.js |
+| Class, giá và giới hạn số lượng | js/mo-hinh.js |
+| Lưu trữ, tài khoản, reset | js/luu-tru.js |
+| Tìm/lọc/sắp xếp và giao diện chung | js/hien-thi.js |
+| Khởi tạo và sự kiện dùng chung | js/su-kien.js |
+| Logic riêng từng trang | js/trang/ |
+| Bố cục, form, template | HTML tương ứng ở gốc |
+| Font, màu, trang và responsive | Các phần đánh số trong css/style.css |
+
+HTML ngang cấp css, img, js như mẫu. Các trang mở rộng và js/trang được giữ để đáp ứng đủ Y1–Y3 mà không dồn logic vào một file. Chú thích trong JS và HTML đánh dấu theo tính năng.
+
+## Giữ dữ liệu khi F5 và kết thúc demo
+
+**F5 và tắt Live Server không tự xóa LocalStorage.** Theo phương án đã chọn, bấm **Kết thúc buổi demo** ở footer và xác nhận để xóa riêng dữ liệu website. Không có `unload`/`beforeunload` xóa dữ liệu vì F5 và chuyển trang cũng kích hoạt việc rời trang.
+
+| Khóa | Dữ liệu |
+|---|---|
+| pc-astral.cart.v1 | productId và quantity |
+| pc-astral.last-order.v1 | Snapshot đơn gần nhất |
+| pc-astral.users.v1 | Username, salt và passwordHash |
+| pc-astral.auth.v1 | Username đang đăng nhập |
+| pc-astral.demo-reset.v1 | Dấu thời gian báo reset các tab khác |
+
+Đăng xuất chỉ xóa trạng thái đăng nhập, giữ tài khoản và giỏ. Username được trim/chuyển chữ thường. Mật khẩu không lưu nguyên văn: Web Crypto tạo mã băm PBKDF2/SHA-256 và salt ngẫu nhiên. Đây chỉ là demo; người dùng có thể sửa LocalStorage, không phải cơ chế xác thực cho cửa hàng thật. Dùng mật khẩu riêng cho bài tập.
+
+Đoạn cần chỉ khi bảo vệ: **GIỮ DỮ LIỆU KHI F5** trong su-kien.js và **XÓA BUỔI DEMO** trong luu-tru.js. Reset không dùng `localStorage.clear()` để tránh xóa dữ liệu dự án khác.
+
+Storage bị chặn thì báo rõ; giỏ chỉ được giữ tạm trong trang đang mở. Đăng ký hoặc lưu đơn thất bại không báo thành công. JSON hỏng được báo ở giao diện. Giữ cùng origin để dữ liệu dùng chung.
+
+## Demo và nguồn tài nguyên
+
+Tìm ASUS → thêm p01 và p07 → thêm p01 lần nữa → sửa số lượng → thử 0 → xóa một món → F5 → đặt đơn sai rồi đúng → đăng ký/đăng nhập → F5 → kết thúc demo.
+
+Khuyến mãi kết thúc **30/10/2026 lúc 23:59:59 +07:00**. Hết hạn, mọi trang dùng giá thường. Khi cần luyện sau ngày đó, đặt hạn tương lai cố định trong du-lieu.js; không tạo lại thời hạn mỗi lần reload.
+
+Ảnh/thông số/giá tham khảo PC Market ngày 16/10/2026, xem ASSET-SOURCES.md. Sarabun local có giấy phép ở assets/fonts/sarabun/OFL.txt. Không dùng thư viện JS bên ngoài, SVG, CDN, thanh toán hoặc gửi đơn thật. Tồn kho tĩnh chưa trừ sau đơn demo.
+
+## Đối chiếu yêu cầu
 
 | Yêu cầu | Phần đáp ứng |
 |---|---|
-| Y1.1 — Khởi tạo | Dữ liệu object, hàm render, sự kiện và logic riêng từng trang |
-| Y1.2 — Sản phẩm | Mảng 24 sản phẩm; danh mục, ba nhóm, ảnh, giá, nút thao tác, hover/focus |
-| Y1.3 — Slider | Điều khiển và tự chuyển bằng JavaScript |
-| Y1.4 — Form | Kiểm tra rỗng, email, số điện thoại và báo lỗi từng trường |
-| Y1.5 — Giỏ hàng | Thêm, xóa, đổi số lượng, lưu LocalStorage |
-| Y1.6 — Nâng cao | Countdown và cập nhật giá khi hết khuyến mãi |
-| Y1.7 — Tự đề xuất | Tìm kiếm, lọc và sắp xếp; có lý do và tình huống kiểm thử trong báo cáo |
-| Y2 — Tổ chức mã | HTML ở gốc website; JS trong `js`; CSS trong `css` |
-| Y3 — Báo cáo | Phân tích, sơ đồ, ảnh minh chứng, kiểm thử, công cụ và hướng dẫn chạy |
+| Y1.1 | Khởi tạo dữ liệu, class, render và sự kiện |
+| Y1.2 | 24 sản phẩm, 4 danh mục, nhóm mới/hot/sale, ảnh và thao tác |
+| Y1.3 | Slider JavaScript, nút/dot/tự chuyển và tạm dừng |
+| Y1.4 | Form đặt hàng và tài khoản có kiểm tra dữ liệu |
+| Y1.5 | Giỏ thêm/xóa/sửa, tính tổng, LocalStorage |
+| Y1.6 | Countdown cố định và cập nhật giá hết hạn |
+| Y1.7 | Tìm kiếm, lọc và sắp xếp |
+| Y2 | HTML ở gốc, CSS trong css, JavaScript trong js, ảnh trong img |
+| Y3 | Báo cáo trước và tài liệu tổng quan mới với checklist, phác thảo, giải thích logic |
 
-## 5. Cấu trúc kho
+## Kiểm thử và tài liệu hiện tại
 
-```text
-Assignment-WEB1044/
-├── README.md
-├── .gitignore
-├── .gitattributes
-├── PC-Astral-Market/
-│   ├── index.html
-│   ├── products.html
-│   ├── product-detail.html
-│   ├── cart.html
-│   ├── checkout.html
-│   ├── about.html
-│   ├── css/                 # fonts, base, components, pages, responsive
-│   ├── js/                  # dữ liệu, logic dùng chung và logic từng trang
-│   ├── assets/
-│   │   ├── images/products/ # 24 ảnh sản phẩm JPG/PNG
-│   │   └── fonts/sarabun/   # font local và giấy phép
-│   ├── README.md
-│   └── ASSET-SOURCES.md
-├── docs/
-│   ├── diagrams/            # sơ đồ logic, PNG và nguồn Draw.io
-│   ├── screenshots/         # ảnh giao diện thật
-│   └── ...                  # nguồn dữ liệu và kết quả kiểm thử
-├── tools/                   # công cụ hỗ trợ kiểm thử, báo cáo và đóng gói
-├── submission/
-│   ├── BaoCao_Assignment2_PC-Astral-Market.docx
-│   └── WEB1044_LapTrinhJSCoBan_PC-Astral-Market_Assignment.zip
-├── BaoCao_Assignment2_PC-Astral-Market.docx
-└── WEB1044_LapTrinhJSCoBan_PC-Astral-Market_Assignment.zip
-```
+- [18 nhóm kiểm thử chính](docs/current-tests.json): Chrome và Edge, ngày 20/10/2026.
+- [13 nhóm kiểm tra JSON class tài khoản reset](docs/accounts-models-tests.json): Chrome.
+- [Ảnh giao diện hiện tại](docs/screenshots/current).
+- [Phác thảo và sơ đồ giỏ](docs/diagrams/current).
+- [Kiểm tra ZIP giải nén](docs/package-smoke.json).
 
-Hai tệp bàn giao ở gốc giống bản trong `submission` để thuận tiện lấy bài. ZIP chỉ chứa thư mục website và DOCX; không có ZIP lồng nhau. Tệp tạm, bản sao lưu, cache, thư viện cài trên máy và tệp khóa Word không đưa lên GitHub.
+Tài liệu Use Case, logic và các hàm có ba sơ đồ Use Case, bốn sơ đồ xử lý và bảng tra cứu các hàm chính theo file/số dòng. Báo cáo Y3 giữ các nội dung chấm bài; không đưa danh sách câu hỏi dài hoặc tự chấm điểm bảo vệ vào bản nộp.
 
-## 6. Tổ chức JavaScript và dữ liệu
+Công cụ hiện tại: `tools/run_tests.cjs test_current.cjs`, `tools/run_tests.cjs test_accounts_models.cjs`, `tools/build_documents.py`, `tools/export_documents.ps1`, `tools/render_documents.py`, `tools/package_submission.py`, `tools/check_package.cjs`. Một số công cụ cấu hình đường dẫn runtime/Playwright/font trên máy phát triển; điều chỉnh khi dùng máy khác. Website không cần chạy các công cụ này.
 
-Website dùng các thẻ **`script defer`**, không dùng `import/export`. Thứ tự nạp: `data.js` → `utils.js` → `storage.js` → `cart.js` → `common.js` → file của trang.
+Các công cụ sinh Word cũ đã được dọn để tránh tạo lại tài liệu lỗi thời. `build_documents.py` là nguồn soạn hai Word hiện hành. `build_assets.py` chỉ tái tạo JSON từ snapshot nguồn; không ghi đè du-lieu.js/HTML. Các log cũ trong docs là bằng chứng lịch sử; kiểm tra phiên bản hiện tại bằng các log được nêu ở docs/don-gian-hoa-va-tai-lieu.md.
 
-| Thành phần | Trách nhiệm |
-|---|---|
-| `PCAstral.data` | Danh mục, sản phẩm, banner, thời hạn khuyến mãi |
-| `PCAstral.utils` | Định dạng tiền, giá hiện hành, tìm/lọc/sắp xếp, kiểm tra thông tin |
-| `PCAstral.storage` | Đọc/ghi JSON, xử lý dữ liệu hỏng hoặc storage bị chặn |
-| `PCAstral.cart` | Thêm, sửa, xóa, chuẩn hóa giỏ và tính tổng |
-| `PCAstral.ui` | Header, footer, thẻ sản phẩm, thông báo và sự kiện chung |
-| File riêng từng trang | Hiển thị dữ liệu và xử lý tương tác của trang đó |
+## Phối hợp nhóm qua GitHub
 
-HTML giữ bố cục cố định, form và các `<template>`. JavaScript điền dữ liệu và cập nhật trạng thái. CSS chia thành font, nền tảng, thành phần, bố cục trang và responsive. Xem [hướng dẫn tìm nơi sửa](PC-Astral-Market/README.md#tìm-đúng-nơi-để-sửa).
+1. Tạo Issue nêu việc cần làm, người phụ trách và điều kiện hoàn thành.
+2. Lấy main mới nhất, tạo nhánh riêng như feature/accounts hoặc fix/cart.
+3. Sửa đúng phạm vi, chạy kiểm thử rồi commit nội dung cụ thể.
+4. Push nhánh, mở Pull Request để một thành viên khác đọc và kiểm tra.
+5. Merge sau khi đạt, cập nhật tài liệu và ZIP khi cần. Không force-push nhánh chung.
 
-Mỗi sản phẩm có mã ổn định, tên, danh mục, thương hiệu, giá, ảnh, mô tả, thông số, tồn kho và nhóm hiển thị. Giá là số nguyên VNĐ; chỉ định dạng thành chuỗi khi đưa ra giao diện.
+Chọn một người tổng hợp Word, các thành viên khác góp ý để tránh ghi đè file nhị phân. Không đưa mật khẩu hoặc dữ liệu khách hàng thật lên kho. Đây là quy trình đề xuất cho nhóm, không phải xác nhận rằng từng thành viên đã tạo PR hay được chấm điểm bảo vệ.
 
-| Khóa lưu trữ | Nơi lưu | Nội dung |
-|---|---|---|
-| `pc-astral.cart.v1` | LocalStorage | Mã sản phẩm và số lượng; tên/ảnh/giá được tra lại từ dữ liệu |
-| `pc-astral.last-order.v1` | SessionStorage | Đơn gần nhất: mã, thời điểm, người nhận, sản phẩm, giá và tổng lúc đặt |
+## Thư mục sau khi dọn ngày 21/10/2026
 
-Nếu storage bị chặn, website thông báo rõ và chỉ giữ giỏ tạm ở trang hiện tại. Muốn reset demo, xóa riêng hai khóa trên trong DevTools; không xóa toàn bộ storage của origin có dữ liệu khác.
-
-## 7. Kiểm thử và kịch bản demo
-
-Kết quả đã ghi nhận:
-
-- [18 nhóm kiểm thử chức năng](docs/test-results.md) trên Chrome/Edge ngày 17/10/2026.
-- [7 nhóm kiểm tra sau refactor](docs/refactor-tests.json), gồm giữ focus khi sửa giỏ, giữ form khi giá đổi và lưu đơn trước khi xóa giỏ.
-- [Kiểm tra gói ZIP giải nén](docs/package-smoke.json): sáu trang, tài nguyên local, giỏ, đặt hàng, gửi lặp và reload xác nhận.
-- Responsive ở chiều rộng 390, 768 và 1440 px; thao tác bằng bàn phím; xử lý JSON lỗi, storage bị chặn và khuyến mãi hết hạn.
-
-Trình tự demo đề xuất:
-
-1. Mở trang chủ, giới thiệu ba nhóm sản phẩm và điều khiển slider.
-2. Tìm ASUS, lọc Laptop và mức giá từ 30 triệu, đổi cách sắp xếp.
-3. Xem chi tiết, thêm cùng sản phẩm hai lần để thấy gộp số lượng.
-4. Sửa số lượng, thử nhập sai, xóa một dòng, reload để kiểm tra lưu giỏ.
-5. Gửi form rỗng/sai định dạng rồi điền hợp lệ.
-6. Xác nhận đơn mô phỏng, kiểm tra giỏ được xóa và reload xác nhận.
-
-Các công cụ trong `tools` không được tải vào website. Một số công cụ kiểm thử/tạo báo cáo đang cấu hình đường dẫn runtime, Playwright hoặc font của môi trường phát triển; cần điều chỉnh trước khi dùng trên máy khác. Không cần chạy chúng để mở website. Word có thể sửa trực tiếp; nếu chạy lại `build_report.py`, nội dung báo cáo sẽ được tạo lại từ nguồn Python.
-
-## 8. Báo cáo và sơ đồ
-
-Báo cáo gồm tổng quan, đối chiếu Y1–Y3, tổ chức mã, dữ liệu, Use Case, giải thích logic bằng hình, ảnh giao diện, kiểm thử và hướng dẫn chạy. Phần quản lý GitHub trình bày cách chia việc trong nhóm và quy trình đề xuất cho các lần cập nhật tiếp theo.
-
-- Ba sơ đồ Use Case: tổng quan; tìm và chọn sản phẩm; giỏ hàng và đặt hàng.
-- [Nguồn Draw.io gồm ba trang](docs/diagrams/usecases/PC-Astral-Market-UseCases.drawio), kèm các PNG trong cùng thư mục.
-- Mục lục hai cấp, danh mục hình/bảng có dấu chấm dẫn và số trang tự động.
-- Khi chỉnh nội dung Word: cập nhật toàn bộ mục lục, kiểm tra số trang rồi tạo lại gói nộp để DOCX trong ZIP khớp bản bên ngoài.
-
-## 9. Làm việc nhóm qua GitHub
-
-`main` lưu phiên bản đã kiểm tra. Với các lần sửa tiếp theo, nhóm thống nhất người phụ trách giao diện, JavaScript, kiểm thử và báo cáo; đây là cách tổ chức công việc, không phải bảng ghi nhận đóng góp đã hoàn thành của từng người.
-
-1. Tạo [Issue](https://github.com/ngminhtamtech-cmd/Assignment-WEB1044/issues) ghi rõ việc cần làm, người phụ trách, yêu cầu Y1/Y2/Y3 liên quan và điều kiện hoàn thành.
-2. Lấy phiên bản `main` mới nhất, tạo nhánh riêng như `feature/product-filter`, `fix/cart-quantity` hoặc `docs/report`.
-3. Sửa theo phạm vi đã nhận, kiểm tra chức năng liên quan rồi commit với nội dung cụ thể, ví dụ `fix: giữ số lượng cũ khi nhập sai`.
-4. Push nhánh và mở [Pull Request](https://github.com/ngminhtamtech-cmd/Assignment-WEB1044/pulls), mô tả thay đổi và cách kiểm thử. Một thành viên khác xem lại trước khi ghép vào `main`.
-5. Sau khi ghép, các thành viên cập nhật bản mới. Người tổng hợp cập nhật báo cáo, ảnh minh chứng và ZIP khi cần.
-
-Không sửa cùng lúc một phần của file Word: chọn một người tổng hợp DOCX, các bạn khác góp ý qua Issue/PR. Nếu xung đột mã nguồn, trao đổi để giữ cả thay đổi cần thiết rồi chạy lại luồng liên quan. Không force-push lên nhánh chung và không đưa thông tin đăng nhập hoặc dữ liệu khách hàng thật vào kho.
-
-Kho được khởi tạo từ phiên bản dự án hiện tại; không tạo lại lịch sử commit hoặc nhận xét duyệt bài cho các công việc đã thực hiện trước đó.
-
-## 10. Công nghệ và nguồn tài nguyên
-
-- **Website:** HTML5, CSS3, JavaScript thuần; không dùng React, Vue, jQuery, Bootstrap hay thư viện slider/validation.
-- **API trình duyệt:** DOM, LocalStorage, SessionStorage, timer, URLSearchParams. Đây là API có sẵn, không phải thư viện cài thêm.
-- **Ảnh, tên máy, thông số và giá tham khảo:** [PC Market](https://pcmarket.vn/), bản chụp ngày 16/10/2026. Xem [ASSET-SOURCES.md](PC-Astral-Market/ASSET-SOURCES.md) để biết nguồn từng sản phẩm.
-- **Font:** Sarabun lưu cục bộ, có tiếng Việt; [giấy phép SIL Open Font License](PC-Astral-Market/assets/fonts/sarabun/OFL.txt).
-- Ảnh sản phẩm thuộc chủ sở hữu tương ứng. Dự án ghi nguồn, không tuyên bố sở hữu ảnh hoặc tự cấp lại giấy phép cho tài nguyên bên thứ ba.
-
-## 11. Giới hạn hiện tại
-
-Dữ liệu và tồn kho là tĩnh; không có hệ thống kho nhiều người dùng. Tồn kho không bị trừ sau khi đặt đơn demo. Dữ liệu trình duyệt có thể bị xóa hoặc không dùng chung giữa các địa chỉ/cổng khác nhau. Không có đăng nhập, quản trị, backend, thanh toán hoặc email thật. Kho này không tự triển khai GitHub Pages; bài được trình bày bằng máy chủ local.
+- PC-Astral-Market: website đang sử dụng, đã Việt hóa JavaScript.
+- Đúng hai file Word ở thư mục gốc: báo cáo Y3 và UseCase_Logic_Ham.
+- submission: chỉ giữ ZIP nộp bài hiện tại; không giữ Word trùng ở đây.
+- docs: sơ đồ, nguồn ảnh, hướng dẫn và kết quả kiểm tra.
+- tools: công cụ tạo dữ liệu, hai tài liệu và kiểm thử. export_documents.ps1 xuất hai Word để kiểm tra toàn bộ trang.
+- tmp: chỉ được tạo khi kiểm thử hoặc render; có thể xóa sau khi hoàn thành.

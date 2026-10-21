@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mxfile host="app.diagrams.net" type="device" compressed="false">
   <diagram id="01-overview" name="Tổng quan">
-    <mxGraphModel dx="1600" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="1600" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1620" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="system" value="PC-Astral Market&#10;Website bán máy tính mô phỏng" style="fontFamily=Arial;fontColor=#222222;strokeColor=#222222;strokeWidth=3;rounded=0;fillColor=none;verticalAlign=top;spacingTop=15;fontSize=40;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="290" y="20" width="1290" height="1360" />
+          <mxGeometry as="geometry" x="290" y="20" width="1290" height="1580" />
         </mxCell>
         <mxCell id="customer" value="Khách hàng" style="fontFamily=Arial;fontColor=#222222;strokeColor=#222222;strokeWidth=3;shape=umlActor;fillColor=#FFFFFF;fontSize=40;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="75" y="555" width="140" height="270" />
+          <mxGeometry as="geometry" x="75" y="655" width="140" height="270" />
         </mxCell>
         <mxCell id="overview-1" value="Tra cứu và chọn sản phẩm" style="fontFamily=Arial;fontColor=#222222;strokeColor=#222222;strokeWidth=3;ellipse;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=40;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="465" y="185" width="1040" height="170" />
@@ -23,8 +23,11 @@
         <mxCell id="overview-4" value="Xem xác nhận đơn gần nhất" style="fontFamily=Arial;fontColor=#222222;strokeColor=#222222;strokeWidth=3;ellipse;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=40;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="465" y="890" width="1040" height="170" />
         </mxCell>
-        <mxCell id="overview-5" value="Xem giới thiệu và chính sách" style="fontFamily=Arial;fontColor=#222222;strokeColor=#222222;strokeWidth=3;ellipse;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=40;" vertex="1" parent="1">
+        <mxCell id="overview-5" value="Đăng ký và đăng nhập" style="fontFamily=Arial;fontColor=#222222;strokeColor=#222222;strokeWidth=3;ellipse;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=40;" vertex="1" parent="1">
           <mxGeometry as="geometry" x="465" y="1125" width="1040" height="170" />
+        </mxCell>
+        <mxCell id="overview-6" value="Xem giới thiệu và chính sách" style="fontFamily=Arial;fontColor=#222222;strokeColor=#222222;strokeWidth=3;ellipse;whiteSpace=wrap;fillColor=#FFFFFF;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="465" y="1360" width="1040" height="170" />
         </mxCell>
         <mxCell id="edge-0" value="" style="fontFamily=Arial;fontColor=#222222;strokeColor=#222222;strokeWidth=3;edgeStyle=none;rounded=0;html=0;endArrow=none;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="customer" target="overview-1">
           <mxGeometry as="geometry" relative="1" />
@@ -39,6 +42,9 @@
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
         <mxCell id="edge-4" value="" style="fontFamily=Arial;fontColor=#222222;strokeColor=#222222;strokeWidth=3;edgeStyle=none;rounded=0;html=0;endArrow=none;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="customer" target="overview-5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-5" value="" style="fontFamily=Arial;fontColor=#222222;strokeColor=#222222;strokeWidth=3;edgeStyle=none;rounded=0;html=0;endArrow=none;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="customer" target="overview-6">
           <mxGeometry as="geometry" relative="1" />
         </mxCell>
       </root>
