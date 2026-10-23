@@ -46,13 +46,13 @@ Các phần cần giữ: kiểm tra số lượng và dữ liệu JSON, xử lý
 - `viet-hoa-check.json`: 12 file JS, 135 khai báo hàm/phương thức có tên, 7 HTML và kiểm tra cú pháp cơ bản.
 - `logic-regressions.json` và `logic-file-regressions.json`: 13 tình huống bổ sung, mỗi tình huống chạy trên Chrome/Edge ở cả HTTP và file://; cả 52 lượt đạt. Trước sửa có 5 phép thử chưa đạt, lưu tại `logic-baseline.json`.
 - `package-check.json`, `package-smoke.json`, `file-mode-tests.json`: kết quả đóng gói và chạy lại bản sao.
-- `documents-qa.json`: kiểm tra 17 trang của hai Word hiện hành; các QA Word trước đó chỉ là lịch sử.
+- `documents-qa.json`: kiểm tra 35 trang của hai Word hiện hành; các QA Word trước đó chỉ là lịch sử.
 
 ## Phần chưa thể kết luận 100 phần trăm
 
 - Mã nguồn và tài liệu đáp ứng các mục Y1–Y3 trong phạm vi kiểm tra; không thể bảo đảm không có lỗi ở mọi trình duyệt và mọi tình huống chưa thử.
 - Tên/MSSV của ba thành viên vẫn để trống theo yêu cầu. Trước khi nộp cần điền và đổi tên bản Word thành `<MSSV>.docx`, ZIP thành `WEB1044_LapTrinhJSCoBan_<MSSV>_Assignment.zip` theo ví dụ đề hoặc quy định lớp. Tên gói hiện tại chưa có MSSV.
-- `BaoCao_Assignment2_PC-Astral-Market.docx` đã viết lại còn 9 trang và nằm trong ZIP. `UseCase_Logic_Ham_PC-Astral-Market.docx` dài 8 trang, giữ ngoài ZIP để đọc hiểu; không còn Word cũ.
+- `BaoCao_Assignment2_PC-Astral-Market.docx` giữ bìa/chương mục bản khôi phục, dài 27 trang và nằm trong ZIP. `UseCase_Logic_Ham_PC-Astral-Market.docx` dài 8 trang, giữ ngoài ZIP để đọc hiểu; không còn Word cũ.
 - Khi bảo vệ sau ngày hết chiến dịch, countdown sẽ báo kết thúc và giá về thường đúng thiết kế. Nếu cần demo chiến dịch mới, sửa thời hạn cố định trong `js/du-lieu.js` trước buổi demo; không tạo lại hạn mỗi lần F5.
 - LocalStorage giữ dữ liệu qua F5 và cả khi tắt server; chỉ nút Kết thúc buổi demo xóa dữ liệu theo lựa chọn của người học. Storage bị chặn thì cảnh báo và chỉ giữ giỏ tạm trong trang.
 - Điểm trình bày/giải thích và đánh giá thẩm mỹ do giảng viên quyết định. Thang A trong đề là 70–100%, không phải cam kết tự động được 100%.

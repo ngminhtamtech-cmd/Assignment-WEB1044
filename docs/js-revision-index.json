@@ -1,0 +1,351 @@
+{
+  "topics": 9,
+  "questions": 27,
+  "references": [
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "doiSoLuong(maSanPham, soLuong) {",
+      "line": 198
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "coTheMua(soLuong) {",
+      "line": 69
+    },
+    {
+      "file": "js/trang/gio-hang.js",
+      "anchor": "function xuLyDoiSoLuong(",
+      "line": 114
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "class Product {",
+      "line": 7
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "class Cart {",
+      "line": 86
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "tinhTongGio(thoiDiem) {",
+      "line": 232
+    },
+    {
+      "file": "js/products.json",
+      "anchor": "\"id\": \"p01\"",
+      "line": 3
+    },
+    {
+      "file": "js/du-lieu.js",
+      "anchor": "function kiemTraSanPham(",
+      "line": 74
+    },
+    {
+      "file": "js/du-lieu.js",
+      "anchor": "async function napDuLieuSanPham(",
+      "line": 123
+    },
+    {
+      "file": "js/du-lieu.js",
+      "anchor": "danhSachJSON = JSON.parse(",
+      "line": 132
+    },
+    {
+      "file": "js/su-kien.js",
+      "anchor": "const sanPham = new ungDung.models.Product(",
+      "line": 74
+    },
+    {
+      "file": "index.html",
+      "anchor": "<script",
+      "line": 14
+    },
+    {
+      "file": "js/du-lieu.js",
+      "anchor": "async function napDuLieuSanPham(",
+      "line": 123
+    },
+    {
+      "file": "js/su-kien.js",
+      "anchor": "const danhSachJSON = await ungDung.ready;",
+      "line": 62
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "function taoTheSanPham(",
+      "line": 266
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "function hienThiLuoiSanPham(",
+      "line": 312
+    },
+    {
+      "file": "js/trang/san-pham.js",
+      "anchor": "function hienThiDanhSachSanPham(",
+      "line": 88
+    },
+    {
+      "file": "js/su-kien.js",
+      "anchor": "function xuLyBamNutChung(",
+      "line": 28
+    },
+    {
+      "file": "js/trang/gio-hang.js",
+      "anchor": "khung.addEventListener('click'",
+      "line": 127
+    },
+    {
+      "file": "js/su-kien.js",
+      "anchor": "function xuLyThemGio(",
+      "line": 7
+    },
+    {
+      "file": "js/trang/gio-hang.js",
+      "anchor": "function xuLyBamNutGio(",
+      "line": 93
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "themSanPham(maSanPham, soLuong) {",
+      "line": 173
+    },
+    {
+      "file": "js/su-kien.js",
+      "anchor": "function luuGio(",
+      "line": 55
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "tinhTongGio(thoiDiem) {",
+      "line": 232
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "function dinhDangTien(",
+      "line": 21
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "coTheMua(soLuong) {",
+      "line": 69
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "doiSoLuong(maSanPham, soLuong) {",
+      "line": 198
+    },
+    {
+      "file": "js/trang/gio-hang.js",
+      "anchor": "function xuLyDoiSoLuong(",
+      "line": 114
+    },
+    {
+      "file": "js/su-kien.js",
+      "anchor": "function luuGio(",
+      "line": 55
+    },
+    {
+      "file": "js/su-kien.js",
+      "anchor": "const gioDaLuu =",
+      "line": 79
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "function docJSON(",
+      "line": 25
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "function docJSON(",
+      "line": 25
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "function luuJSON(",
+      "line": 45
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "function docJSON(",
+      "line": 25
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "kiemTraGio(duLieu) {",
+      "line": 123
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "const USERS_KEY =",
+      "line": 9
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "async function bamMatKhau(",
+      "line": 172
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "danhSachTaiKhoan.push({ username:",
+      "line": 224
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "function luuJSON(",
+      "line": 45
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "async function dangNhap(",
+      "line": 231
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "if (maBamVuaNhap !== taiKhoan.passwordHash)",
+      "line": 246
+    },
+    {
+      "file": "js/trang/tai-khoan.js",
+      "anchor": "async function xuLyDangNhap(",
+      "line": 71
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "function dangXuat(",
+      "line": 256
+    },
+    {
+      "file": "js/luu-tru.js",
+      "anchor": "function ketThucDemo(",
+      "line": 56
+    },
+    {
+      "file": "js/su-kien.js",
+      "anchor": "function xuLyLuuTruThayDoi(",
+      "line": 40
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "function boDau(",
+      "line": 25
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "const chuoiTimKiem =",
+      "line": 85
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "function locSanPham(",
+      "line": 73
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "const cacKhoangGia =",
+      "line": 13
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "const ketQua = [];",
+      "line": 82
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "function soSanhGiaTang(",
+      "line": 106
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "if (boLoc.sort === 'price-asc')",
+      "line": 115
+    },
+    {
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function chuyenBanner(",
+      "line": 48
+    },
+    {
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function hienThiBanner(",
+      "line": 14
+    },
+    {
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function xuLyChonBanner(",
+      "line": 119
+    },
+    {
+      "file": "js/du-lieu.js",
+      "anchor": "\"endsAt\":",
+      "line": 35
+    },
+    {
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function capNhatDemNguoc(",
+      "line": 93
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "dangGiamGia(thoiDiem) {",
+      "line": 34
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "layGia(thoiDiem) {",
+      "line": 49
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "function theoDoiKhuyenMai(",
+      "line": 376
+    },
+    {
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function luuBanNhap(",
+      "line": 29
+    },
+    {
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function khoiPhucBanNhap(",
+      "line": 35
+    },
+    {
+      "file": "js/hien-thi.js",
+      "anchor": "function kiemTraKhachHang(",
+      "line": 125
+    },
+    {
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function xuLyDatHang(",
+      "line": 298
+    },
+    {
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function taoDonHang(",
+      "line": 273
+    },
+    {
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function thuDonGio(",
+      "line": 154
+    },
+    {
+      "file": "js/trang/dat-hang.js",
+      "anchor": "if (!luuTru.luuJSON(luuTru.ORDER_KEY, donHang))",
+      "line": 326
+    },
+    {
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function thuDonGio(",
+      "line": 154
+    },
+    {
+      "file": "js/mo-hinh.js",
+      "anchor": "xoaGio() {",
+      "line": 221
+    }
+  ]
+}

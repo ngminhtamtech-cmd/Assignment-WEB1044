@@ -13,14 +13,7 @@ try {
         try {
             $document = $wordInstance.Documents.Open((Join-Path $projectRoot ($name + '.docx')), $false, $false)
             $document.UpdateStylesOnOpen = $false
-            foreach ($styleName in @('Normal','Title','Subtitle','Heading 1','Heading 2','Caption','TOC 1','TOC 2')) {
-                $style = $document.Styles.Item($styleName)
-                $style.Font.Name = 'Times New Roman'
-                $style.Font.NameAscii = 'Times New Roman'
-                $style.Font.NameOther = 'Times New Roman'
-                $style.Font.Color = 0
-            }
-            $document.Styles.Item('Title').ParagraphFormat.Borders.Enable = 0
+            # Giữ nguyên bìa, font và bố cục người dùng; chỉ cập nhật trường và số trang.
             $document.Fields.Update() | Out-Null
             foreach ($contents in $document.TablesOfContents) { $contents.Update() }
             $document.Repaginate()

@@ -60,6 +60,7 @@ function khoiTaoTrangGio() {
     dangHienThi = true;
     try {
       const tongGio = gioHang.tinhTongGio();
+      // ÔN JS - CÂU 4: chỉ hiển thị tổng do Cart tính; phép nhân và cộng tiền nằm trong mo-hinh.js.
       document.getElementById('cart-subtitle').textContent = tongGio.quantity + ' sản phẩm đang chờ cùng bạn về nhà.';
       document.getElementById('cart-empty').hidden = tongGio.lines.length > 0;
       document.getElementById('cart-layout').hidden = tongGio.lines.length === 0;
@@ -112,6 +113,7 @@ function khoiTaoTrangGio() {
   }
 
   function xuLyDoiSoLuong(suKien) {
+    // ÔN JS - CÂU 5: nhập sai thì báo lỗi và hiển thị lại số lượng cũ; nút giảm đã bị khóa ở mức 1.
     if (dangHienThi || !suKien.target.matches('[data-quantity]')) {
       return;
     }
@@ -125,6 +127,7 @@ function khoiTaoTrangGio() {
 
   // EVENT DELEGATION: chỉ nghe trên thẻ cha, dùng closest/data-* tìm nút của dòng.
   khung.addEventListener('click', xuLyBamNutGio);
+  // ÔN JS - CÂU 6: nghe ở khung cha, không gắn lại listener cho từng nút khi thêm dòng; dùng closest để tìm nút.
   khung.addEventListener('change', xuLyDoiSoLuong);
   window.addEventListener('cart-changed', hienThiGioHang);
   window.addEventListener('promotion-expired', hienThiGioHang);

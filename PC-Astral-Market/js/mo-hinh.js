@@ -5,6 +5,7 @@ function khaiBaoMoHinh() {
   'use strict';
 
   class Product {
+    // ÔN JS - CÂU 2: mỗi object giữ ID, tên, giá... của cùng một sản phẩm, tránh lệch chỉ số giữa nhiều mảng.
     constructor(duLieu) {
       // Bảy thuộc tính bắt buộc khớp mẫu của môn học.
       this.id = String(duLieu.id);
@@ -47,9 +48,7 @@ function khaiBaoMoHinh() {
 
     // 2. Lấy giá hiện hành; tất cả trang và giỏ dùng chung phương thức này.
     layGia(thoiDiem) {
-      if (thoiDiem === undefined) {
-        thoiDiem = Date.now();
-      }
+      // dangGiamGia tự lấy giờ hiện tại nếu không truyền thoiDiem.
       if (this.dangGiamGia(thoiDiem)) {
         return this.salePrice;
       }
@@ -58,9 +57,6 @@ function khaiBaoMoHinh() {
 
     // 3. Định dạng giá để hiển thị. Không dùng chuỗi tiền để tính toán.
     layGiaHienThi(thoiDiem) {
-      if (thoiDiem === undefined) {
-        thoiDiem = Date.now();
-      }
       const giaHienTai = this.layGia(thoiDiem);
       return giaHienTai.toLocaleString('vi-VN') + ' đ';
     }
@@ -176,6 +172,7 @@ function khaiBaoMoHinh() {
     }
 
     themSanPham(maSanPham, soLuong) {
+      // ÔN JS - CÂU 3: tìm dòng theo ID, kiểm tra tổng lượng với tồn kho; đã có thì cộng, chưa có thì thêm dòng.
       if (soLuong === undefined) {
         soLuong = 1;
       }
@@ -195,12 +192,14 @@ function khaiBaoMoHinh() {
       if (dongCu) {
         dongCu.quantity += soLuong;
       } else {
+        // ÔN JS - CÂU 2: một dòng giỏ là object gồm productId và quantity; hai giá trị luôn đi cùng nhau.
         this.items.push({ productId: sanPham.id, quantity: soLuong });
       }
       return { ok: true, persisted: this.baoGioThayDoi() };
     }
 
     doiSoLuong(maSanPham, soLuong) {
+      // ÔN JS - CÂU 5: 0, số âm/lẻ hoặc quá kho đều bị chặn, dữ liệu cũ giữ nguyên; muốn bỏ hàng dùng xoaSanPham.
       const sanPham = this.timSanPham(maSanPham);
       const dong = this.timDongGio(maSanPham);
       // Quy ước rõ: số lượng 0 bị chặn. Muốn bỏ hàng phải bấm Xóa.
@@ -235,6 +234,8 @@ function khaiBaoMoHinh() {
 
     // CHỨC NĂNG: tính thành tiền từng dòng, rồi cộng dồn từ 0 bằng vòng for.
     tinhTongGio(thoiDiem) {
+      // ÔN JS - CÂU 4: dùng for để dễ theo dõi; thành tiền = giá hiện hành * số lượng, tổng = cộng các thành tiền.
+      // ÔN JS - CÂU 4: tính từ dữ liệu Cart, không đọc chữ trên HTML; cùng thời điểm để giá giảm nhất quán.
       if (thoiDiem === undefined) {
         thoiDiem = Date.now();
       }
@@ -260,9 +261,6 @@ function khaiBaoMoHinh() {
     }
 
     layTongTien(thoiDiem) {
-      if (thoiDiem === undefined) {
-        thoiDiem = Date.now();
-      }
       return this.tinhTongGio(thoiDiem).total;
     }
   }

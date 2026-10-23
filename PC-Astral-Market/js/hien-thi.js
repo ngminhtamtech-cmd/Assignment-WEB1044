@@ -10,10 +10,6 @@ function khaiBaoTienIch() {
   'use strict';
 
   const duLieu = window.PCAstral.data;
-  const boDinhDangTien = new Intl.NumberFormat('vi-VN', {
-    style: 'currency',
-    currency: 'VND',
-  });
   const cacKhoangGia = {
     all: [0, Infinity],
     under5: [0, 5000000],
@@ -27,6 +23,7 @@ function khaiBaoTienIch() {
   }
 
   function boDau(giaTri) {
+    // ÔN JS - CÂU 10: chuẩn hóa cả từ khóa và tên/thương hiệu để tìm không phân biệt dấu, chữ hoa/thường.
     // Làm từng bước: tách dấu, bỏ dấu, đổi đ thành d, chuyển chữ thường, bỏ khoảng trắng.
     let chuoi = String(giaTri);
     chuoi = chuoi.normalize('NFD');
@@ -75,6 +72,7 @@ function khaiBaoTienIch() {
 
   // CHỨC NĂNG: duyệt từng sản phẩm; chỉ thêm vào mảng mới khi đạt mọi điều kiện.
   function locSanPham(boLoc, thoiDiem) {
+    // ÔN JS - CÂU 10: sửa điều kiện tìm ở đây; hiện ghép name + brand rồi dùng includes(tuKhoa).
     if (boLoc === undefined) {
       boLoc = {};
     }
@@ -269,8 +267,9 @@ function khaiBaoGiaoDienChung() {
 
   function taoTheSanPham(sanPham) {
     const dangGiam = sanPham.dangGiamGia();
+    const hetHang = !sanPham.conHang();
     let nhan;
-    if (!sanPham.conHang()) {
+    if (hetHang) {
       nhan = '<span class="badge muted">Hết hàng</span>';
     } else if (dangGiam) {
       const phanTramGiam = Math.round((1 - sanPham.salePrice / sanPham.price) * 100);
@@ -285,7 +284,7 @@ function khaiBaoGiaoDienChung() {
       giaGoc = `<del>${dinhDangTien(sanPham.price)}</del>`;
     }
     let khoaNut = '';
-    if (!sanPham.conHang()) {
+    if (hetHang) {
       khoaNut = 'disabled';
     }
     return `

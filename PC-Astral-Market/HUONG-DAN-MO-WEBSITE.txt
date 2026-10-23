@@ -2,8 +2,12 @@ PC-ASTRAL MARKET - MỞ TRÊN MÁY KHÁC
 
 1. Giải nén toàn bộ ZIP, không mở HTML bên trong cửa sổ xem ZIP.
 2. Vào thư mục PC-Astral-Market, nhấp đúp index.html bằng Chrome hoặc Edge.
-3. Giữ nguyên các thư mục js, css, img, assets nằm cạnh HTML.
+3. Giữ nguyên các thư mục js, css, img nằm cạnh HTML.
 4. Khi sửa products.json để bảo vệ, mở bằng VS Code Live Server để thấy thay đổi ngay.
 5. F5 giữ giỏ và tài khoản khi trình duyệt cho phép lưu trữ. Muốn xóa, bấm Kết thúc buổi demo ở cuối trang.
 
 Bản mở trực tiếp dùng san-pham-du-phong.js được tự sinh từ products.json khi đóng gói. Không cần tắt bảo mật trình duyệt hoặc cài tiện ích.
+
+FONT: Sarabun tải online từ Google Fonts. Nếu không tải được, website dùng Arial/sans-serif; không cần thư mục assets.
+
+LIVE SERVER: dùng cấu hình .vscode/settings.json đi kèm, cổng 5510. Dừng Live Server cũ rồi mở lại. Vào http://127.0.0.1:5510/index.html. Không dùng cổng 5500 từng chạy portfolio. LocalStorage tách theo cổng; dữ liệu cũ không bị xóa, không tự chuyển sang cổng mới.

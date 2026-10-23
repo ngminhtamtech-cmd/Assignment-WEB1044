@@ -1,0 +1,2002 @@
+{
+  "date": "2026-10-22",
+  "document": "Bộ-câu-hỏi.docx",
+  "questions": [
+    {
+      "id": "A01",
+      "title": "Chủ đề và luồng mua hàng"
+    },
+    {
+      "id": "A02",
+      "title": "Đối chiếu Y1 đến Y3"
+    },
+    {
+      "id": "A03",
+      "title": "Ba chức năng tự đề xuất"
+    },
+    {
+      "id": "A04",
+      "title": "Chia file và khởi tạo"
+    },
+    {
+      "id": "A05",
+      "title": "Nguồn dữ liệu sản phẩm"
+    },
+    {
+      "id": "A06",
+      "title": "JSON và object JavaScript"
+    },
+    {
+      "id": "A07",
+      "title": "Vì sao dùng mảng object"
+    },
+    {
+      "id": "A08",
+      "title": "Trách nhiệm Product và Cart"
+    },
+    {
+      "id": "A09",
+      "title": "Render danh sách"
+    },
+    {
+      "id": "A10",
+      "title": "Event delegation"
+    },
+    {
+      "id": "A11",
+      "title": "Target và closest"
+    },
+    {
+      "id": "A12",
+      "title": "Thêm sản phẩm trùng"
+    },
+    {
+      "id": "A13",
+      "title": "Tính tổng bằng vòng for"
+    },
+    {
+      "id": "A14",
+      "title": "Số lượng không hợp lệ"
+    },
+    {
+      "id": "A15",
+      "title": "Giữ giỏ khi F5"
+    },
+    {
+      "id": "A16",
+      "title": "Chuyển đổi JSON khi lưu"
+    },
+    {
+      "id": "A17",
+      "title": "Username và mật khẩu lưu ở đâu"
+    },
+    {
+      "id": "A18",
+      "title": "So sánh mật khẩu khi đăng nhập"
+    },
+    {
+      "id": "A19",
+      "title": "Đăng xuất và kết thúc demo"
+    },
+    {
+      "id": "A20",
+      "title": "Thứ tự đặt hàng"
+    },
+    {
+      "id": "B01",
+      "title": "let const và thuộc tính object"
+    },
+    {
+      "id": "B02",
+      "title": "Tham số return và phạm vi biến"
+    },
+    {
+      "id": "B03",
+      "title": "constructor this và new"
+    },
+    {
+      "id": "B04",
+      "title": "Khôi phục object và class"
+    },
+    {
+      "id": "B05",
+      "title": "Object dùng chung PCAstral"
+    },
+    {
+      "id": "B06",
+      "title": "defer và dữ liệu bất đồng bộ"
+    },
+    {
+      "id": "B07",
+      "title": "Tìm kiếm không dấu"
+    },
+    {
+      "id": "B08",
+      "title": "Phép lọc AND"
+    },
+    {
+      "id": "B09",
+      "title": "Sắp xếp không sửa mảng gốc"
+    },
+    {
+      "id": "B10",
+      "title": "Bộ lọc giữ sau F5"
+    },
+    {
+      "id": "B11",
+      "title": "Slider chuyển vòng"
+    },
+    {
+      "id": "B12",
+      "title": "Timer và tạm dừng slider"
+    },
+    {
+      "id": "B13",
+      "title": "Countdown và thời hạn cố định"
+    },
+    {
+      "id": "B14",
+      "title": "Giá khi hết khuyến mãi"
+    },
+    {
+      "id": "B15",
+      "title": "Nhóm sản phẩm và danh mục"
+    },
+    {
+      "id": "B16",
+      "title": "Dữ liệu lưu bị hỏng"
+    },
+    {
+      "id": "B17",
+      "title": "Trình duyệt chặn lưu trữ"
+    },
+    {
+      "id": "B18",
+      "title": "Địa chỉ và trình duyệt khác nhau"
+    },
+    {
+      "id": "B19",
+      "title": "Giỏ giữa hai tab"
+    },
+    {
+      "id": "B20",
+      "title": "Giữ focus và tránh lặp render"
+    },
+    {
+      "id": "B21",
+      "title": "Kiểm tra đăng ký"
+    },
+    {
+      "id": "B22",
+      "title": "Salt và mã băm"
+    },
+    {
+      "id": "B23",
+      "title": "Lý do giữ async await"
+    },
+    {
+      "id": "B24",
+      "title": "Reset trong lúc đang băm"
+    },
+    {
+      "id": "B25",
+      "title": "Giới hạn đăng nhập frontend"
+    },
+    {
+      "id": "B26",
+      "title": "Bản nháp form và validation"
+    },
+    {
+      "id": "B27",
+      "title": "Giá hoặc giỏ thay đổi"
+    },
+    {
+      "id": "B28",
+      "title": "Lưu đơn lỗi và dọn giỏ lỗi"
+    },
+    {
+      "id": "B29",
+      "title": "Gửi lặp và F5 xác nhận"
+    },
+    {
+      "id": "B30",
+      "title": "Mở trực tiếp và Live Server"
+    },
+    {
+      "id": "C01",
+      "title": "Thêm một sản phẩm"
+    },
+    {
+      "id": "C02",
+      "title": "Đổi giá và giá khuyến mãi"
+    },
+    {
+      "id": "C03",
+      "title": "Giới hạn theo tồn kho"
+    },
+    {
+      "id": "C04",
+      "title": "Thêm banner thứ tư"
+    },
+    {
+      "id": "C05",
+      "title": "Kiểm tra trước và sau hết hạn"
+    },
+    {
+      "id": "C06",
+      "title": "Tìm kiếm theo mã sản phẩm"
+    },
+    {
+      "id": "C07",
+      "title": "Thêm khoảng giá"
+    },
+    {
+      "id": "C08",
+      "title": "Sắp xếp tên Z đến A"
+    },
+    {
+      "id": "C09",
+      "title": "Giới hạn ghi chú 300 ký tự"
+    },
+    {
+      "id": "C10",
+      "title": "Sửa đường dẫn ảnh"
+    }
+  ],
+  "references": [
+    {
+      "question": "A01",
+      "file": "js/du-lieu.js",
+      "anchor": "\"categories\": [",
+      "line": 6,
+      "function": null
+    },
+    {
+      "question": "A01",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function xuLyDatHang(",
+      "line": 298,
+      "function": {
+        "name": "xuLyDatHang",
+        "start": 298,
+        "end": 337
+      }
+    },
+    {
+      "question": "A02",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function khoiTaoTrangChu(",
+      "line": 2,
+      "function": {
+        "name": "khoiTaoTrangChu",
+        "start": 2,
+        "end": 183
+      }
+    },
+    {
+      "question": "A02",
+      "file": "index.html",
+      "anchor": "<script",
+      "line": 14,
+      "function": null
+    },
+    {
+      "question": "A03",
+      "file": "js/hien-thi.js",
+      "anchor": "function locSanPham(",
+      "line": 73,
+      "function": {
+        "name": "locSanPham",
+        "start": 73,
+        "end": 123
+      }
+    },
+    {
+      "question": "A03",
+      "file": "js/trang/san-pham.js",
+      "anchor": "function capNhatURL(",
+      "line": 70,
+      "function": {
+        "name": "capNhatURL",
+        "start": 70,
+        "end": 86
+      }
+    },
+    {
+      "question": "A04",
+      "file": "index.html",
+      "anchor": "<script",
+      "line": 14,
+      "function": null
+    },
+    {
+      "question": "A04",
+      "file": "js/su-kien.js",
+      "anchor": "async function khoiTaoWebsite(",
+      "line": 61,
+      "function": {
+        "name": "khoiTaoWebsite",
+        "start": 61,
+        "end": 91
+      }
+    },
+    {
+      "question": "A05",
+      "file": "js/products.json",
+      "anchor": "\"id\": \"p01\"",
+      "line": 3,
+      "function": null
+    },
+    {
+      "question": "A05",
+      "file": "js/du-lieu.js",
+      "anchor": "function kiemTraSanPham(",
+      "line": 74,
+      "function": {
+        "name": "kiemTraSanPham",
+        "start": 74,
+        "end": 104
+      }
+    },
+    {
+      "question": "A05",
+      "file": "js/du-lieu.js",
+      "anchor": "async function napDuLieuSanPham(",
+      "line": 123,
+      "function": {
+        "name": "napDuLieuSanPham",
+        "start": 123,
+        "end": 163
+      }
+    },
+    {
+      "question": "A06",
+      "file": "js/du-lieu.js",
+      "anchor": "danhSachJSON = JSON.parse(",
+      "line": 132,
+      "function": {
+        "name": "napDuLieuSanPham",
+        "start": 123,
+        "end": 163
+      }
+    },
+    {
+      "question": "A06",
+      "file": "js/su-kien.js",
+      "anchor": "const sanPham = new ungDung.models.Product(",
+      "line": 74,
+      "function": {
+        "name": "khoiTaoWebsite",
+        "start": 61,
+        "end": 91
+      }
+    },
+    {
+      "question": "A07",
+      "file": "js/products.json",
+      "anchor": "\"id\": \"p01\"",
+      "line": 3,
+      "function": null
+    },
+    {
+      "question": "A07",
+      "file": "js/mo-hinh.js",
+      "anchor": "timSanPham(maSanPham) {",
+      "line": 99,
+      "function": {
+        "name": "Cart.timSanPham",
+        "start": 99,
+        "end": 108
+      }
+    },
+    {
+      "question": "A08",
+      "file": "js/mo-hinh.js",
+      "anchor": "class Product {",
+      "line": 7,
+      "function": null
+    },
+    {
+      "question": "A08",
+      "file": "js/mo-hinh.js",
+      "anchor": "class Cart {",
+      "line": 86,
+      "function": null
+    },
+    {
+      "question": "A08",
+      "file": "js/mo-hinh.js",
+      "anchor": "tinhTongGio(thoiDiem) {",
+      "line": 232,
+      "function": {
+        "name": "Cart.tinhTongGio",
+        "start": 232,
+        "end": 255
+      }
+    },
+    {
+      "question": "A09",
+      "file": "js/hien-thi.js",
+      "anchor": "function taoTheSanPham(",
+      "line": 266,
+      "function": {
+        "name": "taoTheSanPham",
+        "start": 266,
+        "end": 310
+      }
+    },
+    {
+      "question": "A09",
+      "file": "js/hien-thi.js",
+      "anchor": "function hienThiLuoiSanPham(",
+      "line": 312,
+      "function": {
+        "name": "hienThiLuoiSanPham",
+        "start": 312,
+        "end": 327
+      }
+    },
+    {
+      "question": "A09",
+      "file": "js/trang/san-pham.js",
+      "anchor": "function hienThiDanhSachSanPham(",
+      "line": 88,
+      "function": {
+        "name": "hienThiDanhSachSanPham",
+        "start": 88,
+        "end": 122
+      }
+    },
+    {
+      "question": "A10",
+      "file": "js/su-kien.js",
+      "anchor": "function xuLyBamNutChung(",
+      "line": 28,
+      "function": {
+        "name": "xuLyBamNutChung",
+        "start": 28,
+        "end": 38
+      }
+    },
+    {
+      "question": "A10",
+      "file": "js/trang/gio-hang.js",
+      "anchor": "khung.addEventListener('click'",
+      "line": 127,
+      "function": {
+        "name": "khoiTaoTrangGio",
+        "start": 2,
+        "end": 132
+      }
+    },
+    {
+      "question": "A11",
+      "file": "js/su-kien.js",
+      "anchor": "function xuLyThemGio(",
+      "line": 7,
+      "function": {
+        "name": "xuLyThemGio",
+        "start": 7,
+        "end": 26
+      }
+    },
+    {
+      "question": "A11",
+      "file": "js/trang/gio-hang.js",
+      "anchor": "function xuLyBamNutGio(",
+      "line": 93,
+      "function": {
+        "name": "xuLyBamNutGio",
+        "start": 93,
+        "end": 112
+      }
+    },
+    {
+      "question": "A12",
+      "file": "js/mo-hinh.js",
+      "anchor": "themSanPham(maSanPham, soLuong) {",
+      "line": 173,
+      "function": {
+        "name": "Cart.themSanPham",
+        "start": 173,
+        "end": 196
+      }
+    },
+    {
+      "question": "A12",
+      "file": "js/su-kien.js",
+      "anchor": "function luuGio(",
+      "line": 55,
+      "function": {
+        "name": "luuGio",
+        "start": 55,
+        "end": 59
+      }
+    },
+    {
+      "question": "A13",
+      "file": "js/mo-hinh.js",
+      "anchor": "tinhTongGio(thoiDiem) {",
+      "line": 232,
+      "function": {
+        "name": "Cart.tinhTongGio",
+        "start": 232,
+        "end": 255
+      }
+    },
+    {
+      "question": "A13",
+      "file": "js/hien-thi.js",
+      "anchor": "function dinhDangTien(",
+      "line": 21,
+      "function": {
+        "name": "dinhDangTien",
+        "start": 21,
+        "end": 23
+      }
+    },
+    {
+      "question": "A14",
+      "file": "js/mo-hinh.js",
+      "anchor": "coTheMua(soLuong) {",
+      "line": 69,
+      "function": {
+        "name": "Product.coTheMua",
+        "start": 69,
+        "end": 71
+      }
+    },
+    {
+      "question": "A14",
+      "file": "js/mo-hinh.js",
+      "anchor": "doiSoLuong(maSanPham, soLuong) {",
+      "line": 198,
+      "function": {
+        "name": "Cart.doiSoLuong",
+        "start": 198,
+        "end": 208
+      }
+    },
+    {
+      "question": "A14",
+      "file": "js/trang/gio-hang.js",
+      "anchor": "function xuLyDoiSoLuong(",
+      "line": 114,
+      "function": {
+        "name": "xuLyDoiSoLuong",
+        "start": 114,
+        "end": 124
+      }
+    },
+    {
+      "question": "A15",
+      "file": "js/su-kien.js",
+      "anchor": "function luuGio(",
+      "line": 55,
+      "function": {
+        "name": "luuGio",
+        "start": 55,
+        "end": 59
+      }
+    },
+    {
+      "question": "A15",
+      "file": "js/su-kien.js",
+      "anchor": "const gioDaLuu =",
+      "line": 79,
+      "function": {
+        "name": "khoiTaoWebsite",
+        "start": 61,
+        "end": 91
+      }
+    },
+    {
+      "question": "A15",
+      "file": "js/luu-tru.js",
+      "anchor": "function docJSON(",
+      "line": 25,
+      "function": {
+        "name": "docJSON",
+        "start": 25,
+        "end": 43
+      }
+    },
+    {
+      "question": "A16",
+      "file": "js/luu-tru.js",
+      "anchor": "function docJSON(",
+      "line": 25,
+      "function": {
+        "name": "docJSON",
+        "start": 25,
+        "end": 43
+      }
+    },
+    {
+      "question": "A16",
+      "file": "js/luu-tru.js",
+      "anchor": "function luuJSON(",
+      "line": 45,
+      "function": {
+        "name": "luuJSON",
+        "start": 45,
+        "end": 53
+      }
+    },
+    {
+      "question": "A17",
+      "file": "js/luu-tru.js",
+      "anchor": "const USERS_KEY =",
+      "line": 9,
+      "function": {
+        "name": "khaiBaoLuuTru",
+        "start": 4,
+        "end": 98
+      }
+    },
+    {
+      "question": "A17",
+      "file": "js/luu-tru.js",
+      "anchor": "async function bamMatKhau(",
+      "line": 172,
+      "function": {
+        "name": "bamMatKhau",
+        "start": 172,
+        "end": 188
+      }
+    },
+    {
+      "question": "A17",
+      "file": "js/luu-tru.js",
+      "anchor": "danhSachTaiKhoan.push({ username:",
+      "line": 224,
+      "function": {
+        "name": "dangKy",
+        "start": 204,
+        "end": 229
+      }
+    },
+    {
+      "question": "A17",
+      "file": "js/luu-tru.js",
+      "anchor": "function luuJSON(",
+      "line": 45,
+      "function": {
+        "name": "luuJSON",
+        "start": 45,
+        "end": 53
+      }
+    },
+    {
+      "question": "A18",
+      "file": "js/luu-tru.js",
+      "anchor": "async function dangNhap(",
+      "line": 231,
+      "function": {
+        "name": "dangNhap",
+        "start": 231,
+        "end": 254
+      }
+    },
+    {
+      "question": "A18",
+      "file": "js/luu-tru.js",
+      "anchor": "if (maBamVuaNhap !== taiKhoan.passwordHash)",
+      "line": 246,
+      "function": {
+        "name": "dangNhap",
+        "start": 231,
+        "end": 254
+      }
+    },
+    {
+      "question": "A18",
+      "file": "js/trang/tai-khoan.js",
+      "anchor": "async function xuLyDangNhap(",
+      "line": 71,
+      "function": {
+        "name": "xuLyDangNhap",
+        "start": 71,
+        "end": 108
+      }
+    },
+    {
+      "question": "A19",
+      "file": "js/luu-tru.js",
+      "anchor": "function dangXuat(",
+      "line": 256,
+      "function": {
+        "name": "dangXuat",
+        "start": 256,
+        "end": 262
+      }
+    },
+    {
+      "question": "A19",
+      "file": "js/luu-tru.js",
+      "anchor": "function ketThucDemo(",
+      "line": 56,
+      "function": {
+        "name": "ketThucDemo",
+        "start": 56,
+        "end": 73
+      }
+    },
+    {
+      "question": "A19",
+      "file": "js/su-kien.js",
+      "anchor": "function xuLyLuuTruThayDoi(",
+      "line": 40,
+      "function": {
+        "name": "xuLyLuuTruThayDoi",
+        "start": 40,
+        "end": 52
+      }
+    },
+    {
+      "question": "A20",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function xuLyDatHang(",
+      "line": 298,
+      "function": {
+        "name": "xuLyDatHang",
+        "start": 298,
+        "end": 337
+      }
+    },
+    {
+      "question": "A20",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function taoDonHang(",
+      "line": 273,
+      "function": {
+        "name": "taoDonHang",
+        "start": 273,
+        "end": 296
+      }
+    },
+    {
+      "question": "A20",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function thuDonGio(",
+      "line": 154,
+      "function": {
+        "name": "thuDonGio",
+        "start": 154,
+        "end": 186
+      }
+    },
+    {
+      "question": "B01",
+      "file": "js/mo-hinh.js",
+      "anchor": "doiSoLuong(maSanPham, soLuong) {",
+      "line": 198,
+      "function": {
+        "name": "Cart.doiSoLuong",
+        "start": 198,
+        "end": 208
+      }
+    },
+    {
+      "question": "B02",
+      "file": "js/mo-hinh.js",
+      "anchor": "coTheMua(soLuong) {",
+      "line": 69,
+      "function": {
+        "name": "Product.coTheMua",
+        "start": 69,
+        "end": 71
+      }
+    },
+    {
+      "question": "B02",
+      "file": "js/trang/gio-hang.js",
+      "anchor": "function xuLyDoiSoLuong(",
+      "line": 114,
+      "function": {
+        "name": "xuLyDoiSoLuong",
+        "start": 114,
+        "end": 124
+      }
+    },
+    {
+      "question": "B03",
+      "file": "js/mo-hinh.js",
+      "anchor": "class Product {",
+      "line": 7,
+      "function": null
+    },
+    {
+      "question": "B03",
+      "file": "js/su-kien.js",
+      "anchor": "const sanPham = new ungDung.models.Product(",
+      "line": 74,
+      "function": {
+        "name": "khoiTaoWebsite",
+        "start": 61,
+        "end": 91
+      }
+    },
+    {
+      "question": "B04",
+      "file": "js/su-kien.js",
+      "anchor": "async function khoiTaoWebsite(",
+      "line": 61,
+      "function": {
+        "name": "khoiTaoWebsite",
+        "start": 61,
+        "end": 91
+      }
+    },
+    {
+      "question": "B04",
+      "file": "js/mo-hinh.js",
+      "anchor": "class Cart {",
+      "line": 86,
+      "function": null
+    },
+    {
+      "question": "B05",
+      "file": "js/du-lieu.js",
+      "anchor": "window.PCAstral =",
+      "line": 4,
+      "function": null
+    },
+    {
+      "question": "B05",
+      "file": "js/mo-hinh.js",
+      "anchor": "window.PCAstral.models =",
+      "line": 262,
+      "function": {
+        "name": "khaiBaoMoHinh",
+        "start": 4,
+        "end": 263
+      }
+    },
+    {
+      "question": "B05",
+      "file": "js/su-kien.js",
+      "anchor": "async function khoiTaoWebsite(",
+      "line": 61,
+      "function": {
+        "name": "khoiTaoWebsite",
+        "start": 61,
+        "end": 91
+      }
+    },
+    {
+      "question": "B06",
+      "file": "index.html",
+      "anchor": "<script",
+      "line": 14,
+      "function": null
+    },
+    {
+      "question": "B06",
+      "file": "js/du-lieu.js",
+      "anchor": "async function napDuLieuSanPham(",
+      "line": 123,
+      "function": {
+        "name": "napDuLieuSanPham",
+        "start": 123,
+        "end": 163
+      }
+    },
+    {
+      "question": "B06",
+      "file": "js/su-kien.js",
+      "anchor": "const danhSachJSON = await ungDung.ready;",
+      "line": 62,
+      "function": {
+        "name": "khoiTaoWebsite",
+        "start": 61,
+        "end": 91
+      }
+    },
+    {
+      "question": "B07",
+      "file": "js/hien-thi.js",
+      "anchor": "function boDau(",
+      "line": 25,
+      "function": {
+        "name": "boDau",
+        "start": 25,
+        "end": 33
+      }
+    },
+    {
+      "question": "B07",
+      "file": "js/hien-thi.js",
+      "anchor": "const chuoiTimKiem =",
+      "line": 85,
+      "function": {
+        "name": "locSanPham",
+        "start": 73,
+        "end": 123
+      }
+    },
+    {
+      "question": "B08",
+      "file": "js/hien-thi.js",
+      "anchor": "function locSanPham(",
+      "line": 73,
+      "function": {
+        "name": "locSanPham",
+        "start": 73,
+        "end": 123
+      }
+    },
+    {
+      "question": "B08",
+      "file": "js/hien-thi.js",
+      "anchor": "const cacKhoangGia =",
+      "line": 13,
+      "function": {
+        "name": "khaiBaoTienIch",
+        "start": 9,
+        "end": 166
+      }
+    },
+    {
+      "question": "B09",
+      "file": "js/hien-thi.js",
+      "anchor": "const ketQua = [];",
+      "line": 82,
+      "function": {
+        "name": "locSanPham",
+        "start": 73,
+        "end": 123
+      }
+    },
+    {
+      "question": "B09",
+      "file": "js/hien-thi.js",
+      "anchor": "function soSanhGiaTang(",
+      "line": 106,
+      "function": {
+        "name": "soSanhGiaTang",
+        "start": 106,
+        "end": 108
+      }
+    },
+    {
+      "question": "B09",
+      "file": "js/hien-thi.js",
+      "anchor": "if (boLoc.sort === 'price-asc')",
+      "line": 115,
+      "function": {
+        "name": "locSanPham",
+        "start": 73,
+        "end": 123
+      }
+    },
+    {
+      "question": "B10",
+      "file": "js/trang/san-pham.js",
+      "anchor": "function docBoLocTuURL(",
+      "line": 53,
+      "function": {
+        "name": "docBoLocTuURL",
+        "start": 53,
+        "end": 68
+      }
+    },
+    {
+      "question": "B10",
+      "file": "js/trang/san-pham.js",
+      "anchor": "function capNhatURL(",
+      "line": 70,
+      "function": {
+        "name": "capNhatURL",
+        "start": 70,
+        "end": 86
+      }
+    },
+    {
+      "question": "B10",
+      "file": "js/trang/san-pham.js",
+      "anchor": "function khoiPhucBoLoc(",
+      "line": 124,
+      "function": {
+        "name": "khoiPhucBoLoc",
+        "start": 124,
+        "end": 138
+      }
+    },
+    {
+      "question": "B11",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function chuyenBanner(",
+      "line": 48,
+      "function": {
+        "name": "chuyenBanner",
+        "start": 48,
+        "end": 56
+      }
+    },
+    {
+      "question": "B11",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function hienThiBanner(",
+      "line": 14,
+      "function": {
+        "name": "hienThiBanner",
+        "start": 14,
+        "end": 46
+      }
+    },
+    {
+      "question": "B11",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function xuLyChonBanner(",
+      "line": 119,
+      "function": {
+        "name": "xuLyChonBanner",
+        "start": 119,
+        "end": 126
+      }
+    },
+    {
+      "question": "B12",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function tuChuyenBanner(",
+      "line": 138,
+      "function": {
+        "name": "tuChuyenBanner",
+        "start": 138,
+        "end": 144
+      }
+    },
+    {
+      "question": "B12",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "setInterval(tuChuyenBanner, 6000);",
+      "line": 179,
+      "function": {
+        "name": "khoiTaoTrangChu",
+        "start": 2,
+        "end": 183
+      }
+    },
+    {
+      "question": "B12",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function batTatTuChuyen(",
+      "line": 128,
+      "function": {
+        "name": "batTatTuChuyen",
+        "start": 128,
+        "end": 136
+      }
+    },
+    {
+      "question": "B13",
+      "file": "js/du-lieu.js",
+      "anchor": "\"endsAt\":",
+      "line": 35,
+      "function": null
+    },
+    {
+      "question": "B13",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function capNhatDemNguoc(",
+      "line": 93,
+      "function": {
+        "name": "capNhatDemNguoc",
+        "start": 93,
+        "end": 117
+      }
+    },
+    {
+      "question": "B14",
+      "file": "js/mo-hinh.js",
+      "anchor": "dangGiamGia(thoiDiem) {",
+      "line": 34,
+      "function": {
+        "name": "Product.dangGiamGia",
+        "start": 34,
+        "end": 46
+      }
+    },
+    {
+      "question": "B14",
+      "file": "js/mo-hinh.js",
+      "anchor": "layGia(thoiDiem) {",
+      "line": 49,
+      "function": {
+        "name": "Product.layGia",
+        "start": 49,
+        "end": 55
+      }
+    },
+    {
+      "question": "B14",
+      "file": "js/hien-thi.js",
+      "anchor": "function theoDoiKhuyenMai(",
+      "line": 376,
+      "function": {
+        "name": "theoDoiKhuyenMai",
+        "start": 376,
+        "end": 396
+      }
+    },
+    {
+      "question": "B15",
+      "file": "js/hien-thi.js",
+      "anchor": "function dungNhom(",
+      "line": 56,
+      "function": {
+        "name": "dungNhom",
+        "start": 56,
+        "end": 70
+      }
+    },
+    {
+      "question": "B15",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function hienThiCacNhomSanPham(",
+      "line": 84,
+      "function": {
+        "name": "hienThiCacNhomSanPham",
+        "start": 84,
+        "end": 91
+      }
+    },
+    {
+      "question": "B16",
+      "file": "js/luu-tru.js",
+      "anchor": "function docJSON(",
+      "line": 25,
+      "function": {
+        "name": "docJSON",
+        "start": 25,
+        "end": 43
+      }
+    },
+    {
+      "question": "B16",
+      "file": "js/mo-hinh.js",
+      "anchor": "kiemTraGio(duLieu) {",
+      "line": 123,
+      "function": {
+        "name": "Cart.kiemTraGio",
+        "start": 123,
+        "end": 154
+      }
+    },
+    {
+      "question": "B17",
+      "file": "js/luu-tru.js",
+      "anchor": "function luuJSON(",
+      "line": 45,
+      "function": {
+        "name": "luuJSON",
+        "start": 45,
+        "end": 53
+      }
+    },
+    {
+      "question": "B17",
+      "file": "js/su-kien.js",
+      "anchor": "function xuLyThemGio(",
+      "line": 7,
+      "function": {
+        "name": "xuLyThemGio",
+        "start": 7,
+        "end": 26
+      }
+    },
+    {
+      "question": "B17",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "if (!luuTru.luuJSON(luuTru.ORDER_KEY, donHang))",
+      "line": 326,
+      "function": {
+        "name": "xuLyDatHang",
+        "start": 298,
+        "end": 337
+      }
+    },
+    {
+      "question": "B18",
+      "file": "js/luu-tru.js",
+      "anchor": "chuoiJSON = window.localStorage.getItem(khoa);",
+      "line": 28,
+      "function": {
+        "name": "docJSON",
+        "start": 25,
+        "end": 43
+      }
+    },
+    {
+      "question": "B18",
+      "file": "js/du-lieu.js",
+      "anchor": "window.location.protocol === 'file:'",
+      "line": 128,
+      "function": {
+        "name": "napDuLieuSanPham",
+        "start": 123,
+        "end": 163
+      }
+    },
+    {
+      "question": "B19",
+      "file": "js/su-kien.js",
+      "anchor": "function xuLyLuuTruThayDoi(",
+      "line": 40,
+      "function": {
+        "name": "xuLyLuuTruThayDoi",
+        "start": 40,
+        "end": 52
+      }
+    },
+    {
+      "question": "B19",
+      "file": "js/su-kien.js",
+      "anchor": "function luuGio(",
+      "line": 55,
+      "function": {
+        "name": "luuGio",
+        "start": 55,
+        "end": 59
+      }
+    },
+    {
+      "question": "B20",
+      "file": "js/trang/gio-hang.js",
+      "anchor": "function hienThiGioHang(",
+      "line": 56,
+      "function": {
+        "name": "hienThiGioHang",
+        "start": 56,
+        "end": 91
+      }
+    },
+    {
+      "question": "B20",
+      "file": "js/trang/gio-hang.js",
+      "anchor": "function capNhatDongGio(",
+      "line": 12,
+      "function": {
+        "name": "capNhatDongGio",
+        "start": 12,
+        "end": 44
+      }
+    },
+    {
+      "question": "B20",
+      "file": "js/trang/gio-hang.js",
+      "anchor": "function xuLyDoiSoLuong(",
+      "line": 114,
+      "function": {
+        "name": "xuLyDoiSoLuong",
+        "start": 114,
+        "end": 124
+      }
+    },
+    {
+      "question": "B21",
+      "file": "js/luu-tru.js",
+      "anchor": "function kiemTraDangKy(",
+      "line": 190,
+      "function": {
+        "name": "kiemTraDangKy",
+        "start": 190,
+        "end": 202
+      }
+    },
+    {
+      "question": "B21",
+      "file": "js/luu-tru.js",
+      "anchor": "async function dangKy(",
+      "line": 204,
+      "function": {
+        "name": "dangKy",
+        "start": 204,
+        "end": 229
+      }
+    },
+    {
+      "question": "B22",
+      "file": "js/luu-tru.js",
+      "anchor": "const SO_LAN_BAM =",
+      "line": 108,
+      "function": {
+        "name": "khaiBaoTaiKhoan",
+        "start": 105,
+        "end": 271
+      }
+    },
+    {
+      "question": "B22",
+      "file": "js/luu-tru.js",
+      "anchor": "async function bamMatKhau(",
+      "line": 172,
+      "function": {
+        "name": "bamMatKhau",
+        "start": 172,
+        "end": 188
+      }
+    },
+    {
+      "question": "B22",
+      "file": "js/luu-tru.js",
+      "anchor": "const chuoiNgauNhien = doiSangHex",
+      "line": 214,
+      "function": {
+        "name": "dangKy",
+        "start": 204,
+        "end": 229
+      }
+    },
+    {
+      "question": "B23",
+      "file": "js/du-lieu.js",
+      "anchor": "async function napDuLieuSanPham(",
+      "line": 123,
+      "function": {
+        "name": "napDuLieuSanPham",
+        "start": 123,
+        "end": 163
+      }
+    },
+    {
+      "question": "B23",
+      "file": "js/luu-tru.js",
+      "anchor": "const maBam = await bamMatKhau",
+      "line": 215,
+      "function": {
+        "name": "dangKy",
+        "start": 204,
+        "end": 229
+      }
+    },
+    {
+      "question": "B23",
+      "file": "js/trang/tai-khoan.js",
+      "anchor": "async function xuLyDangKy(",
+      "line": 41,
+      "function": {
+        "name": "xuLyDangKy",
+        "start": 41,
+        "end": 69
+      }
+    },
+    {
+      "question": "B24",
+      "file": "js/luu-tru.js",
+      "anchor": "async function dangKy(",
+      "line": 204,
+      "function": {
+        "name": "dangKy",
+        "start": 204,
+        "end": 229
+      }
+    },
+    {
+      "question": "B24",
+      "file": "js/luu-tru.js",
+      "anchor": "async function dangNhap(",
+      "line": 231,
+      "function": {
+        "name": "dangNhap",
+        "start": 231,
+        "end": 254
+      }
+    },
+    {
+      "question": "B24",
+      "file": "js/luu-tru.js",
+      "anchor": "function ketThucDemo(",
+      "line": 56,
+      "function": {
+        "name": "ketThucDemo",
+        "start": 56,
+        "end": 73
+      }
+    },
+    {
+      "question": "B25",
+      "file": "js/luu-tru.js",
+      "anchor": "function layTaiKhoanDangNhap(",
+      "line": 145,
+      "function": {
+        "name": "layTaiKhoanDangNhap",
+        "start": 145,
+        "end": 155
+      }
+    },
+    {
+      "question": "B25",
+      "file": "js/luu-tru.js",
+      "anchor": "if (!luuTru.luuJSON(luuTru.AUTH_KEY, { username:",
+      "line": 249,
+      "function": {
+        "name": "dangNhap",
+        "start": 231,
+        "end": 254
+      }
+    },
+    {
+      "question": "B26",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function luuBanNhap(",
+      "line": 29,
+      "function": {
+        "name": "luuBanNhap",
+        "start": 29,
+        "end": 33
+      }
+    },
+    {
+      "question": "B26",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function khoiPhucBanNhap(",
+      "line": 35,
+      "function": {
+        "name": "khoiPhucBanNhap",
+        "start": 35,
+        "end": 46
+      }
+    },
+    {
+      "question": "B26",
+      "file": "js/hien-thi.js",
+      "anchor": "function kiemTraKhachHang(",
+      "line": 125,
+      "function": {
+        "name": "kiemTraKhachHang",
+        "start": 125,
+        "end": 155
+      }
+    },
+    {
+      "question": "B27",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function cacDongGiongNhau(",
+      "line": 49,
+      "function": {
+        "name": "cacDongGiongNhau",
+        "start": 49,
+        "end": 75
+      }
+    },
+    {
+      "question": "B27",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function hienThiTongTien(",
+      "line": 226,
+      "function": {
+        "name": "hienThiTongTien",
+        "start": 226,
+        "end": 246
+      }
+    },
+    {
+      "question": "B27",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "if (canXacNhanLai ||",
+      "line": 315,
+      "function": {
+        "name": "xuLyDatHang",
+        "start": 298,
+        "end": 337
+      }
+    },
+    {
+      "question": "B28",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "if (!luuTru.luuJSON(luuTru.ORDER_KEY, donHang))",
+      "line": 326,
+      "function": {
+        "name": "xuLyDatHang",
+        "start": 298,
+        "end": 337
+      }
+    },
+    {
+      "question": "B28",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function thuDonGio(",
+      "line": 154,
+      "function": {
+        "name": "thuDonGio",
+        "start": 154,
+        "end": 186
+      }
+    },
+    {
+      "question": "B28",
+      "file": "js/mo-hinh.js",
+      "anchor": "xoaGio() {",
+      "line": 221,
+      "function": {
+        "name": "Cart.xoaGio",
+        "start": 221,
+        "end": 229
+      }
+    },
+    {
+      "question": "B29",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function xuLyDatHang(",
+      "line": 298,
+      "function": {
+        "name": "xuLyDatHang",
+        "start": 298,
+        "end": 337
+      }
+    },
+    {
+      "question": "B29",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function docDonDaDat(",
+      "line": 109,
+      "function": {
+        "name": "docDonDaDat",
+        "start": 109,
+        "end": 124
+      }
+    },
+    {
+      "question": "B29",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "function donHangHopLe(",
+      "line": 77,
+      "function": {
+        "name": "donHangHopLe",
+        "start": 77,
+        "end": 107
+      }
+    },
+    {
+      "question": "B30",
+      "file": "js/du-lieu.js",
+      "anchor": "async function napDuLieuSanPham(",
+      "line": 123,
+      "function": {
+        "name": "napDuLieuSanPham",
+        "start": 123,
+        "end": 163
+      }
+    },
+    {
+      "question": "B30",
+      "file": "js/san-pham-du-phong.js",
+      "anchor": "window.PCAstral.offlineProductJSON =",
+      "line": 4,
+      "function": null
+    },
+    {
+      "question": "C01",
+      "file": "js/products.json",
+      "anchor": "\"id\": \"p01\"",
+      "line": 3,
+      "function": null
+    },
+    {
+      "question": "C01",
+      "file": "js/du-lieu.js",
+      "anchor": "function kiemTraSanPham(",
+      "line": 74,
+      "function": {
+        "name": "kiemTraSanPham",
+        "start": 74,
+        "end": 104
+      }
+    },
+    {
+      "question": "C01",
+      "file": "tools/sync_offline_products.py",
+      "anchor": "def sync_offline_products():",
+      "line": 8,
+      "function": null
+    },
+    {
+      "question": "C02",
+      "file": "js/products.json",
+      "anchor": "\"id\": \"p01\"",
+      "line": 3,
+      "function": null
+    },
+    {
+      "question": "C02",
+      "file": "js/mo-hinh.js",
+      "anchor": "dangGiamGia(thoiDiem) {",
+      "line": 34,
+      "function": {
+        "name": "Product.dangGiamGia",
+        "start": 34,
+        "end": 46
+      }
+    },
+    {
+      "question": "C02",
+      "file": "js/mo-hinh.js",
+      "anchor": "layGia(thoiDiem) {",
+      "line": 49,
+      "function": {
+        "name": "Product.layGia",
+        "start": 49,
+        "end": 55
+      }
+    },
+    {
+      "question": "C03",
+      "file": "js/products.json",
+      "anchor": "\"id\": \"p01\"",
+      "line": 3,
+      "function": null
+    },
+    {
+      "question": "C03",
+      "file": "js/mo-hinh.js",
+      "anchor": "coTheMua(soLuong) {",
+      "line": 69,
+      "function": {
+        "name": "Product.coTheMua",
+        "start": 69,
+        "end": 71
+      }
+    },
+    {
+      "question": "C03",
+      "file": "js/mo-hinh.js",
+      "anchor": "themSanPham(maSanPham, soLuong) {",
+      "line": 173,
+      "function": {
+        "name": "Cart.themSanPham",
+        "start": 173,
+        "end": 196
+      }
+    },
+    {
+      "question": "C04",
+      "file": "js/du-lieu.js",
+      "anchor": "\"banners\": [",
+      "line": 37,
+      "function": null
+    },
+    {
+      "question": "C04",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "document.getElementById('slide-count').textContent",
+      "line": 37,
+      "function": {
+        "name": "hienThiBanner",
+        "start": 14,
+        "end": 46
+      }
+    },
+    {
+      "question": "C04",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function taoNutBanner(",
+      "line": 58,
+      "function": {
+        "name": "taoNutBanner",
+        "start": 58,
+        "end": 67
+      }
+    },
+    {
+      "question": "C05",
+      "file": "js/du-lieu.js",
+      "anchor": "\"endsAt\":",
+      "line": 35,
+      "function": null
+    },
+    {
+      "question": "C05",
+      "file": "js/trang/trang-chu.js",
+      "anchor": "function capNhatDemNguoc(",
+      "line": 93,
+      "function": {
+        "name": "capNhatDemNguoc",
+        "start": 93,
+        "end": 117
+      }
+    },
+    {
+      "question": "C05",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "if (canXacNhanLai ||",
+      "line": 315,
+      "function": {
+        "name": "xuLyDatHang",
+        "start": 298,
+        "end": 337
+      }
+    },
+    {
+      "question": "C06",
+      "file": "js/hien-thi.js",
+      "anchor": "const chuoiTimKiem =",
+      "line": 85,
+      "function": {
+        "name": "locSanPham",
+        "start": 73,
+        "end": 123
+      }
+    },
+    {
+      "question": "C06",
+      "file": "js/trang/san-pham.js",
+      "anchor": "function hienThiDanhSachSanPham(",
+      "line": 88,
+      "function": {
+        "name": "hienThiDanhSachSanPham",
+        "start": 88,
+        "end": 122
+      }
+    },
+    {
+      "question": "C07",
+      "file": "js/hien-thi.js",
+      "anchor": "const cacKhoangGia =",
+      "line": 13,
+      "function": {
+        "name": "khaiBaoTienIch",
+        "start": 9,
+        "end": 166
+      }
+    },
+    {
+      "question": "C07",
+      "file": "products.html",
+      "anchor": "<option value=\"under5\">",
+      "line": 64,
+      "function": null
+    },
+    {
+      "question": "C07",
+      "file": "js/trang/san-pham.js",
+      "anchor": "price: Object.keys(tienIch.priceRanges)",
+      "line": 32,
+      "function": {
+        "name": "khoiTaoTrangSanPham",
+        "start": 2,
+        "end": 168
+      }
+    },
+    {
+      "question": "C08",
+      "file": "products.html",
+      "anchor": "<option value=\"name\">",
+      "line": 93,
+      "function": null
+    },
+    {
+      "question": "C08",
+      "file": "js/trang/san-pham.js",
+      "anchor": "sort: ['default'",
+      "line": 33,
+      "function": {
+        "name": "khoiTaoTrangSanPham",
+        "start": 2,
+        "end": 168
+      }
+    },
+    {
+      "question": "C08",
+      "file": "js/hien-thi.js",
+      "anchor": "function soSanhTen(",
+      "line": 112,
+      "function": {
+        "name": "soSanhTen",
+        "start": 112,
+        "end": 114
+      }
+    },
+    {
+      "question": "C09",
+      "file": "js/hien-thi.js",
+      "anchor": "function kiemTraKhachHang(",
+      "line": 125,
+      "function": {
+        "name": "kiemTraKhachHang",
+        "start": 125,
+        "end": 155
+      }
+    },
+    {
+      "question": "C09",
+      "file": "checkout.html",
+      "anchor": "<textarea id=\"note\"",
+      "line": 81,
+      "function": null
+    },
+    {
+      "question": "C09",
+      "file": "js/trang/dat-hang.js",
+      "anchor": "const danhSachKhoa4 =",
+      "line": 260,
+      "function": {
+        "name": "hienThiLoiDatHang",
+        "start": 259,
+        "end": 271
+      }
+    },
+    {
+      "question": "C10",
+      "file": "js/products.json",
+      "anchor": "\"id\": \"p01\"",
+      "line": 3,
+      "function": null
+    },
+    {
+      "question": "C10",
+      "file": "js/du-lieu.js",
+      "anchor": "if (typeof sanPham.imgUrl",
+      "line": 91,
+      "function": {
+        "name": "kiemTraSanPham",
+        "start": 74,
+        "end": 104
+      }
+    },
+    {
+      "question": "C10",
+      "file": "js/hien-thi.js",
+      "anchor": "function xuLyAnhLoi(",
+      "line": 363,
+      "function": {
+        "name": "xuLyAnhLoi",
+        "start": 363,
+        "end": 374
+      }
+    }
+  ],
+  "snippets": [
+    {
+      "question": "A12",
+      "file": "js/mo-hinh.js",
+      "start": 186,
+      "count": 10,
+      "source": [
+        "      const tongSoLuong = soLuongCu + soLuong;",
+        "      if (!sanPham.coTheMua(tongSoLuong)) {",
+        "        return { ok: false, message: 'Số lượng vượt quá tồn kho hoặc không hợp lệ.' };",
+        "      }",
+        "      if (dongCu) {",
+        "        dongCu.quantity += soLuong;",
+        "      } else {",
+        "        this.items.push({ productId: sanPham.id, quantity: soLuong });",
+        "      }",
+        "      return { ok: true, persisted: this.baoGioThayDoi() };"
+      ]
+    },
+    {
+      "question": "A13",
+      "file": "js/mo-hinh.js",
+      "start": 241,
+      "count": 3,
+      "source": [
+        "        const sanPham = this.timSanPham(dong.productId);",
+        "        const donGia = sanPham.layGia(thoiDiem);",
+        "        const thanhTien = donGia * dong.quantity;"
+      ]
+    },
+    {
+      "question": "A15",
+      "file": "js/su-kien.js",
+      "start": 79,
+      "count": 3,
+      "source": [
+        "    const gioDaLuu = luuTru.docJSON(luuTru.CART_KEY, []);",
+        "    ungDung.cart = new ungDung.models.Cart(danhSachSanPham, gioDaLuu, luuGio);",
+        "    ungDung.khoiTaoHienThi();"
+      ]
+    },
+    {
+      "question": "A16",
+      "file": "js/luu-tru.js",
+      "start": 45,
+      "count": 7,
+      "source": [
+        "  function luuJSON(khoa, giaTri) {",
+        "    try {",
+        "      window.localStorage.setItem(khoa, JSON.stringify(giaTri));",
+        "      return true;",
+        "    } catch (loi) {",
+        "      baoLoiLuuTru('Không lưu được dữ liệu. Hãy cho phép lưu trữ trình duyệt hoặc giải phóng dung lượng rồi thử lại.');",
+        "      return false;"
+      ]
+    },
+    {
+      "question": "A17",
+      "file": "js/luu-tru.js",
+      "start": 224,
+      "count": 5,
+      "source": [
+        "    danhSachTaiKhoan.push({ username: tenDangNhap, salt: chuoiNgauNhien, passwordHash: maBam });",
+        "    if (!luuTru.luuJSON(luuTru.USERS_KEY, danhSachTaiKhoan)) {",
+        "      return { ok: false, message: 'Chưa lưu được tài khoản. Hãy cho phép LocalStorage rồi thử lại.' };",
+        "    }",
+        "    return { ok: true, username: tenDangNhap };"
+      ]
+    },
+    {
+      "question": "B07",
+      "file": "js/hien-thi.js",
+      "start": 27,
+      "count": 6,
+      "source": [
+        "    let chuoi = String(giaTri);",
+        "    chuoi = chuoi.normalize('NFD');",
+        "    chuoi = chuoi.replace(/[\\u0300-\\u036f]/g, '');",
+        "    chuoi = chuoi.replace(/đ/gi, 'd');",
+        "    chuoi = chuoi.toLowerCase();",
+        "    return chuoi.trim();"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "PC-Astral-Market/about.html": "7e57bc9e8abebb5ffede96d96840dfd21e8f8a10a9b45e0eb0daf9dd0abdc80a",
+    "PC-Astral-Market/ASSET-SOURCES.md": "c7f9afa4d71a39f27bfb160bf91ca7f38364ba52934d79e5ea104dd35e915ddf",
+    "PC-Astral-Market/cart.html": "9e16510333ca9aa850f7665eed7df7092091011b48d3b454e4e3f05d84d80b23",
+    "PC-Astral-Market/checkout.html": "5ce2416c44a6c0211c2640c3b623a53727e5479688baf4de0ffdce038e998cb1",
+    "PC-Astral-Market/HUONG-DAN-MO-WEBSITE.txt": "313385c85acaa8affb35a3fee65a478a25def85d1f4094f84dc1bf09eec75890",
+    "PC-Astral-Market/index.html": "ac35d88cd12b745f0a19719ce5c84017d637dc5d2647c07c9927bde995f0b55e",
+    "PC-Astral-Market/product-detail.html": "22928458b4740ddb2f4d827bcfa95afb8233f5df9ad6a20a20ba5681148fc233",
+    "PC-Astral-Market/products.html": "4436fe8777aa1779168174b6c4e88c46186e2dd16c86371fbb5d43a0bec44ff3",
+    "PC-Astral-Market/README.md": "7166ec28e4a4c2c63aea1da38bb7682902ab6fbf39ce9034619489d4a294c4d0",
+    "PC-Astral-Market/register.html": "cbb3df6bd825aa92b77f6bb17c46a341336b7936322c7fa094da83e6fe6483de",
+    "PC-Astral-Market/css/style.css": "65e5b4a68ff6ea85ea44048335aa3ac07658b8192329a9d3ba24480d5f2f6fb7",
+    "PC-Astral-Market/img/p01.jpg": "6d32258bdbbca2f81a908cf58514b9179abcf67e81779a8c08f68c7bdbb2e65a",
+    "PC-Astral-Market/img/p02.jpg": "6036837d75e894f8c189f3f56acd07765b0d769f63290c11392b9f2dfd7ddb22",
+    "PC-Astral-Market/img/p03.jpg": "70c7d79184a47ba0f849f290f3addc0447954e283ab479397d8d9d08c5400529",
+    "PC-Astral-Market/img/p04.jpg": "e60db04e6766cf7717d10b27c95f59aebfd3b47d2819abb0eae4c10bfc9dc7c5",
+    "PC-Astral-Market/img/p05.jpg": "a18d85035bb1ad240aeb08e1465c242a1c78a48cbd51fa96c4eae53dbbe8930a",
+    "PC-Astral-Market/img/p06.jpg": "363e13007109aa1bfae12a37b816a035d1f7abcf1a0815bf85c130dcef4a9654",
+    "PC-Astral-Market/img/p07.jpg": "2438bf89c3922da37373cc2222e5acfe553350816d8ed8089edd02f060f348c6",
+    "PC-Astral-Market/img/p08.jpg": "ed0f61dca7e441b75819c2ea1d6031f3829dc8e558969b3abbcfaa207a6252db",
+    "PC-Astral-Market/img/p09.jpg": "84e531fe49b812b4db8e979a84733d2c549fe8c757df0b1613eefab6aebaf5f6",
+    "PC-Astral-Market/img/p10.jpg": "8aa5c7d931073ebc93d9ae2f3d2373f2a2103fee6c682a6785cd64e9654cd57d",
+    "PC-Astral-Market/img/p11.jpg": "2438bf89c3922da37373cc2222e5acfe553350816d8ed8089edd02f060f348c6",
+    "PC-Astral-Market/img/p12.jpg": "8be9000e893747982ed28f2dee8a7470bd0efa9f4d2bf9d53fa9e4facd1bd145",
+    "PC-Astral-Market/img/p13.jpg": "1490cb148ea5bd67643f1545fa4a4dddd83d843d2c416263713f8e8f0981bd18",
+    "PC-Astral-Market/img/p14.jpg": "1f882170aa7b29ae5a8cf4b09b4be68227bc571941db65d2e71fc0918bf770d2",
+    "PC-Astral-Market/img/p15.jpg": "80465c0190648f3d47c4b14d0549a3c17872d203b1e0e1459c070058081c6d42",
+    "PC-Astral-Market/img/p16.png": "be702da3a02425028dccec6b2760a625308031b26d6dadbf5aaad003c338b195",
+    "PC-Astral-Market/img/p17.jpg": "50d49b21dc67f34c20b84a036ff8b717ace0e9dcf11892edf9b9b156878544d0",
+    "PC-Astral-Market/img/p18.jpg": "c7f131d14e9aecec660ab0917f85f55f4c50bc9aa0db6db91bff30671cd3322a",
+    "PC-Astral-Market/img/p19.png": "25949d4d095198de85e3019ec772c30c4e26bf5dac78953a29e03487418e355f",
+    "PC-Astral-Market/img/p20.jpg": "6b4f7bf5ada99e701368de6853427f9f0eab43a114d0f8a797048e53d41da627",
+    "PC-Astral-Market/img/p21.jpg": "d8b9fe8b5df2e91d4d772fa6a16fcbe30fe98ae5e8faf6e3a3491a19581e9be3",
+    "PC-Astral-Market/img/p22.jpg": "50bb1977d6221c81f586b3f6260f8af311f256f97a5e50af2e1d65a6e6ded3db",
+    "PC-Astral-Market/img/p23.jpg": "c3c357175a0c54bb46104db68ab5aec814b6e990e96f4300590c8e15b2073fad",
+    "PC-Astral-Market/img/p24.jpg": "ec1c23bfa6da89fc01d3c68187bb9f5399605fb1c6d8707761e4fd64790497ba",
+    "PC-Astral-Market/js/du-lieu.js": "57fbf70a93b936cecf77614e316da82fe5ae4707dfaf7bab62161fd8276b59bb",
+    "PC-Astral-Market/js/hien-thi.js": "322c5eda946d65548c451825178b0e26b563a5178bd2b09816a6d39e0433f7a4",
+    "PC-Astral-Market/js/luu-tru.js": "52d5303d6aff466e6d4a8d61dd1f7d5d65c3bf0ed73549ef70a2bdc14328e189",
+    "PC-Astral-Market/js/mo-hinh.js": "7746d2e6ae83cbadd7d39a54b6ce71b9dad1b0e5f7af36dc651f318d876497d6",
+    "PC-Astral-Market/js/products.json": "07fe0d214a1fa5ef1419772248a4a8933db4d7298799eb5e0101c52e32d8a827",
+    "PC-Astral-Market/js/san-pham-du-phong.js": "75baaabf7d5ef6920cc081f0ec527f1862d20fd2db053002634a4e825c729f27",
+    "PC-Astral-Market/js/su-kien.js": "06f57995fe54a37328f793bb06484ca83525d469c440c4efd5055b20f28abaa2",
+    "PC-Astral-Market/assets/fonts/sarabun/OFL.txt": "8f5639919580943ac354cf131d69f1a452c686cfd68e2743a319f70b1dab2bff",
+    "PC-Astral-Market/assets/fonts/sarabun/README.md": "7345ece890bc4e73e1fc14fd728d9b2fdf081a103bdebe817477047fc6795ec7",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-400-latin-ext.woff2": "5af661b8dd7a46d7d8e6a77e56ca1fdc7378d81672785d7a00a0794af8b678d0",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-400-latin.woff2": "04548534510686923239aeda26dd40fa57bf6cc55166204ef52b483bcf9e4228",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-400-vietnamese.woff2": "abb3c370fde3bcfd3cdbc0d320de5e434e59cea55378de8356783c6450424e3b",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-500-latin-ext.woff2": "a618d35865a6ee0a89ff1ac4000bc5527ccbbe421cf248ddb81eab97b780dd4d",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-500-latin.woff2": "80c1649bbfac337df5de4e3425eab4dfc003aa6e60ad86764f0f8fc2f12a2c94",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-500-vietnamese.woff2": "ab564a94eba198f5d9c92b747a549b21d9012b763bde0f74e59358a2f7046a69",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-600-latin-ext.woff2": "9f01b60a1b0234947566924bd95863a9af607968632519c86ffbc2de5e888cd5",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-600-latin.woff2": "f7ce52775a10ea90309b40bf081c4ed53c173cea99ddf14eef003493376f8591",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-600-vietnamese.woff2": "428907a5a0c9337e29140bc390bfa33898b7f546d7aea831fd9dc64f3615e369",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-700-latin-ext.woff2": "b64825bfdee3f7b01b48d6f9f94af61d88bc0b7c8f8903fbf12a9dc8eb850047",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-700-latin.woff2": "b7e814f0f8a07648c77837917ff896c819d44ed4688a83f49b9cb29fdf7898fb",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-700-vietnamese.woff2": "e8fd6122a93fba87dbae78717c7435b9606913324d5cff26c8027ffe248c184b",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-800-latin-ext.woff2": "79c597df4c89776d3ce55ccf40c96e203c5f037237e50a391837fd2d9631c673",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-800-latin.woff2": "b85e05b64b631890a2e244a38eae44aec14449360e34efaf710dcfef6b2a3e2c",
+    "PC-Astral-Market/assets/fonts/sarabun/sarabun-800-vietnamese.woff2": "add589db1d5a45103d15c8d20c38e4e9cb94507a704efc9560cb1adfd3369e70",
+    "PC-Astral-Market/js/trang/chi-tiet.js": "70ef424fa429cbe9d52b4be656f9d109412e8622078169b38d1b269a42b3af09",
+    "PC-Astral-Market/js/trang/dat-hang.js": "44213745c4b39b81011973649a098d801d6d638f70914aed89a2bf940016ba8a",
+    "PC-Astral-Market/js/trang/gio-hang.js": "04822f244ff8df4dc0d25dbf73b9a253691dcb9a91dd42409dc5e438b61b2a56",
+    "PC-Astral-Market/js/trang/san-pham.js": "ef03a3a6db4f2fbbc5424769f0f889ae0431f2e5216e6d08a543e243602f2436",
+    "PC-Astral-Market/js/trang/tai-khoan.js": "50c7a6a0848027b778be4f9c27da3f16f2ef507f15f64be186a2fe56d6320a6d",
+    "PC-Astral-Market/js/trang/trang-chu.js": "ea7d68b2f996447a792ef51a60ddebd6fb3440ab867224fb18e6a3c622e879b2"
+  },
+  "figures": 3
+}

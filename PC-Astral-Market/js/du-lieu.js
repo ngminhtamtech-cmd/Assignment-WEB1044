@@ -121,6 +121,8 @@ function boSungDanhMuc(sanPham) {
 // Đọc file JSON cần chờ trình duyệt: await chờ kết quả rồi mới chạy dòng tiếp.
 // Không cần học thuộc Promise để sửa sản phẩm; chỉ sửa js/products.json.
 async function napDuLieuSanPham() {
+  // ÔN JS - CÂU 1: dữ liệu gốc ở js/products.json; thêm một object đủ trường, ID riêng vào mảng.
+  // ÔN JS - CÂU 1: HTTP đọc JSON bằng fetch; file:// dùng san-pham-du-phong.js đã đồng bộ khi đóng gói.
   try {
     let danhSachJSON;
     // MỞ TRỰC TIẾP: file:// không cho fetch JSON. Đọc bản JSON nhúng đã đóng gói.

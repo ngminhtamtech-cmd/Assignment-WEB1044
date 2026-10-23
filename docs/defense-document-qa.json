@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-22",
+  "file": "Bộ-câu-hỏi.docx",
+  "pages": 40,
+  "questions": 60,
+  "core": 20,
+  "advanced": 30,
+  "practice": 10,
+  "diagrams": 3,
+  "source_references_checked": 154,
+  "source_excerpts_checked": 6,
+  "toc_question_pages_checked": 60,
+  "practice_tests_passed": 11,
+  "protected_files_unchanged": 68,
+  "sha256": "e3b69f9048c57bbef4dd481061aed8811de69fdb375a73c592e771d0fe170f21",
+  "renderer": "Microsoft Word COM PDF export + pypdfium2; bundled renderer unavailable because LibreOffice is absent.",
+  "all_pages_visually_reviewed": true,
+  "status": "PASS"
+}

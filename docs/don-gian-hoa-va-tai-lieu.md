@@ -1,6 +1,6 @@
 # Đơn giản hóa JavaScript và chuẩn hóa hai tài liệu
 
-Ngày kiểm tra: 21/10/2026. Áp dụng trong PC-Astral-Market của thư mục dự án hiện tại.
+Ghi nhận ngày 21/10/2026; trạng thái tài liệu cập nhật ngày 22/10/2026. Áp dụng trong PC-Astral-Market của thư mục dự án hiện tại.
 
 ## Góp ý được áp dụng
 
@@ -19,17 +19,19 @@ Ngày kiểm tra: 21/10/2026. Áp dụng trong PC-Astral-Market của thư mục
 
 ## Hai tài liệu hiện hành
 
-1. `BaoCao_Assignment2_PC-Astral-Market.docx`: 9 trang; Y1, ba đề xuất kèm lý do, Y2 đúng cấu trúc, sơ đồ, kết quả kiểm thử, thư viện/công cụ, GitHub. Mục lục tự động có dấu chấm dẫn và số trang căn phải. Có 4 hình và 5 bảng nội dung, ngoài bảng thành viên.
-2. `UseCase_Logic_Ham_PC-Astral-Market.docx`: 8 trang; chỉ Use Case, logic, bảng các hàm chính và số dòng. Có ba Use Case và bốn sơ đồ luồng; không chép các khối mã dài.
+1. `BaoCao_Assignment2_PC-Astral-Market.docx`: 27 trang, 19 hình. Giữ bìa và chương mục bản người dùng khôi phục; chỉ cập nhật mô tả kỹ thuật, bảng nhiệm vụ, sơ đồ và kết quả kiểm thử. Mục lục, danh mục hình/bảng có dấu chấm dẫn.
+2. `UseCase_Logic_Ham_PC-Astral-Market.docx`: 8 trang, 7 hình và 45 hàm chính kèm số dòng theo mã hiện tại.
 
-Bìa giữ ba thành viên trống tên/MSSV và Cô Lê Anh Đào. Báo cáo Word cũ được thay thế bằng nội dung mới; xóa hai Word tổng quan/sửa nhanh và các bộ sinh Word lỗi thời. Nguồn mới duy nhất là `tools/build_documents.py`.
+Bìa giữ ba thành viên trống tên/MSSV và Cô Lê Anh Đào. `tools/build_documents.py` chỉ tạo tài liệu thứ hai; `tools/update_report_content.py` cập nhật cục bộ báo cáo đang có. Không chạy bộ tạo báo cáo ngắn cũ. Công cụ xuất Word chỉ cập nhật trường và số trang, giữ kiểu bìa người dùng.
 
 ## Bằng chứng sau thay đổi
 
 - 18 nhóm kiểm thử chức năng và 13 nhóm mô hình/tài khoản đạt.
 - 26 lượt lỗi logic qua HTTP và 26 lượt tương ứng qua file:// đạt trên Chrome/Edge.
 - Mở trực tiếp tại đường dẫn có dấu/khoảng trắng trên Chrome/Edge đạt; kiểm tra AST 12 file JS, 135 khai báo hàm/phương thức, 7 trang đạt.
-- Toàn bộ 17 trang Word được render bằng Microsoft Word → PDF → PNG và kiểm tra bố cục. Không có LibreOffice trong runtime nên dùng Word cài sẵn để render.
+- Toàn bộ 35 trang Word được render bằng Microsoft Word → PDF → PNG và kiểm tra bố cục. Không có LibreOffice trong runtime nên dùng Word cài sẵn để render.
 - ZIP được tạo lại từ mã cuối và báo cáo Y3; đối chiếu byte báo cáo trong ZIP với bản gốc, thử bản giải nén. Xem `package-check.json`, `package-smoke.json` và `documents-qa.json`.
 
 Kết quả chỉ áp dụng các ca đã chạy, không bảo đảm mọi môi trường đều không có lỗi. LocalStorage vẫn phụ thuộc origin, quyền lưu trữ và dữ liệu trình duyệt; tắt server không chủ động xóa tài khoản.
+
+Chi tiết đợt rút gọn và kiểm thử mới: [refactor ngày 22/10](refactor-2026-10-22.md). Nhật ký 21/10 là lịch sử; kết quả mới nằm trong các JSON đã cập nhật ngày thực chạy.

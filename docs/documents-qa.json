@@ -1,25 +1,24 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "status": "PASS",
   "renderer": "Microsoft Word COM PDF export and pypdfium2 PNG",
-  "renderer_note": "LibreOffice not available in bundled environment; inspected all 17 Word-rendered pages.",
+  "renderer_note": "render_docx.py không chạy được vì thiếu LibreOffice; dùng Word cài sẵn, giữ nguyên kiểu báo cáo.",
   "documents": [
     {
       "file": "BaoCao_Assignment2_PC-Astral-Market.docx",
-      "pages": 9,
-      "figures": 4,
-      "sha256": "a4513b5879c123a1861748de1326130f2dd93a6ba5f9035fd2e534865269f103",
-      "all_pages_rendered_and_visually_reviewed": true,
-      "layout": "PASS"
+      "pages": 27,
+      "figures": 19,
+      "sha256": "59b36f2b1c3a9a9abee13b0c741303549b68b66beb28e109f14ee7f9537981c9",
+      "all_pages_rendered_and_visually_reviewed": true
     },
     {
       "file": "UseCase_Logic_Ham_PC-Astral-Market.docx",
       "pages": 8,
       "figures": 7,
-      "sha256": "20b336cfb6d565ea47de8ff6df2efac828ace009c9f43fd49945cde84e55deee",
-      "all_pages_rendered_and_visually_reviewed": true,
-      "layout": "PASS"
+      "sha256": "a608dedad66dd436bb8c328f6aa9e61ea557e77973f18c14a8f4aa59b7603d85",
+      "all_pages_rendered_and_visually_reviewed": true
     }
   ],
-  "root_docx_count": 2
+  "root_docx_count": 2,
+  "guide_functions_verified": 45
 }

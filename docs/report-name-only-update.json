@@ -1,0 +1,32 @@
+{
+  "file": "BaoCao_Assignment2_PC-Astral-Market.docx",
+  "replacements": {
+    "data.js": 2,
+    "utils.js": 1,
+    "storage.js": 1,
+    "cart.js": 1,
+    "common.js": 1,
+    "home.js": 1,
+    "products.js": 1,
+    "product-detail.js": 1,
+    "cart-page.js": 1,
+    "checkout.js": 1,
+    "about.js": 1
+  },
+  "total": 12,
+  "changed_zip_parts": [
+    "word/document.xml"
+  ],
+  "all_formatting_and_images_unchanged": true,
+  "before_sha256": "2eb2d33fe8990f6be52b5eb186a13575fd8ab45088849c909871ae3ce8bd7733",
+  "after_sha256": "ebd3c275cf50ee383760f0448b1bc5d33eccea52c470c509e9d20628b2faa4ef",
+  "pages_before": 27,
+  "pages_after": 27,
+  "rendered_pages_changed": [
+    8,
+    27
+  ],
+  "pixel_identical_other_pages": 25,
+  "visual_check": "PASS: unchanged pagination, all page overview reviewed, both edited pages inspected at full size",
+  "scope": "Only editable JavaScript filenames; images, explanations, styles and other ZIP parts preserved"
+}

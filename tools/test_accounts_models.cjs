@@ -167,6 +167,6 @@ async function check(name, action) {
     await check('C13 Không có lỗi JavaScript chưa xử lý trong các trường hợp bổ sung', async()=>assert.deepEqual(errors,[]));
     await context.close();
   } finally { await browser.close(); }
-  fs.writeFileSync(path.join(root,'docs/accounts-models-tests.json'),JSON.stringify({date:'2026-10-19',results,errors},null,2));
+  fs.writeFileSync(path.join(root,'docs/accounts-models-tests.json'),JSON.stringify({date:new Date().toISOString().slice(0,10),results,errors},null,2));
   if(results.some(r=>r.status==='FAIL'))process.exitCode=1;
 })();

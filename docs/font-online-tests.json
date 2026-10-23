@@ -1,0 +1,653 @@
+{
+  "status": "PASS",
+  "date": "2026-10-23",
+  "browser": "Chrome",
+  "http": "Local static HTTP equivalent to Live Server serving; VS Code extension not launched",
+  "checks": [
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 390,
+      "page": "index.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 390,
+      "page": "products.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 390,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 390,
+      "page": "cart.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 390,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 390,
+      "page": "register.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 390,
+      "page": "about.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 768,
+      "page": "index.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 768,
+      "page": "products.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 768,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 768,
+      "page": "cart.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 768,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 768,
+      "page": "register.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 768,
+      "page": "about.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 1440,
+      "page": "index.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 1440,
+      "page": "products.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 1440,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 1440,
+      "page": "cart.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 1440,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 1440,
+      "page": "register.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "width": 1440,
+      "page": "about.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "http",
+      "blocked": false,
+      "flow": "search-cart-reload-checkout-confirmation",
+      "actualFonts": [
+        {
+          "familyName": "Sarabun",
+          "postScriptName": "Sarabun-Bold",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 390,
+      "page": "index.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 390,
+      "page": "products.html",
+      "loadedSarabunFaces": 10
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 390,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 390,
+      "page": "cart.html",
+      "loadedSarabunFaces": 10
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 390,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 10
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 390,
+      "page": "register.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 390,
+      "page": "about.html",
+      "loadedSarabunFaces": 12
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 768,
+      "page": "index.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 768,
+      "page": "products.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 768,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 768,
+      "page": "cart.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 768,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 768,
+      "page": "register.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 768,
+      "page": "about.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 1440,
+      "page": "index.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 1440,
+      "page": "products.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 1440,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 1440,
+      "page": "cart.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 1440,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 1440,
+      "page": "register.html",
+      "loadedSarabunFaces": 11
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "width": 1440,
+      "page": "about.html",
+      "loadedSarabunFaces": 13
+    },
+    {
+      "mode": "file",
+      "blocked": false,
+      "flow": "search-cart-reload-checkout-confirmation",
+      "actualFonts": [
+        {
+          "familyName": "Sarabun",
+          "postScriptName": "Sarabun-Bold",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 390,
+      "page": "index.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 390,
+      "page": "products.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 390,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 390,
+      "page": "cart.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 390,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 390,
+      "page": "register.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 390,
+      "page": "about.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 768,
+      "page": "index.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 768,
+      "page": "products.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 768,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 768,
+      "page": "cart.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 768,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 768,
+      "page": "register.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 768,
+      "page": "about.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 1440,
+      "page": "index.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 1440,
+      "page": "products.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 1440,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 1440,
+      "page": "cart.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 1440,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 1440,
+      "page": "register.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "width": 1440,
+      "page": "about.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "http",
+      "blocked": true,
+      "flow": "search-cart-reload-checkout-confirmation",
+      "actualFonts": [
+        {
+          "familyName": "Arial",
+          "postScriptName": "Arial-BoldMT",
+          "isCustomFont": false,
+          "glyphCount": 26
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 390,
+      "page": "index.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 390,
+      "page": "products.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 390,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 390,
+      "page": "cart.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 390,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 390,
+      "page": "register.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 390,
+      "page": "about.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 768,
+      "page": "index.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 768,
+      "page": "products.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 768,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 768,
+      "page": "cart.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 768,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 768,
+      "page": "register.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 768,
+      "page": "about.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 1440,
+      "page": "index.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 1440,
+      "page": "products.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 1440,
+      "page": "product-detail.html?id=p01",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 1440,
+      "page": "cart.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 1440,
+      "page": "checkout.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 1440,
+      "page": "register.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "width": 1440,
+      "page": "about.html",
+      "loadedSarabunFaces": 0
+    },
+    {
+      "mode": "file",
+      "blocked": true,
+      "flow": "search-cart-reload-checkout-confirmation",
+      "actualFonts": [
+        {
+          "familyName": "Arial",
+          "postScriptName": "Arial-BoldMT",
+          "isCustomFont": false,
+          "glyphCount": 26
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "preservedFiles": 18
+}

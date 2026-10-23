@@ -123,6 +123,6 @@ const customer = {name:'  Khách thử nháp  ',email:'sai-email',phone:'0901234
   } finally {await browser.close();}
  }
  const filename=baseline?'logic-baseline.json':(base.startsWith('file:')?'logic-file-regressions.json':'logic-regressions.json');
- fs.writeFileSync(path.resolve(__dirname,'../docs/'+filename),JSON.stringify({date:'2026-10-21',base,results},null,2));
+ fs.writeFileSync(path.resolve(__dirname,'../docs/'+filename),JSON.stringify({date:new Date().toISOString().slice(0,10),base,results},null,2));
  if(results.some(r=>r.status==='FAIL'))process.exitCode=1;
 })().catch(e=>{console.error(e);process.exitCode=1;});

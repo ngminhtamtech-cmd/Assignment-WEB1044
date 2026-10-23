@@ -15,10 +15,12 @@ report=root/'BaoCao_Assignment2_PC-Astral-Market.docx'
 archive=root/'submission/WEB1044_LapTrinhJSCoBan_PC-Astral-Market_Assignment.zip'
 assert report.exists()
 doc=Document(report)
-assert len(doc.inline_shapes)==4
+report_state=json.loads((root/'docs/report-content-sync.json').read_text(encoding='utf-8'))
+assert len(doc.inline_shapes)==report_state['figures']
+assert [p.text for p in doc.paragraphs if p.style.name.startswith('Heading')]==report_state['headings']
 assert 'Lê Anh Đào' in '\n'.join(p.text for p in doc.paragraphs)
 assert len(doc.tables[0].rows)==4
-for row in doc.tables[0].rows[1:]: assert row.cells[1].text=='' and row.cells[2].text==''
+for row in doc.tables[0].rows[1:]: assert row.cells[1].text.strip()=='' and row.cells[2].text.strip()==''
 assert all(p.is_relative_to(site/'js') for p in site.rglob('*.js'))
 assert all(p.parent.name=='css' for p in site.rglob('*.css'))
 assert len(list(site.glob('*.html')))==7

@@ -23,6 +23,8 @@ function khaiBaoLuuTru() {
 
   // Truy cập storage cũng có thể ném lỗi, nên đặt cả getItem/setItem trong try/catch.
   function docJSON(khoa, duPhong) {
+    // ÔN JS - CÂU 9: khóa bị xóa trả về duPhong; JSON hỏng hoặc bị chặn đọc cũng được catch, không làm vỡ trang.
+    // ÔN JS - CÂU 8: JSON.parse đổi chuỗi đã lưu về mảng/object để JavaScript xử lý tiếp.
     let chuoiJSON;
     try {
       chuoiJSON = window.localStorage.getItem(khoa);
@@ -43,6 +45,8 @@ function khaiBaoLuuTru() {
   }
 
   function luuJSON(khoa, giaTri) {
+    // ÔN JS - CÂU 8: LocalStorage lưu chuỗi; JSON.stringify chuyển mảng/object thành chuỗi JSON trước khi ghi.
+    // ÔN JS - CÂU 8: F5 không xóa LocalStorage; dữ liệu nằm trong trình duyệt, không ghi vào file nguồn.
     try {
       window.localStorage.setItem(khoa, JSON.stringify(giaTri));
       return true;

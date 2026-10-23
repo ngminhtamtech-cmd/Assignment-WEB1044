@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-22",
+  "status": "PASS",
+  "changed_runtime_js_files": 5,
+  "function_method_names_unchanged": 135,
+  "unused_variable_bindings": 0,
+  "html_css_product_json_unchanged": true,
+  "report_pages": 27,
+  "guide_pages": 8,
+  "cover_pixel_identical": true,
+  "word_files_remaining": 2,
+  "zip_matches_source": true,
+  "extracted_zip_smoke": "PASS",
+  "temporary_copies_removed": true,
+  "tests": {
+    "current": 18,
+    "accounts_models": 13,
+    "http_regressions": 26,
+    "file_regressions": 26,
+    "file_mode_browsers": 2
+  },
+  "note": "Counts describe different test suites and may overlap; no universal zero-bug claim."
+}

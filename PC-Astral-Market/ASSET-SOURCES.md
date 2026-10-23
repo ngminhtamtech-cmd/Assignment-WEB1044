@@ -45,4 +45,6 @@ Banner được dàn trang bằng HTML/CSS kết hợp ảnh sản phẩm đã d
 
 ## Phông chữ
 
-Phông chính **Sarabun** theo computed style của PC Market, kiểm tra ngày 17/10/2026. Font từ Google Fonts được lưu trong `assets/fonts/sarabun`, khai báo tại `css/fonts.css`, có bộ ký tự tiếng Việt và giấy phép SIL OFL 1.1 kèm theo. Xem `assets/fonts/sarabun/README.md`.
+Phông chính **Sarabun**, tải online từ [Google Fonts](https://fonts.google.com/specimen/Sarabun) theo giấy phép SIL Open Font License 1.1. Bảy trang HTML khai báo link tải các độ đậm 400, 500, 600, 700, 800 với display=swap. `css/style.css` áp dụng Sarabun và font dự phòng Arial/sans-serif. Không lưu file font trong dự án.
+
+Cần mạng để tải font lần đầu; nếu dịch vụ bị chặn hoặc không có mạng và chưa có cache, font dự phòng được dùng. Các chức năng JavaScript không phụ thuộc việc tải font. Cách khai báo: [Google Fonts CSS API](https://developers.google.com/fonts/docs/css2).

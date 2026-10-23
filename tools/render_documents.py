@@ -10,6 +10,9 @@ for pdf in folder.glob('*.pdf'):
     document=pdfium.PdfDocument(pdf)
     destination=folder/pdf.stem
     destination.mkdir(exist_ok=True)
+    # Xóa đúng PNG của lần render cũ, tránh giữ trang thừa sau khi sửa bố cục.
+    for previous in destination.glob('page-*.png'):
+        previous.unlink()
     pages=[]
     for index in range(len(document)):
         page=document[index]

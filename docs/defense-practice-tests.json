@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-22",
+  "browser": "Google Chrome",
+  "scope": "Only isolated exercise copies; C10 intentionally reproduced a missing image before repairing it.",
+  "results": [
+    {
+      "id": "C01",
+      "status": "PASS"
+    },
+    {
+      "id": "C02",
+      "status": "PASS"
+    },
+    {
+      "id": "C03",
+      "status": "PASS"
+    },
+    {
+      "id": "C04",
+      "status": "PASS"
+    },
+    {
+      "id": "C05",
+      "status": "PASS"
+    },
+    {
+      "id": "C06",
+      "status": "PASS"
+    },
+    {
+      "id": "C07",
+      "status": "PASS"
+    },
+    {
+      "id": "C08",
+      "status": "PASS"
+    },
+    {
+      "id": "C09",
+      "status": "PASS"
+    },
+    {
+      "id": "C10",
+      "status": "PASS"
+    },
+    {
+      "id": "DEMO",
+      "status": "PASS",
+      "detail": "Seven pages; register/login/reload/logout/login/reset with test credentials; storage fields checked."
+    }
+  ]
+}

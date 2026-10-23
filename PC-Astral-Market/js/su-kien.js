@@ -5,6 +5,7 @@ function khaiBaoSuKien() {
   const luuTru = ungDung.storage;
 
   function xuLyThemGio(suKien) {
+    // ÔN JS - CÂU 7: suKien.target là phần tử bấm thực tế; closest tìm chính nó hoặc tổ tiên khớp [data-add].
     const gioHang = ungDung.cart;
     const thongBao = ungDung.ui.thongBao;
     const nut = suKien.target.closest('[data-add]');
@@ -27,9 +28,8 @@ function khaiBaoSuKien() {
 
   function xuLyBamNutChung(suKien) {
     // target là phần tử bấm thực tế; closest tìm nút nếu bấm vào chữ/thẻ con trong nút.
-    if (suKien.target.closest('[data-add]')) {
-      xuLyThemGio(suKien);
-    }
+    // Hàm tự kiểm tra nút thêm giỏ; không cần tìm cùng một nút hai lần.
+    xuLyThemGio(suKien);
     if (suKien.target.closest('[data-end-demo]')) {
       const daDongY = window.confirm('Xóa giỏ, đơn demo, tài khoản và trạng thái đăng nhập của PC-Astral Market?');
       if (daDongY && luuTru.ketThucDemo()) {
@@ -39,6 +39,7 @@ function khaiBaoSuKien() {
   }
 
   function xuLyLuuTruThayDoi(suKien) {
+    // ÔN JS - CÂU 9: storage báo thay đổi từ tab khác cùng origin; tab tự xóa storage không tự nhận sự kiện này.
     if (suKien.key === luuTru.RESET_KEY) {
       location.replace('index.html');
       return;
@@ -78,10 +79,12 @@ function khaiBaoSuKien() {
     ungDung.data.products = danhSachSanPham;
     // GIỮ DỮ LIỆU KHI F5: đọc giỏ đã lưu, tạo lại đối tượng Cart từ các dòng JSON.
     const gioDaLuu = luuTru.docJSON(luuTru.CART_KEY, []);
+    // ÔN JS - CÂU 9: khi mở/F5, mất khóa giỏ thì dùng []; Cart kiểm tra tiếp kiểu dữ liệu, ID và số lượng.
     ungDung.cart = new ungDung.models.Cart(danhSachSanPham, gioDaLuu, luuGio);
     ungDung.khoiTaoHienThi();
     ungDung.ui.khoiTaoChung();
     document.addEventListener('click', xuLyBamNutChung);
+    // ÔN JS - CÂU 6: một listener ở document nhận click nổi bọt từ nút con, kể cả nút được render sau đó.
     window.addEventListener('storage', xuLyLuuTruThayDoi);
     window.addEventListener('account-changed', ungDung.ui.capNhatTenTaiKhoan);
     const khoiTaoTrang = ungDung.pages[document.body.dataset.page];

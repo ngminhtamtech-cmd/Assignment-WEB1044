@@ -1,0 +1,700 @@
+{
+  "js/du-lieu.js": [
+    {
+      "name": "kiemTraSanPham",
+      "start": 74,
+      "end": 104
+    },
+    {
+      "name": "boSungDanhMuc",
+      "start": 106,
+      "end": 119
+    },
+    {
+      "name": "napDuLieuSanPham",
+      "start": 123,
+      "end": 163
+    }
+  ],
+  "js/hien-thi.js": [
+    {
+      "name": "khoiTaoHienThi",
+      "start": 4,
+      "end": 7
+    },
+    {
+      "name": "khaiBaoTienIch",
+      "start": 9,
+      "end": 166
+    },
+    {
+      "name": "dinhDangTien",
+      "start": 21,
+      "end": 23
+    },
+    {
+      "name": "boDau",
+      "start": 25,
+      "end": 33
+    },
+    {
+      "name": "timSanPham",
+      "start": 35,
+      "end": 43
+    },
+    {
+      "name": "maHoaHTML",
+      "start": 45,
+      "end": 54
+    },
+    {
+      "name": "dungNhom",
+      "start": 56,
+      "end": 70
+    },
+    {
+      "name": "locSanPham",
+      "start": 73,
+      "end": 123
+    },
+    {
+      "name": "soSanhGiaTang",
+      "start": 106,
+      "end": 108
+    },
+    {
+      "name": "soSanhGiaGiam",
+      "start": 109,
+      "end": 111
+    },
+    {
+      "name": "soSanhTen",
+      "start": 112,
+      "end": 114
+    },
+    {
+      "name": "kiemTraKhachHang",
+      "start": 125,
+      "end": 155
+    },
+    {
+      "name": "khaiBaoGiaoDienChung",
+      "start": 168,
+      "end": 451
+    },
+    {
+      "name": "hienThiDauTrang",
+      "start": 181,
+      "end": 230
+    },
+    {
+      "name": "hienThiCuoiTrang",
+      "start": 232,
+      "end": 264
+    },
+    {
+      "name": "taoTheSanPham",
+      "start": 266,
+      "end": 310
+    },
+    {
+      "name": "hienThiLuoiSanPham",
+      "start": 312,
+      "end": 327
+    },
+    {
+      "name": "thongBao",
+      "start": 329,
+      "end": 335
+    },
+    {
+      "name": "anThongBao",
+      "start": 337,
+      "end": 339
+    },
+    {
+      "name": "capNhatSoLuongGio",
+      "start": 341,
+      "end": 347
+    },
+    {
+      "name": "hienThiLoiLuuTru",
+      "start": 349,
+      "end": 353
+    },
+    {
+      "name": "batTatMenu",
+      "start": 355,
+      "end": 360
+    },
+    {
+      "name": "xuLyAnhLoi",
+      "start": 363,
+      "end": 374
+    },
+    {
+      "name": "theoDoiKhuyenMai",
+      "start": 376,
+      "end": 396
+    },
+    {
+      "name": "kiemTraKhuyenMai",
+      "start": 381,
+      "end": 389
+    },
+    {
+      "name": "capNhatTenTaiKhoan",
+      "start": 398,
+      "end": 409
+    },
+    {
+      "name": "xuLyCanhBao",
+      "start": 411,
+      "end": 413
+    },
+    {
+      "name": "khoiTaoChung",
+      "start": 415,
+      "end": 443
+    }
+  ],
+  "js/luu-tru.js": [
+    {
+      "name": "khaiBaoLuuTru",
+      "start": 4,
+      "end": 98
+    },
+    {
+      "name": "layLoiLuuTru",
+      "start": 15,
+      "end": 17
+    },
+    {
+      "name": "baoLoiLuuTru",
+      "start": 19,
+      "end": 22
+    },
+    {
+      "name": "docJSON",
+      "start": 25,
+      "end": 43
+    },
+    {
+      "name": "luuJSON",
+      "start": 45,
+      "end": 53
+    },
+    {
+      "name": "ketThucDemo",
+      "start": 56,
+      "end": 73
+    },
+    {
+      "name": "xoaDuLieu",
+      "start": 75,
+      "end": 83
+    },
+    {
+      "name": "khaiBaoTaiKhoan",
+      "start": 105,
+      "end": 271
+    },
+    {
+      "name": "docTaiKhoan",
+      "start": 110,
+      "end": 133
+    },
+    {
+      "name": "timTaiKhoan",
+      "start": 135,
+      "end": 143
+    },
+    {
+      "name": "layTaiKhoanDangNhap",
+      "start": 145,
+      "end": 155
+    },
+    {
+      "name": "doiSangHex",
+      "start": 158,
+      "end": 168
+    },
+    {
+      "name": "bamMatKhau",
+      "start": 172,
+      "end": 188
+    },
+    {
+      "name": "kiemTraDangKy",
+      "start": 190,
+      "end": 202
+    },
+    {
+      "name": "dangKy",
+      "start": 204,
+      "end": 229
+    },
+    {
+      "name": "dangNhap",
+      "start": 231,
+      "end": 254
+    },
+    {
+      "name": "dangXuat",
+      "start": 256,
+      "end": 262
+    }
+  ],
+  "js/mo-hinh.js": [
+    {
+      "name": "khaiBaoMoHinh",
+      "start": 4,
+      "end": 263
+    },
+    {
+      "name": "Product.constructor",
+      "start": 8,
+      "end": 31
+    },
+    {
+      "name": "Product.dangGiamGia",
+      "start": 34,
+      "end": 46
+    },
+    {
+      "name": "Product.layGia",
+      "start": 49,
+      "end": 55
+    },
+    {
+      "name": "Product.layGiaHienThi",
+      "start": 58,
+      "end": 61
+    },
+    {
+      "name": "Product.conHang",
+      "start": 64,
+      "end": 66
+    },
+    {
+      "name": "Product.coTheMua",
+      "start": 69,
+      "end": 71
+    },
+    {
+      "name": "Product.layTenDanhMuc",
+      "start": 74,
+      "end": 83
+    },
+    {
+      "name": "Cart.constructor",
+      "start": 87,
+      "end": 97
+    },
+    {
+      "name": "Cart.timSanPham",
+      "start": 99,
+      "end": 108
+    },
+    {
+      "name": "Cart.timDongGio",
+      "start": 111,
+      "end": 120
+    },
+    {
+      "name": "Cart.kiemTraGio",
+      "start": 123,
+      "end": 154
+    },
+    {
+      "name": "Cart.layGio",
+      "start": 156,
+      "end": 164
+    },
+    {
+      "name": "Cart.baoGioThayDoi",
+      "start": 166,
+      "end": 171
+    },
+    {
+      "name": "Cart.themSanPham",
+      "start": 173,
+      "end": 196
+    },
+    {
+      "name": "Cart.doiSoLuong",
+      "start": 198,
+      "end": 208
+    },
+    {
+      "name": "Cart.xoaSanPham",
+      "start": 210,
+      "end": 219
+    },
+    {
+      "name": "Cart.xoaGio",
+      "start": 221,
+      "end": 229
+    },
+    {
+      "name": "Cart.tinhTongGio",
+      "start": 232,
+      "end": 255
+    },
+    {
+      "name": "Cart.layTongTien",
+      "start": 257,
+      "end": 259
+    }
+  ],
+  "js/san-pham-du-phong.js": [],
+  "js/su-kien.js": [
+    {
+      "name": "khaiBaoSuKien",
+      "start": 2,
+      "end": 101
+    },
+    {
+      "name": "xuLyThemGio",
+      "start": 7,
+      "end": 26
+    },
+    {
+      "name": "xuLyBamNutChung",
+      "start": 28,
+      "end": 38
+    },
+    {
+      "name": "xuLyLuuTruThayDoi",
+      "start": 40,
+      "end": 52
+    },
+    {
+      "name": "luuGio",
+      "start": 55,
+      "end": 59
+    },
+    {
+      "name": "khoiTaoWebsite",
+      "start": 61,
+      "end": 91
+    },
+    {
+      "name": "baoLoiKhoiTao",
+      "start": 93,
+      "end": 98
+    }
+  ],
+  "js/trang/chi-tiet.js": [
+    {
+      "name": "khoiTaoTrangChiTiet",
+      "start": 2,
+      "end": 106
+    },
+    {
+      "name": "hienThiGia",
+      "start": 10,
+      "end": 17
+    },
+    {
+      "name": "hienThiThongSo",
+      "start": 19,
+      "end": 39
+    },
+    {
+      "name": "hienThiSanPhamLienQuan",
+      "start": 41,
+      "end": 54
+    },
+    {
+      "name": "hienThiChiTiet",
+      "start": 56,
+      "end": 92
+    },
+    {
+      "name": "xuLyHetKhuyenMai",
+      "start": 94,
+      "end": 98
+    }
+  ],
+  "js/trang/dat-hang.js": [
+    {
+      "name": "khoiTaoTrangDatHang",
+      "start": 2,
+      "end": 361
+    },
+    {
+      "name": "docGiaTriBieuMau",
+      "start": 19,
+      "end": 26
+    },
+    {
+      "name": "luuBanNhap",
+      "start": 29,
+      "end": 33
+    },
+    {
+      "name": "khoiPhucBanNhap",
+      "start": 35,
+      "end": 46
+    },
+    {
+      "name": "cacDongGiongNhau",
+      "start": 49,
+      "end": 75
+    },
+    {
+      "name": "donHangHopLe",
+      "start": 77,
+      "end": 107
+    },
+    {
+      "name": "docDonDaDat",
+      "start": 109,
+      "end": 124
+    },
+    {
+      "name": "hienThiCanhBaoDonGio",
+      "start": 126,
+      "end": 152
+    },
+    {
+      "name": "thuDonGio",
+      "start": 154,
+      "end": 186
+    },
+    {
+      "name": "xoaBanNhapSauDatHang",
+      "start": 188,
+      "end": 195
+    },
+    {
+      "name": "hienThiXacNhan",
+      "start": 197,
+      "end": 224
+    },
+    {
+      "name": "hienThiTongTien",
+      "start": 226,
+      "end": 246
+    },
+    {
+      "name": "hienThiDatHang",
+      "start": 248,
+      "end": 257
+    },
+    {
+      "name": "hienThiLoiDatHang",
+      "start": 259,
+      "end": 271
+    },
+    {
+      "name": "taoDonHang",
+      "start": 273,
+      "end": 296
+    },
+    {
+      "name": "xuLyDatHang",
+      "start": 298,
+      "end": 337
+    },
+    {
+      "name": "xuLyGioThayDoi",
+      "start": 339,
+      "end": 347
+    }
+  ],
+  "js/trang/gio-hang.js": [
+    {
+      "name": "khoiTaoTrangGio",
+      "start": 2,
+      "end": 132
+    },
+    {
+      "name": "capNhatDongGio",
+      "start": 12,
+      "end": 44
+    },
+    {
+      "name": "timDongHienThi",
+      "start": 46,
+      "end": 54
+    },
+    {
+      "name": "hienThiGioHang",
+      "start": 56,
+      "end": 91
+    },
+    {
+      "name": "xuLyBamNutGio",
+      "start": 93,
+      "end": 112
+    },
+    {
+      "name": "xuLyDoiSoLuong",
+      "start": 114,
+      "end": 124
+    }
+  ],
+  "js/trang/san-pham.js": [
+    {
+      "name": "khoiTaoTrangSanPham",
+      "start": 2,
+      "end": 168
+    },
+    {
+      "name": "taoLuaChonLoc",
+      "start": 36,
+      "end": 51
+    },
+    {
+      "name": "docBoLocTuURL",
+      "start": 53,
+      "end": 68
+    },
+    {
+      "name": "capNhatURL",
+      "start": 70,
+      "end": 86
+    },
+    {
+      "name": "hienThiDanhSachSanPham",
+      "start": 88,
+      "end": 122
+    },
+    {
+      "name": "khoiPhucBoLoc",
+      "start": 124,
+      "end": 138
+    },
+    {
+      "name": "xoaBoLoc",
+      "start": 140,
+      "end": 145
+    },
+    {
+      "name": "xuLyLoc",
+      "start": 147,
+      "end": 150
+    },
+    {
+      "name": "batTatBoLoc",
+      "start": 152,
+      "end": 157
+    }
+  ],
+  "js/trang/tai-khoan.js": [
+    {
+      "name": "khoiTaoTrangTaiKhoan",
+      "start": 2,
+      "end": 122
+    },
+    {
+      "name": "hienThiTaiKhoan",
+      "start": 10,
+      "end": 19
+    },
+    {
+      "name": "hienThiLoiTaiKhoan",
+      "start": 21,
+      "end": 33
+    },
+    {
+      "name": "datTrangThaiXuLy",
+      "start": 35,
+      "end": 39
+    },
+    {
+      "name": "xuLyDangKy",
+      "start": 41,
+      "end": 69
+    },
+    {
+      "name": "xuLyDangNhap",
+      "start": 71,
+      "end": 108
+    },
+    {
+      "name": "xuLyDangXuat",
+      "start": 110,
+      "end": 115
+    }
+  ],
+  "js/trang/trang-chu.js": [
+    {
+      "name": "khoiTaoTrangChu",
+      "start": 2,
+      "end": 183
+    },
+    {
+      "name": "hienThiBanner",
+      "start": 14,
+      "end": 46
+    },
+    {
+      "name": "chuyenBanner",
+      "start": 48,
+      "end": 56
+    },
+    {
+      "name": "taoNutBanner",
+      "start": 58,
+      "end": 67
+    },
+    {
+      "name": "hienThiDanhMuc",
+      "start": 69,
+      "end": 82
+    },
+    {
+      "name": "hienThiCacNhomSanPham",
+      "start": 84,
+      "end": 91
+    },
+    {
+      "name": "capNhatDemNguoc",
+      "start": 93,
+      "end": 117
+    },
+    {
+      "name": "xuLyChonBanner",
+      "start": 119,
+      "end": 126
+    },
+    {
+      "name": "batTatTuChuyen",
+      "start": 128,
+      "end": 136
+    },
+    {
+      "name": "tuChuyenBanner",
+      "start": 138,
+      "end": 144
+    },
+    {
+      "name": "bannerTruoc",
+      "start": 146,
+      "end": 148
+    },
+    {
+      "name": "bannerSau",
+      "start": 150,
+      "end": 152
+    },
+    {
+      "name": "dungKhiReChuot",
+      "start": 154,
+      "end": 156
+    },
+    {
+      "name": "tiepTucKhiRoiChuot",
+      "start": 158,
+      "end": 160
+    },
+    {
+      "name": "ganSuKien",
+      "start": 163,
+      "end": 172
+    }
+  ]
+}

@@ -18,21 +18,21 @@ function khoiTaoTrangChiTiet() {
 
   function hienThiThongSo() {
     const danhSach = document.getElementById('detail-specs');
-    const thongSo = {};
     const cacNhan = Object.keys(sanPham.specs);
+    if (!cacNhan.includes('Mã sản phẩm')) {
+      cacNhan.push('Mã sản phẩm');
+    }
+    // Đọc trực tiếp thông số; không sao chép cả object chỉ để thêm một dòng.
     for (let i = 0; i < cacNhan.length; i++) {
       const nhan = cacNhan[i];
-      thongSo[nhan] = sanPham.specs[nhan];
-    }
-    thongSo['Mã sản phẩm'] = sanPham.id.toUpperCase();
-    const danhSachNhan1 = Object.keys(thongSo);
-    for (let viTriNhan = 0; viTriNhan < danhSachNhan1.length; viTriNhan++) {
-      const nhan = danhSachNhan1[viTriNhan];
       const dongHienThi = document.createElement('div');
       const tenThongSo = document.createElement('dt');
       const moTa = document.createElement('dd');
       tenThongSo.textContent = nhan;
-      moTa.textContent = thongSo[nhan];
+      moTa.textContent = sanPham.specs[nhan];
+      if (nhan === 'Mã sản phẩm') {
+        moTa.textContent = sanPham.id.toUpperCase();
+      }
       dongHienThi.append(tenThongSo, moTa);
       danhSach.append(dongHienThi);
     }
@@ -55,14 +55,16 @@ function khoiTaoTrangChiTiet() {
 
   function hienThiChiTiet() {
     const duongDanDanhMuc = 'products.html?category=' + sanPham.category;
+    const tenDanhMuc = sanPham.layTenDanhMuc();
+    const lienKetDanhMuc = document.getElementById('detail-category-link');
     document.title = sanPham.name + ' | PC-Astral Market';
     document.getElementById('detail-view').hidden = false;
-    document.getElementById('detail-category-link').href = duongDanDanhMuc;
-    document.getElementById('detail-category-link').textContent = sanPham.layTenDanhMuc();
+    lienKetDanhMuc.href = duongDanDanhMuc;
+    lienKetDanhMuc.textContent = tenDanhMuc;
     document.getElementById('related-category-link').href = duongDanDanhMuc;
     document.getElementById('detail-breadcrumb-name').textContent = sanPham.name;
     document.getElementById('detail-code').textContent = 'ASTRAL SELECTED / ' + sanPham.id.toUpperCase();
-    document.getElementById('detail-brand-category').textContent = sanPham.brand + ' / ' + sanPham.layTenDanhMuc();
+    document.getElementById('detail-brand-category').textContent = sanPham.brand + ' / ' + tenDanhMuc;
     document.getElementById('detail-name').textContent = sanPham.name;
     document.getElementById('detail-summary').textContent = sanPham.summary;
     document.getElementById('detail-description').textContent = sanPham.description;

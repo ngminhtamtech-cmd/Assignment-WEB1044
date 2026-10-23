@@ -62,11 +62,11 @@ Quy tắc ảnh: `img/p01.jpg`, dùng dấu `/` và không có dấu `/` đầu 
 
 ## Tài liệu và kiểm thử
 
-- Hai Word hiện hành: `BaoCao_Assignment2_PC-Astral-Market.docx` (9 trang) và `UseCase_Logic_Ham_PC-Astral-Market.docx` (8 trang).
-- Báo cáo Y3 đã viết lại; sơ đồ Use Case tổng quan có tài khoản. Word tổng quan và sửa nhanh cũ đã được xóa theo yêu cầu.
+- Hai Word hiện hành: `BaoCao_Assignment2_PC-Astral-Market.docx` (27 trang) và `UseCase_Logic_Ham_PC-Astral-Market.docx` (8 trang).
+- Báo cáo Y3 giữ bìa và chương mục bản khôi phục, đã đồng bộ kỹ thuật; sơ đồ Use Case tổng quan có tài khoản. Word tổng quan và sửa nhanh cũ đã được xóa theo yêu cầu.
 - Kiểm thử hiện tại: `current-tests.json` và `accounts-models-tests.json`. Các file `test-results.json`, `refactor-tests.json` là bằng chứng lịch sử, không thay thế kết quả hiện tại.
 - Bộ công cụ chính: `tools/run_tests.cjs test_current.cjs`, `tools/run_tests.cjs test_accounts_models.cjs`, `tools/build_documents.py`, `tools/package_submission.py`.
-- Dùng `tools/export_documents.ps1` và `tools/render_documents.py` để kiểm tra bố cục. Các công cụ sinh Word cũ đã dọn; nguồn sơ đồ PNG/Draw.io ở docs/diagrams/usecases.
+- Dùng `tools/export_documents.ps1` và `tools/render_documents.py` để kiểm tra bố cục. Các công cụ sinh Word cũ đã dọn; nguồn sơ đồ PNG/Draw.io ở docs/diagrams/usecases; sơ đồ thư mục/dữ liệu mới ở docs/diagrams/report-current. build_documents.py chỉ sinh tài liệu tra cứu hàm.
 
 ## Refactor để học JavaScript cơ bản
 

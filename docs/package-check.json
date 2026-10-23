@@ -1,13 +1,12 @@
 {
   "archive": "WEB1044_LapTrinhJSCoBan_PC-Astral-Market_Assignment.zip",
   "entries": 66,
-  "bytes": 4388760,
-  "sha256": "5eff54a97b24940422c85f51aeeb862cc4e93ce35107c233a0f164c36720f671",
+  "bytes": 6174033,
+  "sha256": "93667de9e89239fd43795b1f6841ac4210fb39973c4cd19c5eb42e22f86182d3",
   "report": "BaoCao_Assignment2_PC-Astral-Market.docx",
-  "report_figures": 4,
+  "report_figures": 19,
   "members_left_blank": 3,
   "website_pages": 7,
-  "extractedDirectory": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\submission-check-v8a06thr",
-  "extractedDirectoryRemovedAfterVerification": true,
-  "finalReportMatchesRoot": true
+  "extractedDirectory": "D:\\0_Web1044\\Web1044 - Ass2\\tmp\\submission-check-_iqhntb7",
+  "extractedDirectoryRemovedAfterPassingSmokeTest": true
 }

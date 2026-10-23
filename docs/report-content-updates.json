@@ -1,0 +1,102 @@
+[
+  {
+    "old": "Hình 1 thể hiện sáu trang của website. Người dùng có thể thêm hàng từ danh sách hoặc trang chi tiết, sau đó chuyển sang giỏ và đặt hàng. Website dùng dữ liệu tĩnh, không có máy chủ xử lý đơn, tài khoản hay thanh toán thật. Đơn hàng chỉ được lưu trong trình duyệt để minh họa chức năng.",
+    "new": "Hình 1 thể hiện bảy trang của website. Khách chọn sản phẩm, thêm giỏ và đặt hàng mô phỏng; không bắt buộc đăng nhập. Trang tài khoản cho phép đăng ký và đăng nhập trên trình duyệt. Website dùng dữ liệu tĩnh, không có máy chủ xử lý đơn hoặc thanh toán thật."
+  },
+  {
+    "old": "Nhóm chia mã theo loại file và nhiệm vụ để dễ tìm chỗ sửa. Hình 3 thể hiện đúng thư mục website hiện tại. Sáu file HTML nằm cùng cấp với js, css và assets.",
+    "new": "Nhóm chia mã theo loại file và nhiệm vụ để dễ tìm chỗ sửa. Hình 3 thể hiện cấu trúc hiện tại: bảy file HTML ở cấp gốc, cùng cấp với js, css, img và assets. Ảnh máy nằm trong img; assets chứa font cục bộ."
+  },
+  {
+    "old": "Mỗi trang nạp theo thứ tự: dữ liệu → tiện ích → lưu trữ → giỏ hàng → giao diện chung → xử lý riêng của trang. Thuộc tính defer giúp các file chạy theo thứ tự sau khi HTML đã được đọc. Các file trao đổi qua một đối tượng chung tên PCAstral; không dùng import/export.",
+    "new": "Thứ tự nạp: JSON dự phòng → dữ liệu → lưu trữ → mô hình → hiển thị → trang riêng → sự kiện chung. defer giữ thứ tự sau khi đọc HTML. Website chờ dữ liệu rồi tạo Product, Cart và dựng trang; dùng chung PCAstral, không dùng import/export."
+  },
+  {
+    "old": "fonts.css khai báo font Sarabun; base.css đặt màu, chữ và quy tắc nền tảng; components.css định dạng thành phần dùng chung; pages.css định dạng bố cục từng trang; responsive.css điều chỉnh theo kích thước màn hình. Muốn sửa giao diện của một trang, nhóm tìm HTML tương ứng và phần CSS của trang đó trước.",
+    "new": "css/style.css gồm các phần có chú thích: font, nền tảng, thành phần chung, bố cục trang và responsive. Muốn sửa giao diện, tìm HTML tương ứng và phần CSS của trang đó."
+  },
+  {
+    "old": "Mỗi sản phẩm có một mã riêng để tra cứu. Hình 4 cho thấy mối liên hệ giữa danh mục, sản phẩm, dòng giỏ và đơn đã lưu. Đây là cách tổ chức dữ liệu JavaScript, không phải cơ sở dữ liệu SQL.",
+    "new": "Dữ liệu gốc nằm trong js/products.json, được du-lieu.js kiểm tra và nạp thành các đối tượng Product. Mỗi sản phẩm có đủ id, name, price, imgUrl, description, category và quantity. Hình 4 mô tả dữ liệu JavaScript, không phải cơ sở dữ liệu SQL."
+  },
+  {
+    "old": "Nhóm dùng sơ đồ Use Case để mô tả những việc khách hàng có thể thực hiện trên website. Khách hàng là người xem và mua hàng trong bản mô phỏng, không cần đăng nhập. Hình 5 thể hiện năm nhóm chức năng chính.",
+    "new": "Nhóm dùng sơ đồ Use Case để mô tả việc khách hàng có thể thực hiện. Hình 5 có sáu nhóm chức năng, gồm cả đăng ký và đăng nhập. Khách vẫn có thể xem sản phẩm và đặt hàng mà không cần đăng nhập."
+  },
+  {
+    "old": "Xem xác nhận đơn gần nhất chỉ áp dụng cho đơn đã lưu trong phiên hiện tại. Website chưa có tài khoản, trang quản trị, lịch sử đơn hàng hoặc thanh toán trực tuyến.",
+    "new": "Tài khoản lưu username, salt và mã băm mật khẩu trong LocalStorage; đăng ký xong đăng nhập được ngay. Đăng xuất chỉ xóa trạng thái đăng nhập. Đơn gần nhất cũng lưu trên trình duyệt; website chưa có quản trị, lịch sử đơn hoặc thanh toán trực tuyến."
+  },
+  {
+    "old": "Giỏ có hàng là điều kiện trước khi đặt đơn. Sau khi lưu thành công, người dùng xem được xác nhận gần nhất trong cùng phiên. Các trường hợp nhập sai hoặc không lưu được được mô tả tại mục 3.7.",
+    "new": "Giỏ có hàng là điều kiện trước khi đặt đơn. Sau khi lưu thành công, khách xem được xác nhận gần nhất trên cùng địa chỉ website. Các trường hợp nhập sai hoặc không lưu được được mô tả tại mục 3.7."
+  },
+  {
+    "old": "Mục tiêu: Lưu đơn hợp lệ và xem lại xác nhận trong phiên hiện tại.",
+    "new": "Mục tiêu: Lưu đơn hợp lệ và xem lại xác nhận gần nhất trên trình duyệt."
+  },
+  {
+    "old": "Trường hợp cần xử lý: Giỏ rỗng chặn đặt. Form sai giữ nội dung và báo lỗi. Tổng tiền đổi cần xác nhận lại. Lưu lỗi giữ giỏ để thử lại; chặn gửi lặp.",
+    "new": "Trường hợp cần xử lý: Giỏ rỗng chặn đặt. Form sai giữ nội dung. Giá hoặc giỏ đổi cần xác nhận lại. Lưu đơn lỗi giữ giỏ; dọn giỏ lỗi chỉ thử lại bước dọn, không tạo đơn mới."
+  },
+  {
+    "old": "Kết quả: Có một đơn mô phỏng được lưu; tải lại vẫn xem được xác nhận trong cùng phiên.",
+    "new": "Kết quả: Có một đơn mô phỏng được lưu; F5 vẫn xem được xác nhận. Giỏ đã thay đổi không bị bước dọn đơn cũ tự xóa."
+  },
+  {
+    "old": "Nếu trình duyệt không cho lưu, website báo rõ giỏ chỉ được giữ tạm tại trang đang mở. Thay đổi giỏ từ tab khác cũng được cập nhật. Thông tin tên và giá không lưu lặp trong giỏ mà được lấy từ danh sách sản phẩm.",
+    "new": "Nếu không lưu được, giỏ chỉ giữ tạm tại trang đang mở. Bản nháp form lưu năm trường qua F5. Tài khoản và đơn không tự mất khi tắt server; nút Kết thúc buổi demo xóa riêng dữ liệu website. Giỏ được dọn sau đặt hàng thành công, nháp xóa sau lưu đơn."
+  },
+  {
+    "old": "Trước khi lưu đơn, website kiểm tra lại tổng tiền. Nếu tổng vừa thay đổi, người dùng được yêu cầu xem lại và xác nhận lần nữa. Các thông tin đang nhập trong form vẫn được giữ.",
+    "new": "Trước khi lưu đơn, website so lại mã sản phẩm, số lượng và đơn giá. Nếu thay đổi, khách phải xác nhận lần nữa, kể cả tổng tiền không đổi hoặc đã tự cập nhật. Form đang nhập vẫn được giữ."
+  },
+  {
+    "old": "Email phải đúng định dạng cơ bản. Điện thoại nhận 10 chữ số bắt đầu bằng 0 hoặc dạng +84 tương ứng. Lỗi hiện cạnh từng ô và con trỏ chuyển đến ô lỗi đầu tiên. Website chặn việc gửi lặp trong lúc đang xử lý.",
+    "new": "Email kiểm tra định dạng cơ bản; điện thoại nhận 10 chữ số bắt đầu bằng 0 hoặc dạng +84 tương ứng. Lỗi hiện cạnh ô và focus đến ô lỗi đầu. Bản nháp năm trường được lưu khi nhập, nên F5 vẫn khôi phục nội dung. Khóa trạng thái xử lý chặn gửi lặp."
+  },
+  {
+    "old": "Website lưu đơn vào SessionStorage trước, sau đó mới xóa giỏ. Nếu lưu thất bại, giỏ được giữ để thử lại. Khi lưu thành công, tải lại trang xác nhận trong cùng phiên vẫn xem được đơn gần nhất; không có giao dịch hay email thật.",
+    "new": "Đơn lưu vào LocalStorage trước khi dọn giỏ. Lưu đơn lỗi giữ giỏ và form. Dọn giỏ lỗi vẫn hiện đơn đã lưu; cờ choDonGio cho phép thử lại đúng bước. Giỏ đã đổi không bị xóa. F5 đọc lại xác nhận; không phát sinh giao dịch hoặc email thật."
+  },
+  {
+    "old": "Kết quả dưới đây được ghi nhận ngày 17/10/2026 trên Chrome và Edge, với website chạy bằng HTTP cục bộ. Các thao tác được chạy bằng Playwright; công cụ này chỉ phục vụ kiểm thử, không được nạp vào website.",
+    "new": "Kết quả được kiểm tra lại ngày 22/10/2026 trên Chrome và Edge, qua HTTP cục bộ và mở file trực tiếp. Playwright chỉ phục vụ kiểm thử và chụp minh chứng, không được nạp vào website."
+  },
+  {
+    "old": "Bộ kiểm thử chính có 18 nhóm và đều đạt. Bảng 4 và Bảng 5 tóm tắt thao tác cùng kết quả quan sát được. Nhật ký chi tiết nằm trong docs/test-results.json và docs/refactor-tests.json.",
+    "new": "Bộ chính có 18 nhóm đạt; mô hình và tài khoản có 13 nhóm đạt. Bảng 4 và Bảng 5 tóm tắt bộ chính. Nhật ký mới nằm trong docs/current-tests.json và docs/accounts-models-tests.json."
+  },
+  {
+    "old": "Bảy nhóm kiểm tra bổ sung đều đạt. Các điểm được kiểm tra lại gồm: thứ tự nạp file, giữ con trỏ khi sửa giỏ, giữ nội dung form khi giá thay đổi, lưu đơn trước khi xóa giỏ, chặn gửi lặp và kiểm tra sáu trang trên hai trình duyệt.",
+    "new": "Kiểm thử lỗi logic đạt 26 lượt qua HTTP và 26 lượt qua file trực tiếp: F5 giữ nháp, lỗi lưu đơn hoặc dọn giỏ không tạo đơn lặp, xác nhận giá, reset trong lúc băm mật khẩu. Bảy trang được kiểm tra trên Chrome và Edge, ở 390, 768 và 1440 px."
+  },
+  {
+    "old": "Khi kiểm tra hạn khuyến mãi, công cụ mô phỏng thời gian để quan sát cả trước và sau thời hạn. Không cần chờ đến ngày kết thúc hoặc thay đổi đồng hồ của máy tính.",
+    "new": "Khi thử khuyến mãi, công cụ mô phỏng thời gian trước, đúng và sau hạn. Sau rút gọn, tên hàm và hành vi được giữ; bỏ bước đặt thời gian lặp, biến không dùng và thao tác tìm phần tử trùng. Chi tiết có trong docs/refactor-2026-10-22.md."
+  },
+  {
+    "old": "Nhóm đã hoàn thành website PC-Astral Market với sáu trang và luồng mua hàng mô phỏng từ chọn sản phẩm đến xác nhận đơn. Các yêu cầu Y1, Y2 và Y3 được thể hiện qua chức năng hoạt động, cách chia thư mục và nội dung báo cáo.",
+    "new": "Nhóm hoàn thành PC-Astral Market với bảy trang, tài khoản demo và luồng mua hàng từ chọn sản phẩm đến xác nhận đơn. Y1, Y2 và Y3 được thể hiện qua chức năng hoạt động, tổ chức thư mục và nội dung báo cáo."
+  },
+  {
+    "old": "Nếu phát triển tiếp, nhóm có thể bổ sung máy chủ lưu đơn, quản lý sản phẩm và kiểm tra tồn kho. Đăng nhập, quản trị và thanh toán trực tuyến chưa thuộc phạm vi bài này.",
+    "new": "Nếu phát triển tiếp, nhóm có thể bổ sung máy chủ lưu đơn, quản lý sản phẩm và kiểm tra tồn kho. Tài khoản hiện tại chỉ mô phỏng bằng dữ liệu trình duyệt; quản trị và thanh toán trực tuyến chưa thuộc phạm vi bài này."
+  },
+  {
+    "old": "LocalStorage và SessionStorage là khả năng có sẵn của trình duyệt, không phải thư viện cần cài. Font Sarabun và ảnh sản phẩm được lưu trong dự án nên khi demo không phải tải từ CDN.",
+    "new": "LocalStorage, DOM, Web Crypto và bộ hẹn giờ là API của trình duyệt, không phải thư viện đã cài. SessionStorage chỉ còn được dọn khi kết thúc demo để xóa dữ liệu phiên bản cũ. Font Sarabun và ảnh được lưu cục bộ, không phụ thuộc CDN."
+  },
+  {
+    "old": "Giải nén gói nộp, mở thư mục PC-Astral-Market bằng VS Code, chọn index.html rồi chọn Open with Live Server. Chuyển trang bằng các liên kết trong website và giữ cùng địa chỉ, cổng chạy để dùng chung giỏ đã lưu.",
+    "new": "Giải nén gói nộp, mở thư mục PC-Astral-Market bằng VS Code và chọn Open with Live Server tại index.html. Cũng có thể nhấp đúp index.html để dùng bản JSON dự phòng đã đóng gói. Giữ cùng cách mở, địa chỉ và cổng để dùng lại dữ liệu đã lưu."
+  },
+  {
+    "old": "Nếu trình duyệt hiện một website khác, dừng Live Server đang chạy và mở lại đúng thư mục PC-Astral-Market. Không mở các file HTML bằng đường dẫn lấy từ một dự án khác.",
+    "new": "Nếu hiện website khác, dừng Live Server và mở lại đúng thư mục PC-Astral-Market. Sửa sản phẩm tại js/products.json rồi F5 qua Live Server. Khi đóng gói, công cụ đồng bộ san-pham-du-phong.js để bản mở trực tiếp nhận đúng dữ liệu mới."
+  },
+  {
+    "old": "4. Gửi form sai để xem lỗi; nhập hợp lệ rồi xác nhận đơn mô phỏng và kiểm tra giỏ đã được xóa.",
+    "new": "4. Thử form sai rồi đặt đơn hợp lệ. Thử đăng ký, đăng nhập, F5 và đăng xuất. Kết thúc buổi demo khi muốn xóa dữ liệu website."
+  }
+]

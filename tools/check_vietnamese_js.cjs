@@ -50,7 +50,7 @@ for (const page of pages) {
   assert.equal(scripts[1], 'js/du-lieu.js');
   assert.equal(scripts.at(-1), 'js/su-kien.js');
 }
-const result = {status:'PASS', date:'2026-10-21', javascript_files:files.length, html_pages:pages.length,
+const result = {status:'PASS', date:new Date().toISOString().slice(0,10), javascript_files:files.length, html_pages:pages.length,
   function_declarations:names.length, all_custom_functions_vietnamese:true,
   standard_names_preserved:['Product', 'Cart', 'constructor', 'Browser APIs', 'JSON fields', 'Storage keys'],
   simple_syntax_verified:true, source_sha256:hashes};

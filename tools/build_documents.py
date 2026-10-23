@@ -1,4 +1,4 @@
-"""Dựng đúng hai tài liệu hiện hành; không sinh lại các bản Word đã thay thế."""
+"""Chỉ dựng tài liệu Use Case, Logic và Hàm; tuyệt đối không ghi đè báo cáo Y3."""
 from pathlib import Path
 import re, json
 from PIL import Image, ImageDraw, ImageFont
@@ -15,7 +15,6 @@ SITE = ROOT/'PC-Astral-Market'
 FIG = ROOT/'docs/diagrams/concise'
 FIG.mkdir(parents=True, exist_ok=True)
 USE = make_usecases()
-REPORT = ROOT/'BaoCao_Assignment2_PC-Astral-Market.docx'
 GUIDE = ROOT/'UseCase_Logic_Ham_PC-Astral-Market.docx'
 REPO = 'https://github.com/ngminhtamtech-cmd/Assignment-WEB1044'
 
@@ -128,110 +127,6 @@ def funcs(doc,filename,entries):
     table(doc,['Hàm hoặc phương thức','Vai trò và vị trí'],rows,[5.4,10.6])
 
 doc=setup()
-for text in ['TRƯỜNG CAO ĐẲNG FPT POLYTECHNIC','CƠ SỞ ĐÀ NẴNG','MÔN LẬP TRÌNH CƠ SỞ VỚI JAVASCRIPT']:
-    p=para(doc,text);p.alignment=WD_ALIGN_PARAGRAPH.CENTER;p.runs[0].bold=True
-para(doc,'')
-p=para(doc,'BÁO CÁO ASSIGNMENT 2','Title');p.alignment=WD_ALIGN_PARAGRAPH.CENTER
-p=para(doc,'PC ASTRAL MARKET','Title');p.alignment=WD_ALIGN_PARAGRAPH.CENTER
-p=para(doc,'Website bán máy tính mô phỏng');p.alignment=WD_ALIGN_PARAGRAPH.CENTER
-para(doc,'')
-para(doc,'Mã môn: WEB1044                         Lớp: ................................')
-para(doc,'Giảng viên hướng dẫn: Cô Lê Anh Đào')
-table(doc,['Thành viên','Họ và tên','MSSV'],[(1,'',''),(2,'',''),(3,'','')],[3,8,5])
-para(doc,'Nhóm xây dựng website bằng HTML, CSS và JavaScript thuần. Báo cáo trình bày nghiệp vụ, đối chiếu Y1–Y3, tổ chức mã và kết quả kiểm thử. Các luồng xử lý được giải thích bằng lời và sơ đồ; phần tra cứu hàm nằm trong tài liệu riêng.')
-para(doc,'Đà Nẵng, tháng 10 năm 2026').alignment=WD_ALIGN_PARAGRAPH.CENTER
-
-doc.add_page_break();toc(doc)
-heading(doc,'1 Tổng quan và phạm vi')
-para(doc,'PC-Astral Market bán máy tính và phụ kiện dành cho sinh viên, người làm việc văn phòng và người chơi game. Nhóm dùng 24 sản phẩm minh họa, chia thành bốn danh mục: Laptop, PC để bàn, Màn hình và Phụ kiện.')
-para(doc,'Khách xem danh sách, tìm hoặc lọc sản phẩm, xem cấu hình, chọn số lượng rồi thêm vào giỏ. Sau khi kiểm tra giỏ, khách nhập thông tin nhận hàng và xác nhận đơn mô phỏng. Không bắt buộc đăng nhập để mua hàng.')
-para(doc,'Website có bảy trang: trang chủ, sản phẩm, chi tiết, giỏ hàng, đặt hàng, tài khoản và giới thiệu. Dữ liệu tĩnh nằm trong dự án; không có backend, cơ sở dữ liệu SQL, thanh toán thật hoặc gửi email. Giá và tồn kho chỉ phục vụ bài tập.')
-
-page(doc,'2 Chức năng và ba yêu cầu tự đề xuất')
-para(doc,'Bảng 1 đối chiếu các yêu cầu Y1 với chức năng đã triển khai. Nhóm mới, hot và khuyến mãi là nhãn sản phẩm; chúng khác với bốn danh mục hàng hóa.')
-table(doc,['Yêu cầu','Cách thực hiện'],[
-('Y1.1 Khởi tạo','Nạp dữ liệu, tạo Product và Cart, dựng giao diện chung rồi chạy trang hiện tại.'),
-('Y1.2 Sản phẩm','Render 24 sản phẩm bằng JS; có ba nhóm mới/hot/khuyến mãi, tên, giá, ảnh và nút mua; trang danh mục và hiệu ứng hover/focus.'),
-('Y1.3 Slider','Ba banner; nút trước/sau, chấm chọn và tự chuyển bằng JavaScript.'),
-('Y1.4 Form','Kiểm tra rỗng, email, điện thoại; báo lỗi cạnh trường và focus lỗi đầu. Có thêm form tài khoản.'),
-('Y1.5 Giỏ và lưu trữ','Thêm/gộp, đổi số lượng, xóa, tổng tiền tự cập nhật. LocalStorage giữ dữ liệu qua F5.'),
-('Y1.6 Nâng cao','Countdown dùng thời hạn cố định; hết hạn ngừng giảm giá, không hiện số âm.')],[4,12])
-para(doc,'Bảng 1. Đối chiếu các chức năng bắt buộc','Caption')
-para(doc,'Y1.7 yêu cầu ba chức năng tự đề xuất. Cả ba chức năng dưới đây đã hoạt động riêng và kết hợp trên trang sản phẩm.')
-table(doc,['Chức năng','Lý do chọn và hành vi hoàn chỉnh'],[
-('1. Tìm kiếm','Khách thường biết tên hoặc thương hiệu. Tìm không phân biệt dấu/hoa thường; có thông báo không tìm thấy.'),
-('2. Lọc sản phẩm','Khách cần chọn theo loại hàng và ngân sách. Lọc danh mục, thương hiệu, khoảng giá theo AND; có xóa lọc và số kết quả.'),
-('3. Sắp xếp','Giúp so sánh theo giá hoặc tên. Giá tăng/giảm, tên A–Z và thứ tự mặc định; chỉ sắp kết quả hiện tại, không sửa mảng gốc.')],[4,12])
-para(doc,'Bảng 2. Ba chức năng tự đề xuất và lý do lựa chọn','Caption')
-
-page(doc,'3 Tổ chức mã và dữ liệu theo Y2')
-para(doc,'HTML nằm tại gốc PC-Astral-Market; CSS nằm trong css; toàn bộ mã JavaScript nằm trong js và js/trang. Ảnh thật nằm trong img, font Sarabun nằm trong assets/fonts. Bảng dưới phản ánh tên file đang chạy, thay cho các tên tiếng Anh của bản cũ.')
-table(doc,['File hoặc thư mục','Nhiệm vụ'],[
-('7 file .html ở gốc','Bố cục cố định, form, template và vùng chờ hiển thị dữ liệu.'),
-('css/style.css','Font, màu sắc, thành phần và bố cục responsive.'),
-('js/products.json','Nguồn dữ liệu sản phẩm JSON chính; không viết tay từng thẻ sản phẩm trong HTML.'),
-('js/du-lieu.js','Cấu hình danh mục, banner, khuyến mãi; đọc và kiểm tra dữ liệu.'),
-('js/san-pham-du-phong.js','Bản JSON nhúng sinh từ products.json, giúp mở trực tiếp file://. Không sửa tay.'),
-('js/mo-hinh.js','Class Product và Cart: giá, tồn kho, dòng giỏ, số lượng, tổng tiền.'),
-('js/luu-tru.js','Đọc/ghi JSON, tài khoản, mã băm mật khẩu và kết thúc demo.'),
-('js/hien-thi.js','Tìm/lọc, định dạng, thẻ sản phẩm, header/footer và thông báo.'),
-('js/su-kien.js','Khởi tạo, sự kiện dùng chung, thêm giỏ và đồng bộ lưu trữ.'),
-('js/trang/','trang-chu.js, san-pham.js, chi-tiet.js, gio-hang.js, dat-hang.js, tai-khoan.js xử lý từng trang.')],[5.3,10.7])
-para(doc,'Bảng 3. Phân chia nhiệm vụ theo cấu trúc thực tế','Caption')
-para(doc,'Mỗi sản phẩm có bảy trường chính: id, name, price, imgUrl, description, category, quantity. quantity của Product là tồn kho; quantity trong dòng giỏ là số lượng mua. Giỏ chỉ lưu mã sản phẩm và số lượng, rồi lấy lại giá hiện hành từ Product.')
-para(doc,'Các script dùng defer theo thứ tự dữ liệu dự phòng → dữ liệu → lưu trữ → mô hình → hiển thị → trang hiện tại → sự kiện. Không có import/export. Object PCAstral giúp các file chia sẻ dữ liệu mà không trùng tên biến; hàm khởi tạo giữ phạm vi riêng.')
-
-page(doc,'4 Phân tích chức năng bằng Use Case')
-para(doc,'Hình 1 mô tả những việc khách hàng có thể thực hiện. Khách hàng là tác nhân bên ngoài; LocalStorage và bộ đếm thời gian là cách xử lý bên trong, không phải tác nhân. Đăng nhập phục vụ tài khoản demo, không phải điều kiện đặt hàng.')
-figure(doc,USE/'01-overview.png','Hình 1. Use Case tổng quan website',12.4)
-para(doc,'Các Use Case tìm/chọn sản phẩm và giỏ/đặt hàng được phân tích chi tiết trong tài liệu UseCase_Logic_Ham_PC-Astral-Market.docx. Quan hệ include chỉ biểu diễn bước kiểm tra bắt buộc; các đường nối không biểu diễn thứ tự thao tác.')
-
-page(doc,'5 Logic hoạt động trọng tâm')
-para(doc,'Giỏ hàng lấy dữ liệu làm nguồn tính toán. Mỗi dòng có thành tiền bằng đơn giá hiện hành nhân số lượng; tổng tiền là tổng các dòng, phí vận chuyển demo bằng 0. Nhóm không cộng tiền bằng cách đọc chuỗi đã định dạng trên màn hình.')
-figure(doc,CART,'Hình 2. Luồng cập nhật giỏ và khôi phục khi F5')
-para(doc,'Đặt hàng phải lưu được đơn trước khi dọn giỏ. Nếu giá hoặc nội dung giỏ thay đổi, lần bấm đầu thông báo thay đổi; người mua kiểm tra và bấm lại. Nếu dọn giỏ lỗi, cờ choDonGio giữ lại bước cần thử; hệ thống không tạo thêm đơn khi thử lại.')
-figure(doc,ORDER,'Hình 3. Luồng đặt hàng và xử lý lưu trữ thất bại')
-para(doc,'Slider giữ vị trí banner hiện tại, đổi vị trí khi bấm nút hoặc hết 6 giây, sau đó cập nhật ảnh và nội dung. Khi có focus, rê chuột, tab ẩn hoặc bấm tạm dừng, slider không tự chuyển.')
-para(doc,'Countdown lấy thời hạn cố định trừ thời gian hiện tại và cập nhật mỗi giây. Hết hạn thì dừng ở 0, báo kết thúc và lấy giá thường. F5 không đặt lại thời hạn; giỏ và form cùng dùng nguồn giá của Product.')
-para(doc,'Tài khoản lưu username, salt và mã băm mật khẩu trong LocalStorage. Đăng ký xong đăng nhập bằng mật khẩu vừa nhập. Đăng xuất không xóa tài khoản. “Kết thúc buổi demo” xóa các khóa của website; không gọi localStorage.clear().')
-
-page(doc,'6 Minh chứng giao diện')
-para(doc,'Hình dưới là ảnh chụp khi chạy kiểm thử, minh họa dữ liệu render từ JavaScript. Trang sản phẩm giữ tìm kiếm, lọc và sắp xếp trong URL để tải lại vẫn giữ lựa chọn.')
-figure(doc,ROOT/'docs/screenshots/current/02-products-filtered.png','Hình 4. Trang sản phẩm với tìm kiếm và bộ lọc',14.2)
-para(doc,'Các ảnh kiểm thử form báo lỗi, giỏ hàng, tài khoản và xác nhận đơn được lưu trong docs/screenshots/current để đối chiếu khi cần; báo cáo chỉ giữ một minh chứng tiêu biểu để tránh lặp nhiều trang giao diện.')
-
-page(doc,'7 Kiểm thử và kết quả')
-para(doc,'Nhóm chạy kiểm thử bằng Playwright trên Chrome và Edge qua HTTP local và mở trực tiếp file://. Các trường hợp dưới đây đã được chạy lại sau khi đổi cú pháp; không dùng kết quả tự ước lượng để ghi đạt.')
-table(doc,['Phần kiểm tra','Kết quả và minh chứng'],[
-('Chức năng chính','18/18 nhóm đạt: khởi tạo, slider, tìm kiếm, lọc, chi tiết, giỏ, form, đặt hàng, countdown, responsive và bàn phím.'),
-('Mô hình và tài khoản','13/13 nhóm đạt: JSON đủ 24 sản phẩm, class, event delegation, đăng ký/đăng nhập/F5/đăng xuất/reset và lỗi lưu trữ.'),
-('Các lỗi logic đặc biệt','13 tình huống trên mỗi trình duyệt: nháp F5, giá đổi, dọn giỏ lỗi, gửi lặp, tab cũ, reset khi đang băm mật khẩu. Tổng 26 lượt HTTP đạt.'),
-('Mở trực tiếp và bản đóng gói','Chạy luồng mua hàng ở đường dẫn có dấu/khoảng trắng trên hai trình duyệt; thử thêm các lỗi logic với file:// và kiểm tra ZIP sau giải nén.'),
-('Giao diện','Kiểm tra bảy trang ở 390, 768, 1440 px; không tràn ngang trong các ca đã chạy. Không có lỗi JavaScript chưa xử lý ở các luồng kiểm thử.')],[4.5,11.5])
-para(doc,'Bảng 4. Kết quả kiểm thử sau chỉnh sửa','Caption')
-para(doc,'Log chi tiết nằm tại docs/current-tests.json, accounts-models-tests.json, logic-regressions.json, logic-file-regressions.json, file-mode-tests.json và package-smoke.json. Đây là bằng chứng cho các tình huống đã thử, không phải cam kết website không thể có lỗi trong mọi điều kiện.')
-para(doc,'Giới hạn lưu dữ liệu: tắt Live Server không xóa LocalStorage. Dữ liệu có thể mất khi người dùng tự xóa dữ liệu trình duyệt hoặc bị trình duyệt chặn. Cần giữ cùng địa chỉ/cổng khi demo; dữ liệu giữa file:// và localhost không mặc nhiên dùng chung.')
-para(doc,'Giỏ được dọn khi đặt hàng thành công, bản nháp được xóa sau khi lưu đơn. Dữ liệu tài khoản được website giữ cho đến thao tác kết thúc demo. Tài khoản và đơn chỉ mô phỏng ở máy hiện tại, không phải dịch vụ bán hàng thật.')
-
-page(doc,'8 Công cụ thư viện và quản lý nhóm')
-table(doc,['Nhóm','Thực tế sử dụng'],[
-('Công nghệ website','HTML5, CSS3, JavaScript thuần; không có bước build để chạy.'),
-('Thư viện chạy trong website','Không sử dụng thư viện JavaScript hoặc CSS bên ngoài. Không có React, jQuery, Bootstrap hay thư viện slider/validation.'),
-('API trình duyệt','DOM, addEventListener, LocalStorage, JSON, URLSearchParams, timer, fetch cho JSON tĩnh và Web Crypto để băm mật khẩu. Đây là API, không phải thư viện cài đặt.'),
-('Tài nguyên','Font Sarabun local; ảnh và thông tin sản phẩm tham khảo PC Market, lưu trong dự án; nguồn từng ảnh ghi trong ASSET-SOURCES.md.'),
-('Công cụ phát triển và kiểm tra','VS Code/Live Server để mở local; Node.js và Playwright chạy kiểm thử. Các công cụ này không được nạp vào website.'),
-('Công cụ tài liệu','Python, python-docx, Pillow tạo Word/hình; Microsoft Word xuất PDF để kiểm tra bố cục. Sơ đồ có nguồn Draw.io chỉnh sửa được.')],[4.5,11.5])
-para(doc,'Bảng 5. Phân biệt công nghệ, API, thư viện và công cụ','Caption')
-doc.add_heading('Quản lý dự án cùng nhóm qua GitHub',2)
-para(doc,'Kho GitHub lưu mã nguồn và tài liệu của dự án. Quy trình phối hợp đề xuất cho nhóm: cập nhật mã mới trước khi làm, phân chia phần việc, tạo nhánh riêng, commit có mô tả và nhờ thành viên khác kiểm tra trước khi gộp. Lịch sử commit giúp đối chiếu thay đổi và khôi phục phiên bản khi cần.')
-link(doc,'GitHub dự án PC-Astral Market',REPO)
-para(doc,REPO)
-doc.add_heading('Chạy và bàn giao',2)
-para(doc,'Giải nén gói nộp, mở PC-Astral-Market/index.html bằng Live Server hoặc mở trực tiếp. Nếu sửa products.json, dùng Live Server để đọc dữ liệu mới; chạy công cụ đồng bộ trước khi tạo lại bản mở trực tiếp. ZIP chứa website và báo cáo Y3 này; tài liệu Use Case, logic và hàm được giữ riêng để đọc hiểu.')
-para(doc,'Nguồn đối chiếu: Assignment – Lập trình cơ sở với Javascript (WEB1044), Y1–Y3; ảnh/thông tin PC Market (https://pcmarket.vn/), danh sách nguồn trong PC-Astral-Market/ASSET-SOURCES.md; mã và log kiểm thử của chính dự án. Ba chức năng tự đề xuất và lý do nằm tại mục 2; các giới hạn của bản mô phỏng nằm tại mục 7.')
-doc.save(REPORT)
-
-doc=setup()
 para(doc,'PC ASTRAL MARKET','Title')
 para(doc,'Use Case logic hoạt động và các hàm','Subtitle')
 heading(doc,'1 Use Case tổng quan')
@@ -332,4 +227,4 @@ funcs(doc,'js/trang/gio-hang.js',[
 ('xuLyBamNutGio','Nhận tăng/giảm/xóa qua event delegation'),
 ('xuLyDoiSoLuong','Đọc ô nhập và giữ giá trị trước nếu nhập sai')])
 doc.save(GUIDE)
-print(REPORT.name);print(GUIDE.name)
+print(GUIDE.name)

@@ -86,6 +86,7 @@ function khoiTaoTrangSanPham() {
   }
 
   function hienThiDanhSachSanPham() {
+    // ÔN JS - CÂU 10: đọc từ khóa/bộ lọc từ form, gọi locSanPham ở hien-thi.js rồi hiển thị kết quả.
     // Đọc tường minh từng trường để dễ biết giá trị bộ lọc lấy từ đâu.
     const trangThai = {
       q: bieuMau.elements.q.value,

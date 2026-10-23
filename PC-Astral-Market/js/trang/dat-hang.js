@@ -213,9 +213,8 @@ function khoiTaoTrangDatHang() {
     for (let i = 0; i < cacDongCu.length; i++) {
       cacDongCu[i].remove();
     }
-    const danhSachMuc2 = donHang.lines;
-    for (let viTriMuc = 0; viTriMuc < danhSachMuc2.length; viTriMuc++) {
-      const muc = danhSachMuc2[viTriMuc];
+    for (let viTriMuc = 0; viTriMuc < donHang.lines.length; viTriMuc++) {
+      const muc = donHang.lines[viTriMuc];
       const dongHienThi = mau.content.firstElementChild.cloneNode(true);
       dongHienThi.querySelector('span').textContent = muc.name + ' × ' + muc.quantity;
       dongHienThi.querySelector('b').textContent = tienIch.dinhDangTien(muc.unitPrice * muc.quantity);
@@ -236,9 +235,8 @@ function khoiTaoTrangDatHang() {
     const khung = document.getElementById('checkout-lines');
     const mau = document.getElementById('checkout-line-template');
     khung.innerHTML = '';
-    const danhSachDongGio3 = tongGio.lines;
-    for (let viTriDongGio = 0; viTriDongGio < danhSachDongGio3.length; viTriDongGio++) {
-      const dongGio = danhSachDongGio3[viTriDongGio];
+    for (let viTriDongGio = 0; viTriDongGio < tongGio.lines.length; viTriDongGio++) {
+      const dongGio = tongGio.lines[viTriDongGio];
       const dongHienThi = mau.content.firstElementChild.cloneNode(true);
       dongHienThi.querySelector('[data-line-name]').textContent = dongGio.product.name;
       dongHienThi.querySelector('[data-line-quantity]').textContent = '× ' + dongGio.quantity;
